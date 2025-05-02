@@ -1,0 +1,145 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="ba1ea07d-c0a6-4cdb-8160-77e627a09603" version="36"  xsi:type="c:RoleType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-04-23T06:04:09.309Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-04-23T06:04:09.198Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE GUI My Subordinates</name>
+        <operationExecution id="2">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-23T06:04:09.338Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000012332</token>
+                </executionResult>
+                <objectName>POCE GUI My Subordinates</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-04-23T06:04:09.214Z</enableTimestamp>
+        </activation>
+        <authorization id="1761">
+            <name>poce-read-member-of-my-org-manager</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="1762">
+                <orgRelation>
+                    <subjectRelation>org:manager</subjectRelation>
+                    <scope>allDescendants</scope>
+                    <includeReferenceOrg>false</includeReferenceOrg>
+                </orgRelation>
+            </object>
+            <item>assignment</item>
+            <item>name</item>
+            <item>fullName</item>
+            <item>costCenter</item>
+            <item>extension/person_employment_type</item>
+            <item>roleMembershipRef</item>
+            <item>organization</item>
+            <item>organizationalUnit</item>
+        </authorization>
+        <authorization id="1766">
+            <name>read-orgs</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="1767">
+                <type>OrgType</type>
+            </object>
+        </authorization>
+        <authorization id="1763">
+            <name>poce-shadow-subordinates-execution-add-modify-delete</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#delete</action>
+            <phase>execution</phase>
+            <object id="3325">
+                <type>ShadowType</type>
+                <owner>
+                    <orgRelation>
+                        <subjectRelation>org:manager</subjectRelation>
+                        <scope>allDescendants</scope>
+                        <includeReferenceOrg>false</includeReferenceOrg>
+                    </orgRelation>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="1765">
+            <name>assign-requestable-roles</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#assign</action>
+            <object id="1768">
+                <orgRelation>
+                    <subjectRelation>org:manager</subjectRelation>
+                    <scope>allDescendants</scope>
+                    <includeReferenceOrg>false</includeReferenceOrg>
+                </orgRelation>
+            </object>
+            <target id="1">
+                <type>RoleType</type>
+                <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/role_root_system != "NICKNAME"</q:text>
+                </filter>
+            </target>
+            <relation>org:default</relation>
+        </authorization>
+        <authorization id="1764">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <phase>execution</phase>
+            <object id="1768">
+                <orgRelation>
+                    <subjectRelation>org:manager</subjectRelation>
+                    <scope>allDescendants</scope>
+                    <includeReferenceOrg>false</includeReferenceOrg>
+                </orgRelation>
+            </object>
+        </authorization>
+        <authorization id="1767">
+            <name>poce-shadow-subordinates-read</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="3325">
+                <type>ShadowType</type>
+                <owner>
+                    <orgRelation>
+                        <subjectRelation>org:manager</subjectRelation>
+                        <scope>allDescendants</scope>
+                        <includeReferenceOrg>false</includeReferenceOrg>
+                    </orgRelation>
+                </owner>
+            </object>
+        </authorization>
+        <adminGuiConfiguration>
+            <objectCollectionViews>
+                <objectCollectionView id="1760">
+                    <identifier>my-idm-subordinates</identifier>
+                    <visibility>automatic</visibility>
+                    <type>UserType</type>
+                </objectCollectionView>
+            </objectCollectionViews>
+            <accessRequest/>
+        </adminGuiConfiguration>
+    </apti:object>

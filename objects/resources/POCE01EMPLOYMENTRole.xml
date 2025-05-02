@@ -1,0 +1,676 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="a566cbe6-1abf-4314-8263-9901bd83d8b1" version="225"  xsi:type="c:ResourceType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-03-12T06:02:01.974Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation>org:default</t:relation>
+                    <t:type>c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-30T05:45:33.283Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation>org:default</t:relation>
+                    <t:type>c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-03-12T06:02:01.874Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation>org:default</t:relation>
+                    <t:type>c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE 01 EMPLOYMENT Role</name>
+        <lifecycleState>active</lifecycleState>
+        <operationExecution id="4293">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-18T09:27:37.311Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000041529</token>
+                </executionResult>
+                <objectName>POCE 01 EMPLOYMENT Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4296">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-18T10:18:20.042Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000012930</token>
+                </executionResult>
+                <objectName>POCE 01 EMPLOYMENT Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4297">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-20T08:18:35.046Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000075562</token>
+                </executionResult>
+                <objectName>POCE 01 EMPLOYMENT Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4298">
+            <recordType>complex</recordType>
+            <timestamp>2025-03-26T07:06:43.433Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="4a297939-0496-47e5-a5a3-cb40f81a7d6f" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4299">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-27T07:48:11.216Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000166914</token>
+                </executionResult>
+                <objectName>POCE 01 EMPLOYMENT Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4300">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T06:20:52.307Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4302">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T10:39:20.452Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4303">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:22:17.924Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4304">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-30T05:45:33.325Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000011100</token>
+                </executionResult>
+                <objectName>POCE 01 EMPLOYMENT Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <operationalState>
+            <lastAvailabilityStatus>up</lastAvailabilityStatus>
+            <message>Status changed from BROKEN to UP because resource test was successful</message>
+            <timestamp>2025-03-12T12:26:57.330Z</timestamp>
+            <nodeId>DefaultNode</nodeId>
+        </operationalState>
+        <operationalStateHistory id="5">
+            <lastAvailabilityStatus>up</lastAvailabilityStatus>
+            <message>Status set to UP because resource schema was successfully fetched</message>
+            <timestamp>2025-03-12T06:02:02.006Z</timestamp>
+            <nodeId>DefaultNode</nodeId>
+        </operationalStateHistory>
+        <operationalStateHistory id="169">
+            <lastAvailabilityStatus>broken</lastAvailabilityStatus>
+            <message>Status changed from UP to BROKEN because test resource POC EMPLOYMENT failed while processing schema refinements: No delineations in subject specification in simulated reference type 'Ass for OOO ODIN' definition in simulated associations capability configuration in resource:a566cbe6-1abf-4314-8263-9901bd83d8b1(POC EMPLOYMENT) (or some of its ancestors) @capabilities/configured/references/type/161/subject</message>
+            <timestamp>2025-03-12T12:24:40.570Z</timestamp>
+            <nodeId>DefaultNode</nodeId>
+        </operationalStateHistory>
+        <operationalStateHistory id="171">
+            <lastAvailabilityStatus>up</lastAvailabilityStatus>
+            <message>Status changed from BROKEN to UP because resource schema was successfully fetched</message>
+            <timestamp>2025-03-12T12:25:38.119Z</timestamp>
+            <nodeId>DefaultNode</nodeId>
+        </operationalStateHistory>
+        <operationalStateHistory id="172">
+            <lastAvailabilityStatus>broken</lastAvailabilityStatus>
+            <message>Status changed from UP to BROKEN because test resource POC EMPLOYMENT failed while processing schema refinements: No delineations in subject specification in simulated reference type 'Ass for OOO ODIN' definition in simulated associations capability configuration in resource:a566cbe6-1abf-4314-8263-9901bd83d8b1(POC EMPLOYMENT) (or some of its ancestors) @capabilities/configured/references/type/161/subject</message>
+            <timestamp>2025-03-12T12:25:38.172Z</timestamp>
+            <nodeId>DefaultNode</nodeId>
+        </operationalStateHistory>
+        <operationalStateHistory id="174">
+            <lastAvailabilityStatus>up</lastAvailabilityStatus>
+            <message>Status changed from BROKEN to UP because resource test was successful</message>
+            <timestamp>2025-03-12T12:26:57.330Z</timestamp>
+            <nodeId>DefaultNode</nodeId>
+        </operationalStateHistory>
+        <connectorRef oid="85021a1e-3eea-421f-8d8f-9f98022efc6b" relation="org:default" type="c:ConnectorType"/>
+        <connectorConfiguration xmlns:icfc="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/connector-schema-3">
+            <icfc:configurationProperties xmlns:cfg="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.evolveum.polygon.connector-csv/com.evolveum.polygon.connector.csv.CsvConnector">
+                <cfg:multivalueDelimiter>,</cfg:multivalueDelimiter>
+                <cfg:fieldDelimiter>;</cfg:fieldDelimiter>
+                <cfg:filePath>/opt/midpoint/var/info/POC_EMPLOYMENT_DATA.csv</cfg:filePath>
+                <cfg:multivalueAttributes>member_of_poce,members_poce</cfg:multivalueAttributes>
+                <cfg:uniqueAttribute>number_poce</cfg:uniqueAttribute>
+            </icfc:configurationProperties>
+        </connectorConfiguration>
+        <schema>
+            <cachingMetadata>
+                <retrievalTimestamp>2025-03-12T12:25:38.119Z</retrievalTimestamp>
+                <serialNumber>e8d86ab37e90a5f9-eb1b87e389d20b58</serialNumber>
+            </cachingMetadata>
+            <generationConstraints>
+                <generateObjectClass>ri:AccountObjectClass</generateObjectClass>
+            </generationConstraints>
+            <definition>
+                <xsd:schema xmlns:a="http://prism.evolveum.com/xml/ns/public/annotation-3" xmlns:ra="http://midpoint.evolveum.com/xml/ns/public/resource/annotation-3" xmlns:tns="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xml:space="preserve">
+                <xsd:import namespace="http://prism.evolveum.com/xml/ns/public/annotation-3"/>
+                <xsd:import namespace="http://midpoint.evolveum.com/xml/ns/public/resource/annotation-3"/>
+                <xsd:complexType name="AccountObjectClass">
+                    <xsd:annotation>
+                        <xsd:appinfo>
+                            <a:container>true</a:container>
+                            <ra:resourceObject>true</ra:resourceObject>
+                            <ra:nativeObjectClass>__ACCOUNT__</ra:nativeObjectClass>
+                            <ra:default>true</ra:default>
+                            <ra:auxiliary>false</ra:auxiliary>
+                            <ra:embedded>false</ra:embedded>
+                            <ra:namingAttribute>ri:number_poce</ra:namingAttribute>
+                            <ra:displayNameAttribute>ri:number_poce</ra:displayNameAttribute>
+                            <ra:identifier>ri:number_poce</ra:identifier>
+                        </xsd:appinfo>
+                    </xsd:annotation>
+                    <xsd:sequence>
+                        <xsd:element minOccurs="0" name="subordinate_to_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>120</a:displayOrder>
+                                    <ra:nativeAttributeName>subordinate_to_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>subordinate_to_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="members_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>130</a:displayOrder>
+                                    <ra:nativeAttributeName>members_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>members_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="type_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>140</a:displayOrder>
+                                    <ra:nativeAttributeName>type_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>type_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="parent_id" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>150</a:displayOrder>
+                                    <ra:nativeAttributeName>parent_id</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>parent_id</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="name_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>160</a:displayOrder>
+                                    <ra:nativeAttributeName>name_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>name_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="info_01" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>170</a:displayOrder>
+                                    <ra:nativeAttributeName>info_01</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>info_01</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="info_02" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>180</a:displayOrder>
+                                    <ra:nativeAttributeName>info_02</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>info_02</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="info_03" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>190</a:displayOrder>
+                                    <ra:nativeAttributeName>info_03</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>info_03</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="department_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>200</a:displayOrder>
+                                    <ra:nativeAttributeName>department_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>department_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element maxOccurs="unbounded" minOccurs="0" name="member_of_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>210</a:displayOrder>
+                                    <ra:nativeAttributeName>member_of_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>member_of_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="grade_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>220</a:displayOrder>
+                                    <ra:nativeAttributeName>grade_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>grade_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="main_id" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>230</a:displayOrder>
+                                    <ra:nativeAttributeName>main_id</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>main_id</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="status_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>240</a:displayOrder>
+                                    <ra:nativeAttributeName>status_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>status_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element name="number_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>100</a:displayOrder>
+                                    <ra:nativeAttributeName>number_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>__NAME__</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                        <xsd:element minOccurs="0" name="title_poce" type="xsd:string">
+                            <xsd:annotation>
+                                <xsd:appinfo>
+                                    <a:displayOrder>250</a:displayOrder>
+                                    <ra:nativeAttributeName>title_poce</ra:nativeAttributeName>
+                                    <ra:frameworkAttributeName>title_poce</ra:frameworkAttributeName>
+                                    <ra:returnedByDefault>true</ra:returnedByDefault>
+                                </xsd:appinfo>
+                            </xsd:annotation>
+                        </xsd:element>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:schema>
+            </definition>
+        </schema>
+        <schemaHandling>
+            <objectType id="6">
+                <kind>account</kind>
+                <intent>intent POCE User</intent>
+                <displayName>POCE User</displayName>
+                <default>true</default>
+                <delineation>
+                    <objectClass>ri:AccountObjectClass</objectClass>
+                    <filter>
+                        <_metadata id="8">
+                            <provenance>
+                                <acquisition id="9">
+                                    <actorRef>
+                                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                                        <t:relation>org:default</t:relation>
+                                        <t:type>c:UserType</t:type>
+                                    </actorRef>
+                                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                    <timestamp>2025-03-12T06:04:01.384Z</timestamp>
+                                </acquisition>
+                            </provenance>
+                        </_metadata>
+                        <q:text>attributes/type_poce = "user"</q:text>
+                    </filter>
+                </delineation>
+                <focus>
+                    <type>c:UserType</type>
+                    <archetypeRef oid="00000000-0000-0000-0000-000000000702" relation="org:default" type="c:ArchetypeType"/>
+                </focus>
+                <attribute id="11">
+                    <ref>ri:main_id</ref>
+                    <inbound id="12">
+                        <name>01 poce id</name>
+                        <strength>strong</strength>
+                        <target>
+                            <path>personalNumber</path>
+                        </target>
+                        <use>correlation</use>
+                    </inbound>
+                </attribute>
+                <association id="306">
+                    <ref>CSV members from employement to MP user</ref>
+                    <inbound id="478">
+                        <strength>normal</strength>
+                        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
+                        <expression>
+                            <assignmentTargetSearch>
+                                <targetType>RoleType</targetType>
+                                <filter>
+                                    <q:equal>
+                                        <q:path>identifier</q:path>
+                                        <expression>
+                                            <script>
+                                                <code>
+                                        if (basic.stringify(basic.getAttributeValue(entitlement, 'status_poce')) == "active")
+{
+
+ return basic.getAttributeValue(entitlement, 'main_id')
+}
+else
+{
+//return false
+return "this_is_something_that_should_not_be_found"
+}
+                                    </code>
+                                            </script>
+                                        </expression>
+                                    </q:equal>
+                                </filter>
+                            </assignmentTargetSearch>
+                        </expression>
+                        <target>
+                            <path>assignment</path>
+                            <set>
+                                <predefined>all</predefined>
+                            </set>
+                        </target>
+                        <condition>
+                            <script>
+                                <code>if (basic.stringify(basic.getAttributeValue(entitlement, 'status_poce')) == "active")
+{
+return true
+}
+else
+{
+return false
+}
+</code>
+                            </script>
+                        </condition>
+                    </inbound>
+                    <inbound id="479">
+                        <strength>normal</strength>
+                        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
+                        <expression>
+                            <assignmentTargetSearch>
+                                <targetType>RoleType</targetType>
+                                <oid>dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467</oid>
+                            </assignmentTargetSearch>
+                        </expression>
+                        <target>
+                            <path>assignment</path>
+                        </target>
+                        <condition>
+                            <script>
+                                <code>if (basic.stringify(basic.getAttributeValue(entitlement, 'status_poce')) == "active")
+{
+return true
+}
+else
+{ 
+return false
+}
+</code>
+                            </script>
+                        </condition>
+                    </inbound>
+                    <kind>entitlement</kind>
+                    <intent>intent POCE Employment Role</intent>
+                    <direction>objectToSubject</direction>
+                    <associationAttribute>ri:members_poce</associationAttribute>
+                    <valueAttribute>ri:main_id</valueAttribute>
+                    <explicitReferentialIntegrity>false</explicitReferentialIntegrity>
+                </association>
+                <correlation>
+                    <correlators>
+                        <items id="19">
+                            <item id="20">
+                                <ref>personalNumber</ref>
+                            </item>
+                        </items>
+                    </correlators>
+                </correlation>
+                <synchronization>
+                    <reaction id="14">
+                        <situation>linked</situation>
+                        <actions>
+                            <synchronize id="15"/>
+                        </actions>
+                    </reaction>
+                    <reaction id="16">
+                        <situation>unlinked</situation>
+                        <actions>
+                            <link id="17"/>
+                        </actions>
+                    </reaction>
+                </synchronization>
+            </objectType>
+            <objectType id="36">
+                <kind>entitlement</kind>
+                <intent>intent POCE Employment Role</intent>
+                <displayName>POCE Employment Role</displayName>
+                <delineation>
+                    <objectClass>ri:AccountObjectClass</objectClass>
+                    <filter>
+                        <_metadata id="4294">
+                            <provenance>
+                                <acquisition id="4295">
+                                    <actorRef>
+                                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                                        <t:relation>org:default</t:relation>
+                                        <t:type>c:UserType</t:type>
+                                    </actorRef>
+                                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                    <timestamp>2025-03-18T10:18:19.896Z</timestamp>
+                                </acquisition>
+                            </provenance>
+                        </_metadata>
+                        <q:text>attributes/type_poce = "employment"</q:text>
+                    </filter>
+                </delineation>
+                <focus>
+                    <type>c:RoleType</type>
+                    <archetypeRef oid="3e97bf04-93de-486b-a17b-ca686f9c6a68" relation="org:default" type="c:ArchetypeType"/>
+                </focus>
+                <attribute id="47">
+                    <ref>ri:main_id</ref>
+                    <inbound id="48">
+                        <name>01</name>
+                        <strength>strong</strength>
+                        <target>
+                            <path>name</path>
+                        </target>
+                    </inbound>
+                    <inbound id="49">
+                        <name>02</name>
+                        <strength>strong</strength>
+                        <target>
+                            <path>identifier</path>
+                        </target>
+                    </inbound>
+                    <inbound id="4291">
+                        <name>04</name>
+                        <lifecycleState>active</lifecycleState>
+                        <strength>strong</strength>
+                        <expression>
+                            <script>
+                                <code>return true</code>
+                            </script>
+                        </expression>
+                        <target>
+                            <path>indestructible</path>
+                        </target>
+                    </inbound>
+                </attribute>
+                <attribute id="50">
+                    <ref>ri:parent_id</ref>
+                    <inbound id="51">
+                        <name>03</name>
+                        <strength>strong</strength>
+                        <target>
+                            <path>locality</path>
+                        </target>
+                    </inbound>
+                </attribute>
+                <correlation>
+                    <correlators>
+                        <items id="60">
+                            <item id="61">
+                                <ref>identifier</ref>
+                            </item>
+                        </items>
+                    </correlators>
+                </correlation>
+                <synchronization>
+                    <reaction id="53">
+                        <situation>linked</situation>
+                        <actions>
+                            <synchronize id="54"/>
+                        </actions>
+                    </reaction>
+                    <reaction id="55">
+                        <situation>unlinked</situation>
+                        <actions>
+                            <link id="56"/>
+                        </actions>
+                    </reaction>
+                    <reaction id="57">
+                        <situation>unmatched</situation>
+                        <actions>
+                            <addFocus id="58"/>
+                        </actions>
+                    </reaction>
+                </synchronization>
+            </objectType>
+        </schemaHandling>
+        <capabilities>
+            <cachingMetadata>
+                <retrievalTimestamp>2025-03-12T06:02:02.002Z</retrievalTimestamp>
+                <serialNumber>79aba93e2491a57e-d063c8cf4367c0e0</serialNumber>
+            </cachingMetadata>
+            <native xmlns:cap="http://midpoint.evolveum.com/xml/ns/public/resource/capabilities-3">
+                <cap:schema/>
+                <cap:discoverConfiguration/>
+                <cap:liveSync/>
+                <cap:create/>
+                <cap:read>
+                    <cap:returnDefaultAttributesOption>false</cap:returnDefaultAttributesOption>
+                </cap:read>
+                <cap:update>
+                    <cap:addRemoveAttributeValues>true</cap:addRemoveAttributeValues>
+                </cap:update>
+                <cap:delete/>
+                <cap:testConnection/>
+                <cap:script>
+                    <cap:host id="3">
+                        <cap:type>resource</cap:type>
+                    </cap:host>
+                    <cap:host id="4">
+                        <cap:type>connector</cap:type>
+                    </cap:host>
+                </cap:script>
+            </native>
+            <configured xmlns:cap="http://midpoint.evolveum.com/xml/ns/public/resource/capabilities-3">
+                <cap:references/>
+                <cap:delete>
+                    <cap:enabled>false</cap:enabled>
+                </cap:delete>
+            </configured>
+        </capabilities>
+    </apti:object>

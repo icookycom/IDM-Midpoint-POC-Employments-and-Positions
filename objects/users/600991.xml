@@ -1,0 +1,723 @@
+<user xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="84361331-5024-4df7-8e94-0033d6910c75" version="45">
+    <_metadata id="2">
+        <storage>
+            <createTimestamp>2025-04-22T05:07:10.907Z</createTimestamp>
+            <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </creatorRef>
+            <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+            <modifyTimestamp>2025-05-02T03:56:41.393Z</modifyTimestamp>
+            <modifierRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </modifierRef>
+            <modifyTaskRef oid="43708ceb-8ccc-4803-876b-10db7d81fb92" relation="org:default" type="c:TaskType">
+                <!-- Execute script 3080 -->
+            </modifyTaskRef>
+        </storage>
+        <process>
+            <requestTimestamp>2025-04-22T05:07:10.786Z</requestTimestamp>
+            <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                <!-- administrator -->
+            </requestorRef>
+        </process>
+        <provisioning>
+            <lastProvisioningTimestamp>2025-05-02T03:43:33.703Z</lastProvisioningTimestamp>
+        </provisioning>
+    </_metadata>
+    <name>600991</name>
+    <operationExecution id="125">
+        <recordType>simple</recordType>
+        <timestamp>2025-05-02T03:42:56.177Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000014131</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.unlinkShadow</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000014132</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="144">
+        <recordType>simple</recordType>
+        <timestamp>2025-05-02T03:43:33.966Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000018531</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000018532</token>
+            </executionResult>
+            <objectName>600991</objectName>
+            <resourceOid>a566cbe6-1abf-4314-8263-9901bd83d8b1</resourceOid>
+            <resourceName>POCE 01 EMPLOYMENT Role</resourceName>
+        </operation>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000018533</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="a70e3749-934f-4acc-a67d-081fc93efc8c" relation="org:default" type="c:TaskType">
+            <!-- 2 POCE User -->
+        </taskRef>
+        <activityPath>
+            <identifier>resourceObjects</identifier>
+        </activityPath>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
+    </operationExecution>
+    <operationExecution id="160">
+        <recordType>simple</recordType>
+        <timestamp>2025-05-02T03:44:11.623Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000024009</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="a67878e0-cf6b-49c4-a8c4-a3ea5c65b17d" relation="org:default" type="c:TaskType">
+            <!-- 2 Recon Employment as User -->
+        </taskRef>
+        <activityPath>
+            <identifier>resourceObjects</identifier>
+        </activityPath>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
+    </operationExecution>
+    <operationExecution id="183">
+        <recordType>simple</recordType>
+        <timestamp>2025-05-02T03:56:40.426Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000041363</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+    </operationExecution>
+    <operationExecution id="184">
+        <recordType>simple</recordType>
+        <timestamp>2025-05-02T03:56:41.409Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000041495</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="0befa51a-8776-4052-a1f8-19a1c63c0576" relation="org:default" type="c:TaskType">
+            <!-- Execute script 7653 -->
+        </taskRef>
+        <activityPath/>
+    </operationExecution>
+    <operationExecution id="185">
+        <recordType>complex</recordType>
+        <timestamp>2025-05-02T03:56:41.435Z</timestamp>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="0befa51a-8776-4052-a1f8-19a1c63c0576" relation="org:default" type="c:TaskType">
+            <!-- Execute script 7653 -->
+        </taskRef>
+        <activityPath/>
+    </operationExecution>
+    <operationExecution id="186">
+        <recordType>simple</recordType>
+        <timestamp>2025-05-02T03:56:41.477Z</timestamp>
+        <operation>
+            <objectDelta>
+                <t:changeType>modify</t:changeType>
+                <t:objectType>c:UserType</t:objectType>
+            </objectDelta>
+            <executionResult>
+                <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                <status>success</status>
+                <importance>normal</importance>
+                <token>1000000000000041500</token>
+            </executionResult>
+            <objectName>600991</objectName>
+        </operation>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="43708ceb-8ccc-4803-876b-10db7d81fb92" relation="org:default" type="c:TaskType">
+            <!-- Execute script 3080 -->
+        </taskRef>
+        <activityPath/>
+    </operationExecution>
+    <operationExecution id="187">
+        <recordType>complex</recordType>
+        <timestamp>2025-05-02T03:56:41.482Z</timestamp>
+        <status>success</status>
+        <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+            <!-- administrator -->
+        </initiatorRef>
+        <taskRef oid="43708ceb-8ccc-4803-876b-10db7d81fb92" relation="org:default" type="c:TaskType">
+            <!-- Execute script 3080 -->
+        </taskRef>
+        <activityPath/>
+    </operationExecution>
+    <assignment id="1">
+        <_metadata id="3">
+            <storage>
+                <createTimestamp>2025-04-22T05:07:10.907Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-04-22T05:07:10.786Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <acquisition id="4">
+                    <actorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </actorRef>
+                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                    <timestamp>2025-04-22T05:07:10.784Z</timestamp>
+                </acquisition>
+            </provenance>
+        </_metadata>
+        <targetRef oid="00000000-0000-0000-0000-000000000702" relation="org:default" type="c:ArchetypeType">
+            <!-- Person -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <assignment id="126">
+        <_metadata id="129">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.703Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</createChannel>
+                <createTaskRef oid="a70e3749-934f-4acc-a67d-081fc93efc8c" relation="org:default" type="c:TaskType">
+                    <!-- 2 POCE User -->
+                </createTaskRef>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-02T03:43:33.662Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <mappingSpecification>
+                    <definitionObjectRef oid="a566cbe6-1abf-4314-8263-9901bd83d8b1" relation="org:default" type="c:ResourceType">
+                        <!-- POCE 01 EMPLOYMENT Role -->
+                    </definitionObjectRef>
+                    <objectType>
+                        <kind>account</kind>
+                        <intent>intent POCE User</intent>
+                    </objectType>
+                    <associationType>CSV members from employement to MP user</associationType>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+        <_metadata id="142">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.776Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</createChannel>
+                <createTaskRef oid="a70e3749-934f-4acc-a67d-081fc93efc8c" relation="org:default" type="c:TaskType">
+                    <!-- 2 POCE User -->
+                </createTaskRef>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-02T03:43:33.662Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <acquisition id="4">
+                    <actorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </actorRef>
+                    <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                    <timestamp>2025-04-22T05:07:10.784Z</timestamp>
+                </acquisition>
+                <mappingSpecification>
+                    <definitionObjectRef oid="00000000-0000-0000-0000-000000000380" relation="org:default" type="c:ObjectTemplateType">
+                        <!-- Person Object Template -->
+                    </definitionObjectRef>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+        <_metadata id="143">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.776Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</createChannel>
+                <createTaskRef oid="a70e3749-934f-4acc-a67d-081fc93efc8c" relation="org:default" type="c:TaskType">
+                    <!-- 2 POCE User -->
+                </createTaskRef>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-02T03:43:33.662Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <mappingSpecification>
+                    <definitionObjectRef oid="00000000-0000-0000-0000-000000000380" relation="org:default" type="c:ObjectTemplateType">
+                        <!-- Person Object Template -->
+                    </definitionObjectRef>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+        <targetRef oid="dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467" relation="org:default" type="c:RoleType">
+            <!-- POCE GUI My IDM Objects -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <assignment id="127">
+        <_metadata id="128">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.703Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</createChannel>
+                <createTaskRef oid="a70e3749-934f-4acc-a67d-081fc93efc8c" relation="org:default" type="c:TaskType">
+                    <!-- 2 POCE User -->
+                </createTaskRef>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-02T03:43:33.662Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <mappingSpecification>
+                    <definitionObjectRef oid="a566cbe6-1abf-4314-8263-9901bd83d8b1" relation="org:default" type="c:ResourceType">
+                        <!-- POCE 01 EMPLOYMENT Role -->
+                    </definitionObjectRef>
+                    <objectType>
+                        <kind>account</kind>
+                        <intent>intent POCE User</intent>
+                    </objectType>
+                    <associationType>CSV members from employement to MP user</associationType>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+        <targetRef oid="6c9b2990-4147-43ca-b08e-9370ff9280b5" relation="org:default" type="c:RoleType">
+            <!-- EMP002015 -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <assignment id="161">
+        <_metadata id="162">
+            <storage>
+                <createTimestamp>2025-05-02T03:56:37.820Z</createTimestamp>
+                <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-02T03:56:37.719Z</requestTimestamp>
+                <requestorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                    <!-- administrator -->
+                </requestorRef>
+            </process>
+            <provenance>
+                <mappingSpecification>
+                    <definitionObjectRef oid="00000000-0000-0000-0000-000000000380" relation="org:default" type="c:ObjectTemplateType">
+                        <!-- Person Object Template -->
+                    </definitionObjectRef>
+                    <mappingName>Name</mappingName>
+                </mappingSpecification>
+            </provenance>
+        </_metadata>
+        <targetRef oid="5a6cb254-dbd6-49e9-9b41-5d66fc63f04f" relation="org:default" type="c:RoleType">
+            <!-- 600991 nickName -->
+        </targetRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+        </activation>
+    </assignment>
+    <iteration>0</iteration>
+    <iterationToken/>
+    <archetypeRef oid="00000000-0000-0000-0000-000000000702" relation="org:default" type="c:ArchetypeType">
+        <!-- Person -->
+    </archetypeRef>
+    <roleMembershipRef oid="dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467" relation="org:default" type="c:RoleType">
+        <!-- POCE GUI My IDM Objects -->
+        <_metadata id="168">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.695Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="169">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>126</assignmentId>
+                        <targetRef oid="dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467" relation="org:default" type="c:RoleType">
+                            <!-- POCE GUI My IDM Objects -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="6a873491-12b7-4960-93d5-891487410a7f" relation="org:default" type="c:RoleType">
+        <!-- POCE Policy: emailAddress from Role atribute to User nickName -->
+        <_metadata id="165">
+            <storage>
+                <createTimestamp>2025-05-02T03:56:37.807Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="166">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>161</assignmentId>
+                        <targetRef oid="5a6cb254-dbd6-49e9-9b41-5d66fc63f04f" relation="org:default" type="c:RoleType">
+                            <!-- 600991 nickName -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                    <segment id="167">
+                        <segmentOrder>2</segmentOrder>
+                        <inducementId>5</inducementId>
+                        <targetRef oid="6a873491-12b7-4960-93d5-891487410a7f" relation="org:default" type="c:RoleType">
+                            <!-- POCE Policy: emailAddress from Role atribute to User nickName -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="6c9b2990-4147-43ca-b08e-9370ff9280b5" relation="org:default" type="c:RoleType">
+        <!-- EMP002015 -->
+        <_metadata id="178">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.695Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="179">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>127</assignmentId>
+                        <targetRef oid="6c9b2990-4147-43ca-b08e-9370ff9280b5" relation="org:default" type="c:RoleType">
+                            <!-- EMP002015 -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="5a6cb254-dbd6-49e9-9b41-5d66fc63f04f" relation="org:default" type="c:RoleType">
+        <!-- 600991 nickName -->
+        <_metadata id="163">
+            <storage>
+                <createTimestamp>2025-05-02T03:56:37.807Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="164">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>161</assignmentId>
+                        <targetRef oid="5a6cb254-dbd6-49e9-9b41-5d66fc63f04f" relation="org:default" type="c:RoleType">
+                            <!-- 600991 nickName -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="ba1ea07d-c0a6-4cdb-8160-77e627a09603" relation="org:default" type="c:RoleType">
+        <!-- POCE GUI My Subordinates -->
+        <_metadata id="170">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.695Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="171">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>126</assignmentId>
+                        <targetRef oid="dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467" relation="org:default" type="c:RoleType">
+                            <!-- POCE GUI My IDM Objects -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                    <segment id="172">
+                        <segmentOrder>2</segmentOrder>
+                        <inducementId>6660002</inducementId>
+                        <targetRef oid="ba1ea07d-c0a6-4cdb-8160-77e627a09603" relation="org:default" type="c:RoleType">
+                            <!-- POCE GUI My Subordinates -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="8ae75673-e3b5-4905-8fe8-101eb1770e52" relation="org:default" type="c:RoleType">
+        <!-- POCE GUI End user -->
+        <_metadata id="175">
+            <storage>
+                <createTimestamp>2025-04-22T05:07:10.884Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="176">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>1</assignmentId>
+                        <targetRef oid="00000000-0000-0000-0000-000000000702" relation="org:default" type="c:ArchetypeType">
+                            <!-- Person -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                    <segment id="177">
+                        <segmentOrder>2</segmentOrder>
+                        <inducementId>1777</inducementId>
+                        <targetRef oid="8ae75673-e3b5-4905-8fe8-101eb1770e52" relation="org:default" type="c:RoleType">
+                            <!-- POCE GUI End user -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="00000000-0000-0000-0000-000000000702" relation="org:default" type="c:ArchetypeType">
+        <!-- Person -->
+        <_metadata id="173">
+            <storage>
+                <createTimestamp>2025-04-22T05:07:10.884Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="174">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>1</assignmentId>
+                        <targetRef oid="00000000-0000-0000-0000-000000000702" relation="org:default" type="c:ArchetypeType">
+                            <!-- Person -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <roleMembershipRef oid="c1e2d279-6f8c-4539-9541-20d913574020" relation="org:default" type="c:RoleType">
+        <!-- POCE GUI Request Access OOO ODIN -->
+        <_metadata id="180">
+            <storage>
+                <createTimestamp>2025-05-02T03:43:33.703Z</createTimestamp>
+            </storage>
+            <provenance>
+                <assignmentPath>
+                    <sourceRef oid="84361331-5024-4df7-8e94-0033d6910c75" relation="org:default" type="c:UserType">
+                        <!-- 600991 -->
+                    </sourceRef>
+                    <segment id="181">
+                        <segmentOrder>1</segmentOrder>
+                        <assignmentId>127</assignmentId>
+                        <targetRef oid="6c9b2990-4147-43ca-b08e-9370ff9280b5" relation="org:default" type="c:RoleType">
+                            <!-- EMP002015 -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                    <segment id="182">
+                        <segmentOrder>2</segmentOrder>
+                        <inducementId>17</inducementId>
+                        <targetRef oid="c1e2d279-6f8c-4539-9541-20d913574020" relation="org:default" type="c:RoleType">
+                            <!-- POCE GUI Request Access OOO ODIN -->
+                        </targetRef>
+                        <matchingOrder>true</matchingOrder>
+                    </segment>
+                </assignmentPath>
+            </provenance>
+        </_metadata>
+    </roleMembershipRef>
+    <linkRef oid="575ad2cb-723f-4415-87d0-893080e7ef4d" relation="org:default" type="c:ShadowType">
+        <!-- 17 -->
+    </linkRef>
+    <activation>
+        <effectiveStatus>enabled</effectiveStatus>
+        <enableTimestamp>2025-04-22T05:07:10.798Z</enableTimestamp>
+        <lockoutStatus>normal</lockoutStatus>
+    </activation>
+    <credentials>
+        <password>
+            <_metadata id="12">
+                <storage>
+                    <createTimestamp>2025-04-22T05:07:53.510Z</createTimestamp>
+                    <creatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </creatorRef>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                    <modifyTimestamp>2025-04-22T05:08:10.874Z</modifyTimestamp>
+                    <modifierRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType">
+                        <!-- administrator -->
+                    </modifierRef>
+                    <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+                </storage>
+            </_metadata>
+            <name>Password123</name>
+            <value>
+                <t:encryptedData>
+                    <t:encryptionMethod>
+                        <t:algorithm>http://www.w3.org/2001/04/xmlenc#aes256-cbc</t:algorithm>
+                    </t:encryptionMethod>
+                    <t:keyInfo>
+                        <t:keyName>rvl4H8QKIsY0SH/sI+iGBUj5dqs=</t:keyName>
+                    </t:keyInfo>
+                    <t:cipherData>
+                        <t:cipherValue>IymR/MzI7KjCWkfNyOymXNT8rblrzI5AyCcRgRrQasM=</t:cipherValue>
+                    </t:cipherData>
+                </t:encryptedData>
+            </value>
+        </password>
+    </credentials>
+    <behavior>
+        <authentication id="31">
+            <lastSuccessfulLogin>
+                <timestamp>2025-04-22T05:08:57.001Z</timestamp>
+                <from>192.168.1.156</from>
+            </lastSuccessfulLogin>
+            <authenticationAttempt>
+                <sequenceIdentifier>admin-gui-default</sequenceIdentifier>
+                <moduleIdentifier>loginForm</moduleIdentifier>
+                <lastSuccessfulAuthentication>
+                    <timestamp>2025-04-22T05:08:56.985Z</timestamp>
+                    <from>192.168.1.156</from>
+                </lastSuccessfulAuthentication>
+            </authenticationAttempt>
+            <sequenceIdentifier>admin-gui-default</sequenceIdentifier>
+        </authentication>
+    </behavior>
+    <fullName>Ральф Ли Степанов</fullName>
+    <givenName>Ральф</givenName>
+    <familyName>Степанов</familyName>
+    <additionalName>Ли</additionalName>
+    <nickName>RStepanov</nickName>
+    <personalNumber>600991</personalNumber>
+</user>

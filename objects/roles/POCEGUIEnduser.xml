@@ -1,0 +1,341 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="8ae75673-e3b5-4905-8fe8-101eb1770e52" version="56"  xsi:type="c:RoleType">
+        <_metadata id="52">
+            <storage>
+                <createTimestamp>2024-11-08T07:43:51.386Z</createTimestamp>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+                <modifyTimestamp>2025-04-07T07:54:06.334Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-04-07T06:23:39.310Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE GUI End user</name>
+        <description>Copy of End user
+Role authorizing end users to log in, change their passwords and review assigned accounts. Note: This role definition is just an example. It should be tailored for each specific deployment.</description>
+        <operationExecution id="110">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-07T06:23:39.358Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000203920</token>
+                </executionResult>
+                <objectName>Copy of End user</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="906">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-07T07:50:00.388Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000372099</token>
+                </executionResult>
+                <objectName>POCE End user</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="907">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-07T07:54:06.353Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000379439</token>
+                </executionResult>
+                <objectName>POCE GUI End user</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="908">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:21:22.405Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-04-07T06:23:39.326Z</enableTimestamp>
+        </activation>
+        <authorization id="1">
+            <name>gui-self-service-access</name>
+            <description>
+            Allow access to all self-service operations in GUI.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#selfAll</action>
+        </authorization>
+        <authorization id="2">
+            <name>self-read</name>
+            <description>
+            Allow to read all the properties of "self" object. I.e. every logged-in user can read
+            object that represent his own identity.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="16">
+                <special>self</special>
+            </object>
+        </authorization>
+        <authorization id="3">
+            <name>self-shadow-read</name>
+            <description>
+            Allow to read all the properties of all the shadows that belong to "self" object.
+            I.e. every logged-in user can read all his accounts.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="17">
+                <type>ShadowType</type>
+                <owner>
+                    <special>self</special>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="5">
+            <name>self-credentials-request</name>
+            <description>
+            Allow to modify user's own credentials.
+            Note that this is a request phase authorization. It also requires corresponding execution-phase authorization.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#changeCredentials</action>
+            <phase>request</phase>
+            <object id="19">
+                <special>self</special>
+            </object>
+            <item>credentials</item>
+        </authorization>
+        <authorization id="6">
+            <name>self-shadow-credentials-request</name>
+            <description>
+            Allow to modify credentials of all users accounts.
+            Note that this is a request phase authorization. It also requires corresponding execution-phase authorization.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#changeCredentials</action>
+            <phase>request</phase>
+            <object id="20">
+                <type>ShadowType</type>
+                <owner>
+                    <special>self</special>
+                </owner>
+            </object>
+            <item>credentials</item>
+        </authorization>
+        <authorization id="7">
+            <name>read-roles</name>
+            <description>
+            Allow to read  roles
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="21">
+                <type>RoleType</type>
+            </object>
+            <item>name</item>
+            <item>displayName</item>
+            <item>description</item>
+            <item>costCenter</item>
+            <item>assignment</item>
+        </authorization>
+        <authorization id="10">
+            <name>self-execution-modify</name>
+            <description>
+            Authorization that allows to self-modification of some properties, but only in execution phase.
+            The limitation real limitation of these operations is done in the request phase.
+            E.g. the modification of assignments is controlled in the request phase by using the #assign
+            authorization.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <phase>execution</phase>
+            <object id="24">
+                <special>self</special>
+            </object>
+            <item>credentials</item>
+            <item>assignment</item>
+        </authorization>
+        <authorization id="11">
+            <name>self-shadow-execution-add-modify-delete</name>
+            <description>
+            Authorization that allows to self-modification of user's accounts, but only in execution phase.
+            The real limitation of these operations is done in the request phase.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#delete</action>
+            <phase>execution</phase>
+            <object id="25">
+                <type>ShadowType</type>
+                <owner>
+                    <special>self</special>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="13">
+            <name>operational-objects-get</name>
+            <description>
+            Authorization that allows to read all the object that are possible to use for (not only) GUI
+            customizations. E.g there might be lookup tables used for attributes, custom form types defined, etc.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#get</action>
+            <object id="31">
+                <type>LookupTableType</type>
+            </object>
+        </authorization>
+        <authorization id="15">
+            <name>self-owned-task-read</name>
+            <description>
+            Authorization that allows to see all tasks owned by a currently logged-in user.
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="33">
+                <type>TaskType</type>
+                <owner>
+                    <special>self</special>
+                </owner>
+            </object>
+        </authorization>
+        <adminGuiConfiguration>
+            <feedbackMessagesHook>
+                <stackTraceVisibility>hidden</stackTraceVisibility>
+            </feedbackMessagesHook>
+            <accessRequest>
+                <targetSelection>
+                    <allowRequestForMyself>false</allowRequestForMyself>
+                    <allowRequestForOthers>false</allowRequestForOthers>
+                </targetSelection>
+            </accessRequest>
+            <homePage id="34">
+                <type>UserType</type>
+                <widget id="35">
+                    <identifier>myWorkItems</identifier>
+                    <visibility>hidden</visibility>
+                </widget>
+                <widget id="37">
+                    <identifier>listUsersWidget</identifier>
+                    <visibility>hidden</visibility>
+                </widget>
+                <widget id="38">
+                    <identifier>listResourcesWidget</identifier>
+                    <visibility>hidden</visibility>
+                </widget>
+                <widget id="36">
+                    <identifier>myHistory</identifier>
+                    <visibility>hidden</visibility>
+                </widget>
+                <widget id="39">
+                    <identifier>myRequests</identifier>
+                    <action id="40">
+                        <identifier>viewAll</identifier>
+                        <visibility>hidden</visibility>
+                    </action>
+                </widget>
+                <widget id="135">
+                    <identifier>myRequests</identifier>
+                    <visibility>hidden</visibility>
+                </widget>
+                <widget id="235">
+                    <identifier>myAccounts</identifier>
+                    <visibility>hidden</visibility>
+                </widget>
+                <widget id="335">
+                    <identifier>myCertificationItems</identifier>
+                    <visibility>hidden</visibility>
+                </widget>
+            </homePage>
+            <selfProfilePage>
+                <type>UserType</type>
+                <panel id="41">
+                    <identifier>history</identifier>
+                    <visibility>hidden</visibility>
+                </panel>
+                <panel id="43">
+                    <identifier>focusTriggers</identifier>
+                    <visibility>hidden</visibility>
+                </panel>
+                <panel id="44">
+                    <identifier>password</identifier>
+                    <visibility>hidden</visibility>
+                </panel>
+                <panel id="893">
+                    <identifier>personas</identifier>
+                    <visibility>hidden</visibility>
+                </panel>
+                <panel id="894">
+                    <identifier>focusMarks</identifier>
+                    <visibility>hidden</visibility>
+                </panel>
+                <panel id="45">
+                    <identifier>assignments</identifier>
+                    <panel id="46">
+                        <identifier>constructionAssignments</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="47">
+                        <identifier>indirectAssignments</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="48">
+                        <identifier>dataProtectionAssignments</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="49">
+                        <identifier>orgAssignments</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="50">
+                        <identifier>roleAssignments</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="51">
+                        <identifier>serviceAssignments</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="892">
+                        <identifier>policyAssignments</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                </panel>
+                <panel id="895">
+                    <identifier>requestAccess</identifier>
+                    <visibility>hidden</visibility>
+                </panel>
+            </selfProfilePage>
+        </adminGuiConfiguration>
+    </apti:object>

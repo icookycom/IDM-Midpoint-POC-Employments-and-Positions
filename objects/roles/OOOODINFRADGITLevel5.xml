@@ -1,0 +1,372 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="6067d8ef-7084-4822-ae69-c5395598e43b" version="13"  xsi:type="c:RoleType">
+        <_metadata id="4">
+            <storage>
+                <createTimestamp>2025-03-27T07:09:11.743Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import</createChannel>
+                <createTaskRef>
+                    <t:oid>f79cfd3b-cde4-47f0-b9b2-e45b8e8acfae</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:TaskType</t:type>
+                </createTaskRef>
+                <modifyTimestamp>2025-04-15T12:32:05.494Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import</modifyChannel>
+                <modifyTaskRef>
+                    <t:oid>f79cfd3b-cde4-47f0-b9b2-e45b8e8acfae</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:TaskType</t:type>
+                </modifyTaskRef>
+            </storage>
+            <process>
+                <requestTimestamp>2025-03-27T07:09:11.709Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+            <provisioning>
+                <lastProvisioningTimestamp>2025-03-27T07:09:11.743Z</lastProvisioningTimestamp>
+            </provisioning>
+        </_metadata>
+        <name>OOO ODIN FR:ADG IT Level 5</name>
+        <description>Windows AD gruop for OOO Odin GUID:4c55e5dc-840e-4577-b170-6847e59031df</description>
+        <extension xmlns:gen137="http://example.com/xml/ns/mySchema">
+            <gen137:user_employment_parent>EMP001001</gen137:user_employment_parent>
+            <gen137:role_purpose_type>Employment</gen137:role_purpose_type>
+            <gen137:role_root_system>MSAD</gen137:role_root_system>
+        </extension>
+        <parentOrgRef oid="8853f5ba-9095-4b72-b607-c2a802f78434" relation="org:default" type="c:OrgType"/>
+        <operationExecution id="31">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-27T07:09:49.277Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000009804</token>
+                </executionResult>
+                <objectName>OOO ODIN FR:ADG IT Level 5</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="32">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T06:19:19.536Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="34">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T10:37:38.478Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="45">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-15T06:59:13.360Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000111021</token>
+                </executionResult>
+                <objectName>OOO ODIN FR:ADG IT Level 5</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="46">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-15T12:32:05.526Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000302222</token>
+                </executionResult>
+                <objectName>OOO ODIN FR:ADG IT Level 5</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="f79cfd3b-cde4-47f0-b9b2-e45b8e8acfae" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import</channel>
+        </operationExecution>
+        <operationExecution id="47">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:20:20.263Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <assignment id="1">
+            <_metadata id="5">
+                <storage>
+                    <createTimestamp>2025-03-27T07:09:11.743Z</createTimestamp>
+                    <creatorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </creatorRef>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import</createChannel>
+                    <createTaskRef>
+                        <t:oid>f79cfd3b-cde4-47f0-b9b2-e45b8e8acfae</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:TaskType</t:type>
+                    </createTaskRef>
+                </storage>
+                <process>
+                    <requestTimestamp>2025-03-27T07:09:11.709Z</requestTimestamp>
+                    <requestorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </requestorRef>
+                </process>
+            </_metadata>
+            <targetRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+        </assignment>
+        <assignment id="3">
+            <_metadata id="7">
+                <storage>
+                    <createTimestamp>2025-03-27T07:09:11.743Z</createTimestamp>
+                    <creatorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </creatorRef>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#import</createChannel>
+                    <createTaskRef>
+                        <t:oid>f79cfd3b-cde4-47f0-b9b2-e45b8e8acfae</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:TaskType</t:type>
+                    </createTaskRef>
+                </storage>
+                <process>
+                    <requestTimestamp>2025-03-27T07:09:11.709Z</requestTimestamp>
+                    <requestorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </requestorRef>
+                </process>
+                <provenance>
+                    <mappingSpecification>
+                        <definitionObjectRef>
+                            <t:oid>4a334cf6-090b-4b73-913a-9a43ce419f54</t:oid>
+                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:ObjectTemplateType</t:type>
+                        </definitionObjectRef>
+                    </mappingSpecification>
+                </provenance>
+            </_metadata>
+            <targetRef oid="8e4b4ea4-22b7-4b09-98ce-aa8fd5ace849" relation="org:default" type="c:RoleType"/>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+        </assignment>
+        <assignment id="23">
+            <_metadata id="24">
+                <storage>
+                    <createTimestamp>2025-03-27T07:09:49.240Z</createTimestamp>
+                    <creatorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </creatorRef>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                </storage>
+                <process>
+                    <requestTimestamp>2025-03-27T07:09:49.150Z</requestTimestamp>
+                    <requestorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </requestorRef>
+                </process>
+                <provenance>
+                    <mappingSpecification>
+                        <definitionObjectRef>
+                            <t:oid>4a334cf6-090b-4b73-913a-9a43ce419f54</t:oid>
+                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:ObjectTemplateType</t:type>
+                        </definitionObjectRef>
+                    </mappingSpecification>
+                </provenance>
+            </_metadata>
+            <targetRef oid="971c7f3e-4c00-4ba4-ad66-27aca05f742f" relation="org:default" type="c:RoleType"/>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+        </assignment>
+        <assignment id="35">
+            <_metadata id="36">
+                <storage>
+                    <createTimestamp>2025-04-15T06:59:13.315Z</createTimestamp>
+                    <creatorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </creatorRef>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                </storage>
+                <process>
+                    <requestTimestamp>2025-04-15T06:59:13.255Z</requestTimestamp>
+                    <requestorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </requestorRef>
+                </process>
+                <provenance>
+                    <mappingSpecification>
+                        <definitionObjectRef>
+                            <t:oid>4a334cf6-090b-4b73-913a-9a43ce419f54</t:oid>
+                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:ObjectTemplateType</t:type>
+                        </definitionObjectRef>
+                        <mappingName>Name</mappingName>
+                    </mappingSpecification>
+                </provenance>
+            </_metadata>
+            <targetRef oid="8853f5ba-9095-4b72-b607-c2a802f78434" relation="org:default" type="c:OrgType"/>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+        </assignment>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+        <roleMembershipRef oid="8853f5ba-9095-4b72-b607-c2a802f78434" relation="org:default" type="c:OrgType">
+            <_metadata id="43">
+                <storage>
+                    <createTimestamp>2025-04-15T06:59:13.301Z</createTimestamp>
+                </storage>
+                <provenance>
+                    <assignmentPath>
+                        <sourceRef oid="6067d8ef-7084-4822-ae69-c5395598e43b" relation="org:default" type="c:RoleType"/>
+                        <segment id="44">
+                            <segmentOrder>1</segmentOrder>
+                            <assignmentId>35</assignmentId>
+                            <targetRef oid="8853f5ba-9095-4b72-b607-c2a802f78434" relation="org:default" type="c:OrgType"/>
+                            <matchingOrder>true</matchingOrder>
+                        </segment>
+                    </assignmentPath>
+                </provenance>
+            </_metadata>
+        </roleMembershipRef>
+        <roleMembershipRef oid="8e4b4ea4-22b7-4b09-98ce-aa8fd5ace849" relation="org:default" type="c:RoleType">
+            <_metadata id="37">
+                <storage>
+                    <createTimestamp>2025-03-27T07:09:11.743Z</createTimestamp>
+                </storage>
+                <provenance>
+                    <assignmentPath>
+                        <sourceRef oid="6067d8ef-7084-4822-ae69-c5395598e43b" relation="org:default" type="c:RoleType"/>
+                        <segment id="38">
+                            <segmentOrder>1</segmentOrder>
+                            <assignmentId>3</assignmentId>
+                            <targetRef oid="8e4b4ea4-22b7-4b09-98ce-aa8fd5ace849" relation="org:default" type="c:RoleType"/>
+                            <matchingOrder>true</matchingOrder>
+                        </segment>
+                    </assignmentPath>
+                </provenance>
+            </_metadata>
+        </roleMembershipRef>
+        <roleMembershipRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType">
+            <_metadata id="39">
+                <storage>
+                    <createTimestamp>2025-03-27T07:09:11.743Z</createTimestamp>
+                </storage>
+                <provenance>
+                    <assignmentPath>
+                        <sourceRef oid="6067d8ef-7084-4822-ae69-c5395598e43b" relation="org:default" type="c:RoleType"/>
+                        <segment id="40">
+                            <segmentOrder>1</segmentOrder>
+                            <assignmentId>1</assignmentId>
+                            <targetRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+                            <matchingOrder>true</matchingOrder>
+                        </segment>
+                    </assignmentPath>
+                </provenance>
+            </_metadata>
+        </roleMembershipRef>
+        <roleMembershipRef oid="971c7f3e-4c00-4ba4-ad66-27aca05f742f" relation="org:default" type="c:RoleType">
+            <_metadata id="41">
+                <storage>
+                    <createTimestamp>2025-03-27T07:09:49.226Z</createTimestamp>
+                </storage>
+                <provenance>
+                    <assignmentPath>
+                        <sourceRef oid="6067d8ef-7084-4822-ae69-c5395598e43b" relation="org:default" type="c:RoleType"/>
+                        <segment id="42">
+                            <segmentOrder>1</segmentOrder>
+                            <assignmentId>23</assignmentId>
+                            <targetRef oid="971c7f3e-4c00-4ba4-ad66-27aca05f742f" relation="org:default" type="c:RoleType"/>
+                            <matchingOrder>true</matchingOrder>
+                        </segment>
+                    </assignmentPath>
+                </provenance>
+            </_metadata>
+        </roleMembershipRef>
+        <linkRef oid="e73deeaa-fb98-4a32-a130-c0f17f4d4ca3" relation="org:default" type="c:ShadowType"/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-03-27T07:09:11.709Z</enableTimestamp>
+        </activation>
+        <identifier>CN=ADG IT Level 5,OU=Groups,OU=OOO_ODIN,DC=168testserverhome,DC=com</identifier>
+        <inducement id="8">
+            <_metadata id="9">
+                <provenance>
+                    <mappingSpecification>
+                        <definitionObjectRef>
+                            <t:oid>4a334cf6-090b-4b73-913a-9a43ce419f54</t:oid>
+                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:ObjectTemplateType</t:type>
+                        </definitionObjectRef>
+                    </mappingSpecification>
+                </provenance>
+            </_metadata>
+            <targetRef oid="d7763c65-c038-432f-9a12-01d99d0f38ce" relation="org:default" type="c:RoleType"/>
+        </inducement>
+        <riskLevel>5</riskLevel>
+    </apti:object>

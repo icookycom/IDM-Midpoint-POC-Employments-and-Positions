@@ -1,0 +1,230 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="891532cb-88e3-41dd-bb76-59b773b96eff" version="13"  xsi:type="c:RoleType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-03-26T07:07:48.463Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-25T05:29:05.285Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-04-25T05:04:45.110Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE Policy: Assign  ORG to  another user if</name>
+        <extension/>
+        <operationExecution id="12">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-25T05:04:45.411Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000001054</token>
+                </executionResult>
+                <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="13">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-25T05:27:47.432Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000008841</token>
+                </executionResult>
+                <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="16">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-25T05:29:05.322Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000009402</token>
+                </executionResult>
+                <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-04-25T05:04:45.164Z</enableTimestamp>
+        </activation>
+        <inducement id="9">
+            <policyRule>
+                <name>Script</name>
+                <policyConstraints>
+                    <or id="14">
+                        <modification id="15">
+                            <name>Name 2</name>
+                            <item>c:activation/c:effectiveStatus</item>
+                        </modification>
+                        <modification id="152">
+                            <name>Name 1</name>
+                            <item>c:extension/c:person_you_are_boss</item>
+                        </modification>
+                    </or>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="11">
+                        <name>Some script</name>
+                        <object>
+                            <currentObject>
+                                <type>c:UserType</type>
+                            </currentObject>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <_metadata id="7">
+                                <provenance>
+                                    <acquisition id="8">
+                                        <actorRef>
+                                            <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                                        </actorRef>
+                                        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                        <timestamp>2025-04-21T08:50:49.237Z</timestamp>
+                                    </acquisition>
+                                </provenance>
+                            </_metadata>
+                            <s:pipeline list="true">
+                                <s:action>
+                                    <s:type>execute-script</s:type>
+                                    <s:parameter>
+                                        <s:name>script</s:name>
+                                        <s:value>
+                                            <code xmlns:a="http://prism.evolveum.com/xml/ns/public/annotation-3">
+import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+import com.evolveum.midpoint.prism.delta.builder.*
+import com.evolveum.midpoint.model.api.*
+import com.evolveum.midpoint.schema.constants.SchemaConstants;
+
+
+user_personalNumber = input.personalNumber
+user_isboss = basic.stringify(basic.getExtensionPropertyValue(input, "http://example.com/xml/ns/mySchema", "person_you_are_boss"))
+user_organizationalUnit = basic.stringify(input.organizationalUnit)
+user_status = basic.stringify(input.activation.effectiveStatus)
+
+
+if (user_isboss == 'true' &amp;&amp;  user_organizationalUnit &amp;&amp; user_status != "DISABLED")
+{
+
+
+query_target_user = midpoint.queryFor(UserType.class, "personalNumber = '$input.personalNumber' and archetypeRef matches (oid = '00000000-0000-0000-0000-000000000702') and activation/effectiveStatus!='disabled'") 
+target_user = midpoint.searchObjects(query_target_user)
+
+
+
+if (target_user)
+{
+
+query_org_for_ass = midpoint.queryFor(OrgType.class, "identifier endsWith '$user_organizationalUnit' and archetypeRef matches (oid = '7cab0b16-142a-4d37-8b60-9668e95b4b94') and activation/effectiveStatus!='disabled'") 
+org_for_ass = midpoint.searchObjects(query_org_for_ass)
+log.info "Data:" + org_for_ass
+
+
+orgUnit = new ObjectReferenceType()
+orgUnit.setOid(org_for_ass.oid)
+orgUnit.setRelation(SchemaConstants.ORG_MANAGER)
+orgUnit.setType(OrgType.COMPLEX_TYPE)
+
+addAssignment = new AssignmentType()
+addAssignment.setTargetRef(orgUnit)
+addAssignment.setDocumentation(basic.stringify(input.name))
+def delta = []
+delta = prismContext.deltaFor(UserType.class).item(FocusType.F_ASSIGNMENT).add(addAssignment.asPrismContainerValue()).asObjectDelta(target_user.oid)
+midpoint.modifyObject(delta, ModelExecuteOptions.createRaw())
+midpoint.recompute(UserType, basic.stringify(target_user.oid))
+
+}
+} else {
+
+
+
+query_target_user = midpoint.queryFor(UserType.class, "personalNumber = '$input.personalNumber' and archetypeRef matches (oid = '00000000-0000-0000-0000-000000000702')") 
+target_user = midpoint.searchObjects(query_target_user)
+ 
+
+if (user_organizationalUnit &amp;&amp; target_user)
+{
+
+
+assignmentsToDelete = []
+query_org_for_ass = midpoint.queryFor(OrgType.class, "identifier endsWith '$user_organizationalUnit' and archetypeRef matches (oid = '7cab0b16-142a-4d37-8b60-9668e95b4b94') and activation/effectiveStatus!='disabled'") 
+org_for_ass = midpoint.searchObjects(query_org_for_ass)
+user_t = midpoint.getObject(UserType.class, basic.stringify(target_user.oid))
+
+for (a in user_t.assignment)
+{
+
+if (a.documentation == basic.stringify(input.name) &amp;&amp; a.targetRef?.oid == basic.stringify(org_for_ass.oid)) 
+{
+
+def removeAssignment = new AssignmentType()
+removeAssignment.id = a.id
+assignmentsToDelete.add removeAssignment.asPrismContainerValue()
+delta = prismContext.deltaFor(UserType.class).item(UserType.F_ASSIGNMENT).delete(assignmentsToDelete).asObjectDelta(target_user.oid)
+midpoint.modifyObject(delta, ModelExecuteOptions.createRaw())
+midpoint.recompute(UserType, basic.stringify(target_user.oid))
+}
+}
+
+
+}
+
+}
+
+</code>
+                                        </s:value>
+                                    </s:parameter>
+                                </s:action>
+                            </s:pipeline>
+                        </executeScript>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
+        </inducement>
+    </apti:object>

@@ -1,0 +1,481 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467" version="271"  xsi:type="c:RoleType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-04-07T07:54:19.346Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-23T06:08:04.730Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-04-07T07:54:19.316Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE GUI My IDM Objects</name>
+        <operationExecution id="2">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-07T07:54:19.370Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000379758</token>
+                </executionResult>
+                <objectName>POCE GUI My IDM Objects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233528">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-16T09:59:05.817Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000101875</token>
+                </executionResult>
+                <objectName>POCE GUI My IDM Objects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233529">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-16T10:00:02.136Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000108887</token>
+                </executionResult>
+                <objectName>POCE GUI My IDM Objects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233530">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:24:19.036Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6660003">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-23T06:08:04.791Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000029623</token>
+                </executionResult>
+                <objectName>POCE GUI My IDM Objects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-04-07T07:54:19.329Z</enableTimestamp>
+        </activation>
+        <inducement id="6660002">
+            <targetRef oid="ba1ea07d-c0a6-4cdb-8160-77e627a09603" relation="org:default" type="c:RoleType"/>
+        </inducement>
+        <authorization id="3">
+            <name>read users with same personalNumber</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="16">
+                <type>UserType</type>
+                <filter>
+                    <q:text>personalNumber = `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+            <item>assignment</item>
+            <item>name</item>
+            <item>fullName</item>
+            <item>costCenter</item>
+            <item>extension/person_employment_type</item>
+            <item>roleMembershipRef</item>
+            <item>organizationalUnit</item>
+            <item>organization</item>
+        </authorization>
+        <authorization id="2">
+            <name>to see Users folder</name>
+            <description>
+         to see Users folder
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#usersView</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#userDetails</action>
+        </authorization>
+        <authorization id="3325">
+            <name>poce-shadow-read</name>
+            <description>
+           POCE idm object Users
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="32325">
+                <type>ShadowType</type>
+                <owner>
+                    <type>UserType</type>
+                    <filter>
+                        <q:text>personalNumber = `actor.personalNumber`</q:text>
+                    </filter>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="11">
+            <name>poce-shadow-execution-add-modify-delete</name>
+            <description>
+POCE idm object Users
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#delete</action>
+            <phase>execution</phase>
+            <object id="3325">
+                <type>ShadowType</type>
+                <owner>
+                    <type>UserType</type>
+                    <filter>
+                        <q:text>personalNumber = `actor.personalNumber`</q:text>
+                    </filter>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="55501">
+            <name>my-idm-objects-persona-read</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="1233531">
+                <type>UserType</type>
+                <owner>
+                    <type>UserType</type>
+                    <filter>
+                        <q:text>personalNumber = `actor.personalNumber` and activation/effectiveStatus!="disabled"</q:text>
+                    </filter>
+                </owner>
+            </object>
+            <item>assignment</item>
+            <item>name</item>
+            <item>fullName</item>
+            <item>costCenter</item>
+            <item>extension/person_employment_type</item>
+            <item>roleMembershipRef</item>
+            <item>organizationalUnit</item>
+            <item>organization</item>
+        </authorization>
+        <authorization id="55502">
+            <name>my-idm-objects-auth-persona-execute-add-EMP-ACC</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>execution</phase>
+            <object id="1233532">
+                <type>UserType</type>
+                <archetypeRef oid="48077d8a-7cce-4999-b7cb-d31620983c1d" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+        </authorization>
+        <authorization id="55503">
+            <name>my-idm-objects-auth-persona-execute-modify-delete-EMP-ACC</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#delete</action>
+            <phase>execution</phase>
+            <object id="1233533">
+                <type>UserType</type>
+                <archetypeRef oid="48077d8a-7cce-4999-b7cb-d31620983c1d" relation="org:default" type="c:ArchetypeType"/>
+                <owner>
+                    <type>UserType</type>
+                    <filter>
+                        <q:text>personalNumber = `actor.personalNumber` and activation/effectiveStatus!="disabled"</q:text>
+                    </filter>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="55504">
+            <name>my-idm-objects-auth-persona-execute-add-POS-ACC</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>execution</phase>
+            <object id="1233534">
+                <type>UserType</type>
+                <archetypeRef oid="87471a3d-2d25-4309-b58a-af261683adfa" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+        </authorization>
+        <authorization id="55505">
+            <name>my-idm-objects-auth-persona-execute-modify-delete-POS-ACC</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#delete</action>
+            <phase>execution</phase>
+            <object id="1233535">
+                <type>UserType</type>
+                <archetypeRef oid="87471a3d-2d25-4309-b58a-af261683adfa" relation="org:default" type="c:ArchetypeType"/>
+                <owner>
+                    <type>UserType</type>
+                    <filter>
+                        <q:text>personalNumber = `actor.personalNumber` and activation/effectiveStatus!="disabled"</q:text>
+                    </filter>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="55510">
+            <name>operation-with-my-nickName-role</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <object id="3">
+                <type>RoleType</type>
+                <archetypeRef oid="7f71dcf3-c89d-4e23-930b-215423af3849" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_personalNumber = `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+        </authorization>
+        <authorization id="55520">
+            <name>search-on-resource</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#search</action>
+        </authorization>
+        <authorization id="666001">
+            <name>read-requestable-roles</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="3">
+                <type>OrgType</type>
+                <archetypeRef oid="cd509999-d455-4852-b2a0-a3da588d9475" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+        </authorization>
+        <adminGuiConfiguration>
+            <objectCollectionViews>
+                <objectCollectionView id="1761">
+                    <identifier>person-view</identifier>
+                    <visibility>hidden</visibility>
+                    <type>UserType</type>
+                </objectCollectionView>
+                <objectCollectionView id="1760">
+                    <identifier>my-idm-objects</identifier>
+                    <visibility>visible</visibility>
+                    <type>UserType</type>
+                </objectCollectionView>
+            </objectCollectionViews>
+            <objectDetails>
+                <objectDetailsPage id="1762">
+                    <type>c:UserType</type>
+                    <panel id="1763">
+                        <identifier>projections</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1765">
+                        <identifier>password</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1766">
+                        <identifier>activation</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1767">
+                        <identifier>history</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1768">
+                        <identifier>focusTriggers</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1769">
+                        <identifier>igaAccesses</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1770">
+                        <identifier>personas</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1771">
+                        <identifier>userDelegations</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1772">
+                        <identifier>delegatedToMe</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1773">
+                        <identifier>focusCases</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1774">
+                        <identifier>focusMarks</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1775">
+                        <identifier>clearances</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1776">
+                        <identifier>applications</identifier>
+                        <visibility>hidden</visibility>
+                    </panel>
+                    <panel id="1777">
+                        <identifier>assignments</identifier>
+                        <panelType>allAssignments</panelType>
+                        <listView>
+                            <identifier>role-assignmnets-view</identifier>
+                            <type>c:AssignmentType</type>
+                            <collection>
+                                <collectionRef oid="9e81fed1-282c-4c56-85ea-861fb36d6b58" relation="org:default" type="c:ObjectCollectionType"/>
+                            </collection>
+                        </listView>
+                        <panel id="1778">
+                            <identifier>allAssignments</identifier>
+                            <visibility>hidden</visibility>
+                        </panel>
+                        <panel id="1779">
+                            <identifier>indirectAssignments</identifier>
+                            <visibility>hidden</visibility>
+                        </panel>
+                        <panel id="1780">
+                            <identifier>orgAssignments</identifier>
+                            <visibility>hidden</visibility>
+                        </panel>
+                        <panel id="1781">
+                            <identifier>roleAssignments</identifier>
+                            <visibility>hidden</visibility>
+                        </panel>
+                        <panel id="1782">
+                            <identifier>serviceAssignments</identifier>
+                            <visibility>hidden</visibility>
+                        </panel>
+                        <panel id="1783">
+                            <identifier>policyAssignments</identifier>
+                            <visibility>hidden</visibility>
+                        </panel>
+                        <panel id="1784">
+                            <identifier>constructionAssignments</identifier>
+                            <visibility>hidden</visibility>
+                        </panel>
+                    </panel>
+                </objectDetailsPage>
+            </objectDetails>
+            <accessRequest>
+                <targetSelection>
+                    <allowRequestForMyself>false</allowRequestForMyself>
+                    <allowRequestForOthers>true</allowRequestForOthers>
+                    <group id="17656">
+                        <identifier>my-employments</identifier>
+                        <display>
+                            <label>My Employments</label>
+                            <icon>
+                                <cssClass>fa fa-address-card</cssClass>
+                            </icon>
+                        </display>
+                        <collection>
+                            <filter>
+                                <q:text>personalNumber = `actor.personalNumber` and archetypeRef matches (oid = "441f8e23-33cd-41f2-bbb6-beea20feeaee") and activation/effectiveStatus!="disabled"</q:text>
+                            </filter>
+                        </collection>
+                        <autocompleteConfiguration>
+                            <displayExpression>
+                                <script>
+                                    <code>
+                                    return "My Employment: " + object.fullName
+                                </code>
+                                </script>
+                            </displayExpression>
+                            <autocompleteMinChars>1</autocompleteMinChars>
+                        </autocompleteConfiguration>
+                    </group>
+                    <group id="17657">
+                        <identifier>my-positions</identifier>
+                        <display>
+                            <label>My Positions</label>
+                            <icon>
+                                <cssClass>fa fa-user-tie</cssClass>
+                            </icon>
+                        </display>
+                        <collection>
+                            <filter>
+                                <q:text>personalNumber = `actor.personalNumber` and archetypeRef matches (oid = "0d1b1269-0011-49e6-b9f1-e62e7827dfed") and activation/effectiveStatus!="disabled"</q:text>
+                            </filter>
+                        </collection>
+                        <autocompleteConfiguration>
+                            <displayExpression>
+                                <script>
+                                    <code>
+                                    return "My Employment: " + object.fullName
+                                </code>
+                                </script>
+                            </displayExpression>
+                            <autocompleteMinChars>1</autocompleteMinChars>
+                        </autocompleteConfiguration>
+                    </group>
+                    <group id="17658">
+                        <identifier>my-subordinates</identifier>
+                        <display>
+                            <label>My Subordinates</label>
+                            <icon>
+                                <cssClass>fa fa-users-cog</cssClass>
+                            </icon>
+                        </display>
+                        <collection>
+                            <filter>
+                                <q:text>assignment/targetRef matches (relation = org:default and @ matches (name startsWith "DC:")) and personalNumber != `actor.personalNumber`  and activation/effectiveStatus != "disabled"</q:text>
+                            </filter>
+                        </collection>
+                        <autocompleteConfiguration>
+                            <displayExpression>
+                                <script>
+                                    <code>
+                                    return "My Subordinates: " + object.fullName
+                                </code>
+                                </script>
+                            </displayExpression>
+                            <autocompleteMinChars>1</autocompleteMinChars>
+                        </autocompleteConfiguration>
+                    </group>
+                </targetSelection>
+                <relationSelection>
+                    <defaultRelation>org:default</defaultRelation>
+                    <allowOtherRelations>false</allowOtherRelations>
+                </relationSelection>
+                <roleCatalog>
+                    <defaultView>table</defaultView>
+                    <showRolesOfTeammate>false</showRolesOfTeammate>
+                    <roleCatalogRef oid="19ad795d-bb6e-48dd-b131-d07018c73ec9" relation="org:default" type="c:OrgType"/>
+                    <roleCatalogDepth>3</roleCatalogDepth>
+                </roleCatalog>
+            </accessRequest>
+        </adminGuiConfiguration>
+    </apti:object>

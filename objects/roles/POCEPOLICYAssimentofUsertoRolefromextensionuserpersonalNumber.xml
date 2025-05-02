@@ -1,0 +1,282 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="7656e85c-0652-4a1a-839f-b823a8d7c246" version="101"  xsi:type="c:RoleType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-03-26T07:07:48.463Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-17T13:33:51.686Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-03-31T08:11:54.347Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE POLICY: Assiment of User to Role from extension\user_personalNumber</name>
+        <description>Assiment of User to Role from extension\user_personalNumber</description>
+        <extension/>
+        <operationExecution id="18">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T06:19:49.345Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="20">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T10:38:09.577Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="21">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:20:52.419Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="59">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T07:55:14.297Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000199867</token>
+                </executionResult>
+                <objectName>POCE POLICY: Assiment of User to Role from extension\user_personalNumber</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="60">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T07:57:32.056Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000203307</token>
+                </executionResult>
+                <objectName>POCE POLICY: Assiment of User to Role from extension\user_personalNumber</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="62">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T07:59:04.688Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000205377</token>
+                </executionResult>
+                <objectName>POCE POLICY: Assiment of User to Role from extension\user_personalNumber</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="65">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T10:35:24.851Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000372276</token>
+                </executionResult>
+                <objectName>POCE POLICY: Assiment of User to Role from extension\user_personalNumber</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="82">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T13:33:51.715Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000011502</token>
+                </executionResult>
+                <objectName>POCE POLICY: Assiment of User to Role from extension\user_personalNumber</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <assignment incomplete="true"/>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <roleMembershipRef oid="a6781f73-32e2-46c3-bdb0-c54c1bd7a71d" relation="org:default" type="c:ArchetypeType">
+            <_metadata id="79">
+                <storage>
+                    <createTimestamp>2025-04-17T13:33:51.677Z</createTimestamp>
+                </storage>
+                <provenance>
+                    <assignmentPath>
+                        <sourceRef oid="7656e85c-0652-4a1a-839f-b823a8d7c246" relation="org:default" type="c:RoleType"/>
+                        <segment id="80">
+                            <segmentOrder>1</segmentOrder>
+                            <assignmentId>77</assignmentId>
+                            <targetRef oid="a6781f73-32e2-46c3-bdb0-c54c1bd7a71d" relation="org:default" type="c:ArchetypeType"/>
+                            <matchingOrder>true</matchingOrder>
+                        </segment>
+                    </assignmentPath>
+                </provenance>
+            </_metadata>
+        </roleMembershipRef>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-03-31T08:11:54.381Z</enableTimestamp>
+        </activation>
+        <inducement id="9">
+            <_metadata id="8">
+                <storage>
+                    <modifyTimestamp>2025-03-31T07:46:02.350Z</modifyTimestamp>
+                    <modifierRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </modifierRef>
+                    <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+                </storage>
+            </_metadata>
+            <policyRule>
+                <name>Assiment of a User to Role</name>
+                <policyConstraints>
+                    <modification id="78">
+                        <name>add</name>
+                        <operation>add</operation>
+                        <item>c:emailAddress</item>
+                    </modification>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="11">
+                        <name>Some script</name>
+                        <condition>
+                            <script>
+                                <code>basic.isEmpty(focus?.getEmailAddress())</code>
+                            </script>
+                        </condition>
+                        <object>
+                            <currentObject>
+                                <type>c:RoleType</type>
+                            </currentObject>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <_metadata id="63">
+                                <provenance>
+                                    <acquisition id="64">
+                                        <actorRef>
+                                            <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                                        </actorRef>
+                                        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                        <timestamp>2025-04-17T10:35:24.754Z</timestamp>
+                                    </acquisition>
+                                </provenance>
+                            </_metadata>
+                            <s:pipeline list="true">
+                                <s:action>
+                                    <s:type>execute-script</s:type>
+                                    <s:parameter>
+                                        <s:name>script</s:name>
+                                        <s:value>
+                                            <code>
+import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+import com.evolveum.midpoint.prism.delta.builder.*
+import com.evolveum.midpoint.model.api.*
+log.info " AAAAAAAAAAAAAAA: a try"
+
+role = midpoint.getObject(RoleType.class, input.oid)
+userId = basic.stringify(basic.getExtensionPropertyValue(role, "http://example.com/xml/ns/mySchema", "user_personalNumber"))
+query_user = midpoint.queryFor(UserType.class, "personalNumber = '$userId' and archetypeRef matches (oid = '00000000-0000-0000-0000-000000000702')") 
+result_USER = midpoint.searchObjects(query_user)
+
+
+
+if (result_USER)
+{
+user_oid = basic.stringify(result_USER.oid)
+user = midpoint.getObject(UserType.class, user_oid)
+assRole = new ObjectReferenceType()
+assRole.setOid(input.oid)
+assRole.setType(RoleType.COMPLEX_TYPE)
+addAssignment = new AssignmentType()
+addAssignment.setTargetRef(assRole)
+def delta = []
+delta = prismContext.deltaFor(UserType.class).item(FocusType.F_ASSIGNMENT).add(addAssignment.asPrismContainerValue()).asObjectDelta(user.oid)
+midpoint.modifyObject(delta, ModelExecuteOptions.createRaw())
+}    
+
+midpoint.recompute(UserType, user.oid)
+midpoint.recompute(RoleType, input.oid)
+
+</code>
+                                        </s:value>
+                                    </s:parameter>
+                                </s:action>
+                            </s:pipeline>
+                        </executeScript>
+                        <privileges>
+                            <runPrivileged>true</runPrivileged>
+                        </privileges>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
+            <activation/>
+            <focusType>c:RoleType</focusType>
+        </inducement>
+    </apti:object>
