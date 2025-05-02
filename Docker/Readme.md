@@ -1,3 +1,5 @@
+<img src="./Docker POCE Midpoint 491.png" border="0"></img><br>
+
 http://localhost:8080/midpoint/<br>
 Username: administrator<br>
 Password: Test5ecr3t<br>
