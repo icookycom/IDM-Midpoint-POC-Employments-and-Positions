@@ -1,0 +1,25 @@
+number_poce;type_poce;main_id;parent_id;members_poce;member_of_poce;name_poce;grade_poce;title_poce;department_poce;subordinate_to_poce;status_poce;info_01;info_02;info_03
+1;user;600667;;;EMP002001,EMP002002;;;;;;active;;;
+2;employment;EMP002001;EMP001001;600667;POS100995,POS100996,POS000101,POS100108,POS100171,POS100345;;;Основное;;;active;;;
+3;employment;EMP002002;EMP001002;600667;POS000125,POS000124;;;Совместительство;;;active;;;
+4;position;POS000101;EMP002001;;;;;Системный Администратор;DEP10101;;active;;;default
+5;position;POS000125;EMP002002;;;;;Уборщик;;;disabled;;;
+6;position;POS000124;EMP002002;;;;;Грузчик;;;active;;;
+7;position;POS100108;EMP002001;;;;;Принеси воды;;;disabled;;;
+8;position;POS100171;EMP002001;;;;;Курьер;;;active;;;
+9;position;POS100345;EMP002001;;;;;Сборщик мебели;;;disabled;;;
+10;position;POS100995;EMP002001;;;;;Бухгалтер;;;disabled;;;
+11;position;POS100996;EMP002001;;;;;Кассир;;;disabled;;;
+12;employment;EMP002003;EMP001001;600110;POS100885,POS100886;;;Основное;;;active;;;
+13;user;600110;;;EMP002003,EMP002004;;;;;;active;;;
+14;position;POS100885;EMP002003;;;;;Биг Босс;DEP10101;;active;;;manager
+15;position;POS100886;EMP002003;;;;;Кассир;;;active;;;
+16;employment;EMP002004;EMP001002;600110;POS102303;;;Совместительство;;;active;;;
+17;user;600991;;;EMP002015;;;;;;active;;;
+18;employment;EMP002015;EMP001001;600991;POS100902;;;Основное;;;active;;;
+19;position;POS100902;EMP002015;;;;;Техпис;DEP10101;;active;;;default
+20;user;602021;;;EMP012033,EMP012999;;;;;;active;;;
+21;employment;EMP012033;EMP001002;602021;POS102202;;;Основное;;;active;;;
+22;position;POS102202;EMP012033;;;;;Ревизорро;DEP20101;;active;;;default
+23;position;POS102303;EMP002004;;;;;Главный Идеолог;DEP20101;;active;;;manager
+24;employment;EMP012999;EMP001002;602021;;;;Тестовое;;;disabled;;;
