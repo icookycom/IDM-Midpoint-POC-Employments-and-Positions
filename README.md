@@ -6,7 +6,13 @@ Employments and Positions are created by resource, like Roles for Linked Object 
 <img src="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/manuals/POC%20Midpoint%20IDM%20Employee%20Employment%20Position%20001.jpg" border="0"></img><br>
 Full schema
 <img src="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/manuals/POC%20Midpoint%20IDM%20Employee%20Employment%20Position%20Part%203%20022.png" border="0"></img><br>
-
+<br>
+What will work:<br>
+- Adding multiple jobs and positions for an employee from a single HR source<br>
+- Changing an employee's name on main User changes the name in employment, positions, accounts and logins<br>
+- Changing the name of the organization changes the name in employment, positions, accounts<br>
+- AD rights requested for a position are transferred to the employment if the position does not have its own AD account<br>
+<br>
 
 <b>Storytelling</b><br>
 <a href="https://habr.com/ru/articles/897396/">1. Obtaining data from the personnel resource, building information links and structure.</a><br>
