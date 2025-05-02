@@ -4,7 +4,8 @@ IDM Midpoint POC Employments and Positions<br>
 POC of a relationship between the User A and the User A employments as users and the User A positions as users.<br>
 Employments and Positions are created by resource, like Roles for Linked Object function, and like Users for Request Access<br>
 <img src="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/manuals/POC%20Midpoint%20IDM%20Employee%20Employment%20Position%20001.jpg" border="0"></img><br>
-
+Full schema
+<img src="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/manuals/POC%20Midpoint%20IDM%20Employee%20Employment%20Position%20Part%203%20022.png" border="0"></img><br>
 
 
 <b>Storytelling</b><br>
