@@ -1,0 +1,295 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="013858ba-060e-479d-9331-ac4e3aad8d5f" version="39"  xsi:type="c:ObjectTemplateType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-03-31T08:20:16.127Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-18T04:37:06.958Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-03-31T08:20:16.032Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE nickName Object Template</name>
+        <operationExecution id="2223">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T06:17:07.809Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2225">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T10:35:10.618Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2226">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:17:57.674Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2234">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T14:00:58.059Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000038614</token>
+                </executionResult>
+                <objectName>POCE nickName Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2235">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T14:10:43.394Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000049240</token>
+                </executionResult>
+                <objectName>POCE nickName Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2236">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T14:11:58.932Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000051416</token>
+                </executionResult>
+                <objectName>POCE nickName Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2237">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-18T04:28:13.799Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000008091</token>
+                </executionResult>
+                <objectName>POCE nickName Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2238">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-18T04:37:06.982Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000021384</token>
+                </executionResult>
+                <objectName>POCE nickName Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <mapping id="2222">
+            <name>Generate uniq nickName for AD and Midpoint</name>
+            <lifecycleState>active</lifecycleState>
+            <strength>strong</strength>
+            <source>
+                <path>c:extension/user_givenName</path>
+            </source>
+            <source>
+                <path>c:extension/user_familyName</path>
+            </source>
+            <source>
+                <path>c:extension/user_additionalName</path>
+            </source>
+            <expression>
+                <script>
+                    <code>import com.evolveum.midpoint.xml.ns._public.common.common_3.*;
+import com.evolveum.midpoint.prism.query.OrderDirection;
+import com.evolveum.midpoint.prism.path.ItemPath;
+
+iterationToken = 0
+is_it_ok = false
+resource_oid = "b8618fba-cf8b-416c-8e3b-32ea34cf003d"
+resource_kind = "ACCOUNT"
+resource_intent = "intent  MS AD account"
+
+
+
+
+
+
+
+do {
+userGivenName = basic.stringify(user_givenName)?.tr(' ', '')
+userFamilyName = basic.stringify(user_familyName)?.tr(' ', '')
+useradditionalName = basic.stringify(user_additionalName)?.tr(' ', '')
+national_letters =['Я','я','Ю','ю','Ч','ч','Ш','ш','Щ','щ','Ж','ж','А','а','Б','б','В','в','Г','г','Д','д','Е','е','Ё','ё','Э','э','З','з','И','и','Й','й','К','к','Л','л','М','м','Н','н', 'О','о','П','п','Р','р','С','с','Т','т','У','у','Ф','ф','Х','х','Ц','ц','Ы','ы','Ь','ь','Ъ','ъ',' ']
+latin_letters =['Ya','ya','Yu','yu','Ch','ch','Sh','sh','Sh','sh','Zh','zh','A','a','B','b','V','v','G','g','D','d','E','e','E','e','E','e','Z','z','I','i','J','j','K','k','L','l','M','m','N','n', 'O','o','P','p','R','r','S','s','T','t','U','u','F','f','H','h','C','c','Y','y','','','','','']
+
+
+for( i = 0; i &lt; national_letters.size(); i++)
+{
+userGivenName  = userGivenName?.replace(national_letters[i],latin_letters[i]);
+userFamilyName  = userFamilyName?.replace(national_letters[i],latin_letters[i]);
+useradditionalName  = useradditionalName?.replace(national_letters[i],latin_letters[i]);
+}
+
+if ((iterationToken.toInteger() &amp; 1) == 0) 
+{
+second_letter = iterationToken.toInteger() / 2;
+first_letter = second_letter.toInteger() + 1;
+}
+else
+{
+first_letter = (iterationToken.toInteger() + 1) / 2;
+second_letter = first_letter;
+}
+
+
+if(first_letter.toInteger() &gt; userGivenName.length() &amp;&amp; second_letter.toInteger() &gt; useradditionalName.length())
+{
+user_number = iterationToken.toInteger()
+first_full = userGivenName.length()
+second_full = useradditionalName.length()
+if(useradditionalName.length() != 0)
+{
+    name_login_for_user = userGivenName.substring(0,first_letter.toInteger()) + useradditionalName.substring(0,second_letter.toInteger()) + userFamilyName
+    
+    def query = midpoint.queryFor(ShadowType.class, "resourceRef matches (oid = '" + resource_oid + "') and kind = '" + resource_kind + "' and intent = '" + resource_intent + "' and attributes/cn = '" + name_login_for_user + "'") 
+    def result_ad_login = midpoint.searchObjects(query); 
+    
+    if (midpoint.isUniquePropertyValue(user, 'name', name_login_for_user.toString()) &gt; !result_shadow_search)
+    {return name_login_for_user
+    is_it_ok = true}
+    
+}
+
+else
+{return userGivenName.substring(0,first_full.toInteger()) + userFamilyName  + user_number}
+}
+else
+{if (first_letter.toInteger() &gt; userGivenName.length())
+{
+    first_letter = userGivenName.length();
+}
+if (second_letter.toInteger() &gt; useradditionalName.length())
+{
+    second_letter = useradditionalName.length();
+}
+
+name_login_for_user = userGivenName.substring(0,first_letter.toInteger()) + useradditionalName.substring(0,second_letter.toInteger()) + userFamilyName
+
+
+def query = midpoint.queryFor(ShadowType.class, "resourceRef matches (oid = '" + resource_oid + "') and kind = '" + resource_kind + "' and intent = '" + resource_intent + "' and attributes/sAMAccountName = '" + name_login_for_user + "'") 
+def result_ad_login = midpoint.searchObjects(query); 
+
+
+if (midpoint.isUniquePropertyValue(user, 'name', name_login_for_user.toString()) &amp;&amp; !result_ad_login)
+{return name_login_for_user
+is_it_ok = true}
+
+}
+iterationToken = iterationToken + 1
+} while (!is_it_ok)
+</code>
+                </script>
+            </expression>
+            <target>
+                <path>emailAddress</path>
+            </target>
+            <condition>
+                <script>
+                    <code>!basic.isEmpty(user_familyName)</code>
+                </script>
+            </condition>
+            <evaluationPhase>afterAssignments</evaluationPhase>
+        </mapping>
+        <mapping id="2">
+            <name>generate-displayname</name>
+            <description>Generate displayName for nickName Role</description>
+            <strength>strong</strength>
+            <source>
+                <path>extension/user_personalNumber</path>
+            </source>
+            <source>
+                <path>emailAddress</path>
+            </source>
+            <expression>
+                <script>
+                    <code>
+user_personalNumber + " nickName [" + emailAddress + "]"
+                </code>
+                </script>
+            </expression>
+            <target>
+                <path>displayName</path>
+            </target>
+        </mapping>
+    </apti:object>

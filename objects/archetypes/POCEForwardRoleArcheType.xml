@@ -1,0 +1,192 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" version="31"  xsi:type="c:ArchetypeType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-03-24T07:14:26.554Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-03T05:21:18.783Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-03-24T07:14:26.328Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE Forward Role ArcheType</name>
+        <operationExecution id="7">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-24T09:31:47.208Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000158820</token>
+                </executionResult>
+                <objectName>POCE Forward Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="9">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-24T09:32:04.592Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000159432</token>
+                </executionResult>
+                <objectName>POCE Forward Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="10">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-24T09:33:07.418Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000162602</token>
+                </executionResult>
+                <objectName>POCE Forward Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11">
+            <recordType>simple</recordType>
+            <timestamp>2025-03-24T09:46:14.685Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000173911</token>
+                </executionResult>
+                <objectName>POCE Forward Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="12">
+            <recordType>complex</recordType>
+            <timestamp>2025-03-26T07:07:02.530Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="4a297939-0496-47e5-a5a3-cb40f81a7d6f" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="13">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T06:21:12.579Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="15">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T10:39:54.263Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="16">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-03T05:21:18.797Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000022547</token>
+                </executionResult>
+                <objectName>POCE Forward Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="17">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:22:51.424Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <assignment id="1">
+            <identifier>holderType</identifier>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+            <assignmentRelation id="2">
+                <holderType>RoleType</holderType>
+            </assignmentRelation>
+        </assignment>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-03-24T07:14:26.363Z</enableTimestamp>
+        </activation>
+        <archetypePolicy>
+            <display>
+                <label>Forward Role</label>
+                <singularLabel>Forward Role</singularLabel>
+                <pluralLabel>Forward Roles</pluralLabel>
+                <icon>
+                    <cssClass>fa fa-clipboard-check</cssClass>
+                    <color>#d88222</color>
+                </icon>
+            </display>
+            <objectTemplateRef oid="4a334cf6-090b-4b73-913a-9a43ce419f54" relation="org:default" type="c:ObjectTemplateType"/>
+        </archetypePolicy>
+    </apti:object>

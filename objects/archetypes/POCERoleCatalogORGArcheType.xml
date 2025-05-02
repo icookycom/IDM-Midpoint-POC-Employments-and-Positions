@@ -1,0 +1,134 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="cd509999-d455-4852-b2a0-a3da588d9475" version="4"  xsi:type="c:ArchetypeType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2024-11-19T07:36:16.348Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-15T06:27:19.229Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-04-15T06:23:39.463Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE Role Catalog ORG ArcheType</name>
+        <operationExecution id="5">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-15T06:23:39.580Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000080455</token>
+                </executionResult>
+                <objectName>POCE Role Catalog ORG ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-15T06:27:19.253Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000087275</token>
+                </executionResult>
+                <objectName>POCE Role Catalog ORG ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="7">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:23:42.725Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <assignment id="1">
+            <_metadata id="2">
+                <storage>
+                    <createTimestamp>2025-04-15T06:23:39.548Z</createTimestamp>
+                    <creatorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </creatorRef>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                </storage>
+                <process>
+                    <requestTimestamp>2025-04-15T06:23:39.463Z</requestTimestamp>
+                    <requestorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </requestorRef>
+                </process>
+                <provenance>
+                    <acquisition id="3">
+                        <actorRef>
+                            <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                        </actorRef>
+                        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                        <timestamp>2025-04-15T06:23:39.463Z</timestamp>
+                    </acquisition>
+                </provenance>
+            </_metadata>
+            <identifier>holderType</identifier>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+            <assignmentRelation id="4">
+                <holderType>OrgType</holderType>
+            </assignmentRelation>
+        </assignment>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-04-15T06:23:39.506Z</enableTimestamp>
+        </activation>
+        <archetypePolicy>
+            <display>
+                <label>Role Catalog</label>
+                <singularLabel>Role Catalog</singularLabel>
+                <pluralLabel>Role Catalogs</pluralLabel>
+                <icon>
+                    <cssClass>fa fa-store</cssClass>
+                    <color>#14aed8</color>
+                </icon>
+            </display>
+        </archetypePolicy>
+    </apti:object>

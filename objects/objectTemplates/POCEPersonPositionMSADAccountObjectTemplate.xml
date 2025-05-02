@@ -1,0 +1,296 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="3ac53f67-f1c9-4051-8991-8f935145f1b7" version="22"  xsi:type="c:ObjectTemplateType">
+        <_metadata id="3">
+            <storage>
+                <createTimestamp>2024-11-08T07:43:54.572Z</createTimestamp>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
+                <modifyTimestamp>2025-04-02T12:24:46.055Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-04-02T05:57:14.920Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE Person Position MS AD Account Object Template</name>
+        <operationExecution id="16">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-02T05:57:15.011Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000032106</token>
+                </executionResult>
+                <objectName>POCE Person Position MS AD Account Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="17">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T06:18:29.794Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="114">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T10:36:44.717Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="115">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-02T12:24:46.070Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000112239</token>
+                </executionResult>
+                <objectName>POCE Person Position MS AD Account Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="116">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:19:26.112Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <iterationSpecification>
+            <maxIterations>99</maxIterations>
+            <tokenExpression>
+                <description>The iteration starts with empty string, then a number is appended, starting with 2 (skipping 1), 3, ... up to 99.</description>
+                <documentation>
+                Example, how the iteration could look like if `jsmith` username is already taken:
+
+                . jsmith
+                . jsmith2
+                . jsmith3
+                . ... up to jsmith99
+
+                If even `jsmith99` cannot be used because it already exists, the attempt to create user in midPoint will fail.
+
+                `maxIterations` can be updated.
+
+                Also, the script can be updated to prepare iterationToken variable in a different way.
+
+                E.g. iterationToken can be created as '02' instead of just '2'. Or a random number instead of a sequential iterator can be used.
+            </documentation>
+                <script>
+                    <code>
+                    if (iteration == 0) {
+                        return ""
+                    } else {
+                        // for 8+2 naming convention, we might want to use %02d instead
+                        //return sprintf("%02d", iteration+1)
+                        return iteration + 1
+                    }
+                </code>
+                </script>
+            </tokenExpression>
+        </iterationSpecification>
+        <mapping id="4">
+            <name>01</name>
+            <source>
+                <path>c:givenName</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:givenName</path>
+            </target>
+        </mapping>
+        <mapping id="5">
+            <name>02</name>
+            <source>
+                <path>c:familyName</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:familyName</path>
+            </target>
+        </mapping>
+        <mapping id="6">
+            <name>03</name>
+            <source>
+                <path>c:additionalName</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:additionalName</path>
+            </target>
+        </mapping>
+        <mapping id="7">
+            <name>04</name>
+            <source>
+                <path>c:personalNumber</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:personalNumber</path>
+            </target>
+        </mapping>
+        <mapping id="8">
+            <name>05</name>
+            <strength>strong</strength>
+            <source>
+                <path>c:personalNumber</path>
+            </source>
+            <source>
+                <path>c:name</path>
+            </source>
+            <source>
+                <path xmlns:gen974="http://example.com/xml/ns/mySchema">c:extension/gen974:person_employment_parent</path>
+            </source>
+            <expression>
+                <script>
+                    <code>personalNumber + " " + person_employment_parent + " " + name + " Position MS AD Account"</code>
+                </script>
+            </expression>
+            <target>
+                <path>c:name</path>
+            </target>
+        </mapping>
+        <mapping id="9">
+            <name>06</name>
+            <source>
+                <path>c:costCenter</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:costCenter</path>
+            </target>
+        </mapping>
+        <mapping id="10">
+            <name>07</name>
+            <source>
+                <path>c:extension/person_employment_parent</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:extension/person_employment_parent</path>
+            </target>
+        </mapping>
+        <mapping id="11">
+            <name>08</name>
+            <source>
+                <path>c:organization</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:organization</path>
+            </target>
+        </mapping>
+        <mapping id="12">
+            <name>09</name>
+            <source>
+                <path xmlns:gen974="http://example.com/xml/ns/mySchema">c:extension/gen974:person_employment_type</path>
+            </source>
+            <expression/>
+            <target>
+                <path xmlns:gen695="http://example.com/xml/ns/mySchema">c:extension/gen695:person_employment_type</path>
+            </target>
+        </mapping>
+        <mapping id="13">
+            <name>10</name>
+            <exclusive>true</exclusive>
+            <source>
+                <path>c:extension/person_forward_roles</path>
+            </source>
+            <expression>
+                <script>
+                    <relativityMode>absolute</relativityMode>
+                    <code>
+                result = []
+
+for (i in person_forward_roles)
+{
+if (i.startsWith("MSAD"))
+{ii = i.tokenize( '|' )
+result.add(ii[2])}
+}
+
+return result</code>
+                </script>
+            </expression>
+            <target>
+                <path>c:extension/person_forward_roles</path>
+            </target>
+        </mapping>
+        <mapping id="14">
+            <name>adminStatus to persona</name>
+            <source>
+                <path>c:activation/c:administrativeStatus</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:activation/c:administrativeStatus</path>
+            </target>
+        </mapping>
+        <mapping id="15">
+            <name>11</name>
+            <authoritative>true</authoritative>
+            <strength>strong</strength>
+            <expression>
+                <script>
+                    <code>'1'</code>
+                </script>
+            </expression>
+            <target>
+                <path xmlns:gen23="http://example.com/xml/ns/mySchema">c:extension/gen23:person_account_number</path>
+            </target>
+        </mapping>
+        <mapping id="140">
+            <name>088</name>
+            <source>
+                <path>c:nickName</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:nickName</path>
+            </target>
+        </mapping>
+        <mapping id="112">
+            <name>0888</name>
+            <source>
+                <path>c:name</path>
+            </source>
+            <expression/>
+            <target>
+                <path>c:organizationalUnit</path>
+            </target>
+        </mapping>
+    </apti:object>

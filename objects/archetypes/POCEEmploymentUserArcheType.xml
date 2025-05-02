@@ -1,0 +1,621 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="441f8e23-33cd-41f2-bbb6-beea20feeaee" version="89"  xsi:type="c:ArchetypeType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-03-15T06:05:22.709Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-04-18T06:39:55.039Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-03-15T06:05:22.675Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCE Employment User ArcheType</name>
+        <operationExecution id="3346">
+            <recordType>complex</recordType>
+            <timestamp>2025-03-26T07:04:46.449Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="4a297939-0496-47e5-a5a3-cb40f81a7d6f" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="3349">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T06:18:41.691Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="3351">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-02T10:36:57.593Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="3352">
+            <recordType>complex</recordType>
+            <timestamp>2025-04-16T12:19:38.673Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="3356">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-16T14:06:17.403Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000037398</token>
+                </executionResult>
+                <objectName>POCE Employment User ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="3357">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T09:46:24.007Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000270109</token>
+                </executionResult>
+                <objectName>POCE Employment User ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="3359">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-17T14:44:43.415Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000024354</token>
+                </executionResult>
+                <objectName>POCE Employment User ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="300073">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-18T04:57:50.972Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000038601</token>
+                </executionResult>
+                <objectName>POCE Employment User ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="300074">
+            <recordType>simple</recordType>
+            <timestamp>2025-04-18T06:39:55.060Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000144741</token>
+                </executionResult>
+                <objectName>POCE Employment User ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <assignment id="1">
+            <identifier>holderType</identifier>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+            <assignmentRelation id="2">
+                <holderType>UserType</holderType>
+            </assignmentRelation>
+        </assignment>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-03-15T06:05:22.683Z</enableTimestamp>
+        </activation>
+        <inducement id="7">
+            <focusMappings>
+                <mapping id="8">
+                    <name>1010</name>
+                    <authoritative>false</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <code>linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+return basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_givenName")</code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>givenName</path>
+                    </target>
+                    <condition>
+                        <script>
+                            <relativityMode>absolute</relativityMode>
+                            <code>
+
+linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+if (basic.isEmpty(linkedDATA))
+{return false}
+else
+{return !basic.isEmpty(basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_givenName"))}
+
+
+                        </code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="12">
+            <policyRule>
+                <name>Recompute Position Role on Employment User data changes</name>
+                <policyConstraints>
+                    <or id="13">
+                        <modification id="14">
+                            <item>
+                                <_value>c:givenName</_value>
+                                <_metadata id="18">
+                                    <provenance>
+                                        <acquisition id="19">
+                                            <actorRef>
+                                                <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                                                <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                                                <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                                            </actorRef>
+                                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                            <timestamp>2025-03-14T09:30:48.495Z</timestamp>
+                                        </acquisition>
+                                    </provenance>
+                                </_metadata>
+                            </item>
+                        </modification>
+                        <modification id="15">
+                            <item>
+                                <_value>c:familyName</_value>
+                                <_metadata id="24">
+                                    <provenance>
+                                        <acquisition id="25">
+                                            <actorRef>
+                                                <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                                                <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                                                <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                                            </actorRef>
+                                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                            <timestamp>2025-03-14T09:34:03.783Z</timestamp>
+                                        </acquisition>
+                                    </provenance>
+                                </_metadata>
+                            </item>
+                        </modification>
+                        <modification id="20">
+                            <item>c:additionalName</item>
+                        </modification>
+                        <modification id="22">
+                            <item>c:activation/c:administrativeStatus</item>
+                        </modification>
+                        <modification id="3340">
+                            <item>c:costCenter</item>
+                        </modification>
+                        <modification id="3347">
+                            <item xmlns:gen540="http://example.com/xml/ns/mySchema">c:extension/gen540:person_forward_roles</item>
+                        </modification>
+                    </or>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="16">
+                        <object>
+                            <linkTarget id="17">
+                                <linkType>from me to Position role</linkType>
+                            </linkTarget>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <s:recompute/>
+                        </executeScript>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
+        </inducement>
+        <inducement id="17">
+            <focusMappings>
+                <mapping id="8">
+                    <authoritative>false</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <relativityMode>absolute</relativityMode>
+                            <code>
+linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+return basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_familyName")  
+                        </code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>familyName</path>
+                    </target>
+                    <condition>
+                        <script>
+                            <code>
+
+linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+if (basic.isEmpty(linkedDATA))
+{return false}
+else
+{return !basic.isEmpty(basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_familyName"))}
+
+
+                        </code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="27">
+            <focusMappings>
+                <mapping id="8">
+                    <authoritative>false</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <relativityMode>absolute</relativityMode>
+                            <code>
+    linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+return basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_additionalName") 
+                        </code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>additionalName</path>
+                    </target>
+                    <condition>
+                        <script>
+                            <code>
+
+linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+if (basic.isEmpty(linkedDATA))
+{return false}
+else
+{return !basic.isEmpty(basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_additionalName"))}
+
+
+                        </code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="37">
+            <focusMappings>
+                <mapping id="8">
+                    <authoritative>false</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <relativityMode>absolute</relativityMode>
+                            <code>
+    linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+return basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_personalNumber") 
+                            
+                        </code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>personalNumber</path>
+                    </target>
+                    <condition>
+                        <script>
+                            <code>
+
+linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+if (basic.isEmpty(linkedDATA))
+{return false}
+else
+{return !basic.isEmpty(basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_personalNumber"))}
+
+
+                        </code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="122">
+            <focusMappings>
+                <mapping id="8">
+                    <name>01</name>
+                    <authoritative>false</authoritative>
+                    <exclusive>true</exclusive>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <code>
+fr_list = []
+fr_postion_roles = midpoint.findLinkedTargets('from me to Position role').collect { basic.getExtensionPropertyValues(it, "http://example.com/xml/ns/mySchema", "user_forward_roles")}
+
+for (i in fr_postion_roles)
+{
+fr_num = 0
+for(ii in i)
+{
+if (ii.startsWith("NICKNAME") or ii.startsWith("NO CONNECTION"))
+fr_num = 1
+}
+
+if (fr_num !=1)
+{for (ii in i){fr_list.add(ii)}}
+
+
+
+
+}
+return fr_list
+
+
+
+
+                         
+                        </code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>extension/person_forward_roles_inherited</path>
+                    </target>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="176">
+            <policyRule>
+                <name>Recompute Role Position on User Employment membership change</name>
+                <policyConstraints>
+                    <alwaysTrue id="177"/>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="178">
+                        <object>
+                            <linkTarget id="179">
+                                <changeSituation>changed</changeSituation>
+                                <linkType>from me to Position role</linkType>
+                            </linkTarget>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <s:recompute/>
+                        </executeScript>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
+        </inducement>
+        <inducement id="372">
+            <focusMappings>
+                <mapping id="8">
+                    <authoritative>false</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <relativityMode>absolute</relativityMode>
+                            <code>
+     linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+return linkedDATA.costCenter 
+                            
+                        </code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>costCenter</path>
+                    </target>
+                    <condition>
+                        <script>
+                            <code>
+
+linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+if (basic.isEmpty(linkedDATA))
+{return false}
+else
+{return !basic.isEmpty(linkedDATA.costCenter)}
+
+
+                        </code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="1222">
+            <policyRule>
+                <name>Recompute Employment Role on Employment User Forward Roles change</name>
+                <policyConstraints>
+                    <or id="13">
+                        <modification id="14">
+                            <item xmlns:gen604="http://example.com/xml/ns/mySchema">c:extension/gen604:person_forward_roles</item>
+                        </modification>
+                        <modification id="22">
+                            <item>c:activation/c:administrativeStatus</item>
+                        </modification>
+                    </or>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="16">
+                        <object>
+                            <linkTarget id="17">
+                                <linkType>from Employment Role to me</linkType>
+                            </linkTarget>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <s:recompute/>
+                        </executeScript>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
+        </inducement>
+        <inducement id="1766">
+            <policyRule>
+                <name>Recompute Role Employment on User Employment membership change</name>
+                <policyConstraints>
+                    <alwaysTrue id="177"/>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="178">
+                        <object>
+                            <linkTarget id="179">
+                                <changeSituation>changed</changeSituation>
+                                <linkType>from Employment Role to me</linkType>
+                            </linkTarget>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <s:recompute/>
+                        </executeScript>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
+        </inducement>
+        <inducement id="3337">
+            <focusMappings>
+                <mapping id="8">
+                    <authoritative>false</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <relativityMode>absolute</relativityMode>
+                            <code>linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+                           "Employee status: " + basic.stringify(basic.getExtensionPropertyValue(linkedDATA , "http://example.com/xml/ns/mySchema", "user_administrativeStatus"))
+                            
+                           
+
+
+                        </code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>documentation</path>
+                    </target>
+                    <condition>
+                        <script>
+                            <code>
+
+linkedDATA = midpoint.findLinkedTarget('from Employment Role to me')
+if (basic.isEmpty(linkedDATA))
+{return false}
+else
+{return !basic.isEmpty(basic.getExtensionPropertyValue(linkedDATA, "http://example.com/xml/ns/mySchema", "user_administrativeStatus"))}
+
+
+
+                        </code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="300072">
+            <focusMappings>
+                <mapping id="8">
+                    <name>Name nickName</name>
+                    <authoritative>true</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <code>linkedDATA = midpoint.findLinkedTarget('from nickName Role to me')
+return linkedDATA?.emailAddress</code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>nickName</path>
+                    </target>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <archetypePolicy>
+            <display>
+                <icon>
+                    <cssClass>fa fa-address-card</cssClass>
+                    <color>#2d860a</color>
+                </icon>
+            </display>
+            <objectTemplateRef oid="8541b914-e02d-44f0-b1e6-b8e96448a81d" relation="org:default" type="c:ObjectTemplateType"/>
+            <links>
+                <targetLink id="4">
+                    <name>from Employment Role to me</name>
+                    <selector>
+                        <type>c:RoleType</type>
+                        <archetypeRef oid="3e97bf04-93de-486b-a17b-ca686f9c6a68" relation="org:default" type="c:ArchetypeType"/>
+                    </selector>
+                </targetLink>
+                <targetLink id="3338">
+                    <name>from me to Position role</name>
+                    <selector>
+                        <type>c:RoleType</type>
+                        <archetypeRef oid="47374624-553c-4661-b116-d07952900451" relation="org:default" type="c:ArchetypeType"/>
+                    </selector>
+                </targetLink>
+                <targetLink id="3358">
+                    <name>from nickName Role to me</name>
+                    <selector>
+                        <type>c:RoleType</type>
+                        <archetypeRef oid="7f71dcf3-c89d-4e23-930b-215423af3849" relation="org:default" type="c:ArchetypeType"/>
+                    </selector>
+                </targetLink>
+            </links>
+        </archetypePolicy>
+    </apti:object>
