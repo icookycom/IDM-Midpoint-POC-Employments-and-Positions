@@ -12,7 +12,7 @@ Copy folder Docker_POCE_Midpoint_491, to your...its the most difficult part, I d
 To start<br>
 ./Docker_POCE_Midpoint_491/docker compose up -d<br>
 To turn off<br>
-./Docker_POCE_Midpoint_491/docker compose down -v<br>
+./Docker_POCE_Midpoint_491/docker compose down<br>
 Tu turn off and delete any changes<br>
 ./Docker_POCE_Midpoint_491/docker compose down -v<br>
 
