@@ -5,9 +5,9 @@ IDM Midpoint POC Employments and Positions<br>
 
 
 <b>Storytelling</b><br>
-<a href="https://habr.com/ru/articles/897396/">Реализация концепции Сотрудник-Трудоустройство-Назначение на должность в IDM Midpoint par</a><br>
-<a href="https://habr.com/ru/articles/904450/">Реализация концепции Сотрудник-Трудоустройство-Назначение на должность в IDM Midpoint part 2</a><br>
-<a href="https://habr.com/ru/articles/906408/">Реализация концепции Сотрудник-Трудоустройство-Назначение на должность в IDM Midpoint part 3 финальная</a><br>
+<a href="https://habr.com/ru/articles/897396/">1. Obtaining data from the personnel resource, building information links and structure.</a><br>
+<a href="https://habr.com/ru/articles/904450/">2. Assigning roles, creating an AD account, implementing the concepts of Forward Roles and a nickname as a role.</a><br>
+<a href="https://habr.com/ru/articles/906408/">3. Requesting an employee role, requesting a supervisor role for an employee.</a><br>
 <br>
 <b>Files from a configured and working Midpoint 4.9.1</b><br>
 Folder contents:<br>
