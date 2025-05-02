@@ -12,14 +12,14 @@ What will work:<br>
 - Changing an employee's name on main User changes the name in employment, positions, accounts and logins<br>
 - Changing the name of the organization changes the name in employment, positions, accounts<br>
 - AD rights requested for a position are transferred to the employment if the position does not have its own AD account<br>
-- The main User can request rights to their employment and positions<br>
+- The main User can request rights to his employment and positions<br>
 - The boss can request rights to the positions of his subordinates<br>
 <br>
 
 <b>Storytelling</b><br>
 <a href="https://habr.com/ru/articles/897396/">1. Obtaining data from the personnel resource, building information links and structure.</a><br>
 <a href="https://habr.com/ru/articles/904450/">2. Assigning roles, creating an AD account, implementing the concepts of Forward Roles and a nickname as a role.</a><br>
-<a href="https://habr.com/ru/articles/906408/">3. Requesting an employee role, requesting a supervisor role for an employee.</a><br>
+<a href="https://habr.com/ru/articles/906408/">3. Requesting roles by main User to his employments and positions, a supervisor requesting roles for positions of his subordinates.</a><br>
 <br>
 <b>Files from a configured and working Midpoint 4.9.1</b><br>
 Folder contents:<br>
