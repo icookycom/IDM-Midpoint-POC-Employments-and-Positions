@@ -8,7 +8,7 @@ Password: Test5ecr3t<br>
 For the Docker Compose, the Docker environment is required.<br>
 <br>
 <b>Linux</b><br>
-Copy folder Docker_POCE_Midpoint_491.<br>
+Copy folder Docker_POCE_Midpoint_491, to your...its the most difficult part, I dont know hoe to do it!<br>
 To start<br>
 ./Docker_POCE_Midpoint_491/docker compose up -d<br>
 To turn off<br>
