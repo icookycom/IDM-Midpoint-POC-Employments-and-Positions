@@ -32,3 +32,6 @@ Folder contents:<br>
 &emsp;&emsp;&emsp;&emsp;- all files used for CSV connector<br>
 &emsp;&emsp;&emsp;/opt/var/schema<br>
 &emsp;&emsp;&emsp;&emsp;- additional attributes file<br>
+<br>
+<b>Docker</b><br>
+Yes! In here <a href="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker">https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker</a>
