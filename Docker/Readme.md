@@ -4,19 +4,19 @@ http://localhost:8080/midpoint/<br>
 Username: administrator<br>
 Password: Test5ecr3t<br>
 <br>
-ATTENTION: Script ninja.sh provided by Midpoint developers for import export operations does not work now propertly, it does not import systemconfig settings like objectCollectionView.
-So on first start of Midpoint do:<br> 
+ATTENTION: Script ninja.sh provided by Midpoint developers for import/export does not work now propertly, it does not import systemconfig settings like objectCollectionView.
+So on Midpoint first startt do:<br> 
 1. In admin GUI go to CONFIGURATTION/System/Admin GUI Configuration/Edit raw<br>
 And add befor<br>
 &lt;/objectCollectionViews&gt;<br>
 code from this file<br>
-https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/Docker/add_after_run_midpoint_objectcollectionviews.xml<br>
+<a href ="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/Docker/add_after_run_midpoint_objectcollectionviews.xml">./add_after_run_midpoint_objectcollectionviews.xml</a><br>
 2. In admin GUI go to CONFIGURATTION/System/Sistem Configuration/Edit raw<br>
 And add after<br>
 &lt;internals&gt;<br>
 code from this file<br>
-https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/Docker/add_after_run_midpoint_normalsearch.xml<br>
-Go to  CONFIGURATTION/About in press Reindex repository objects<br>
+<a href ="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/Docker/add_after_run_midpoint_normalsearch.xml">./add_after_run_midpoint_normalsearch.xml</a><br>
+Go to  CONFIGURATTION/About and press Reindex repository objects<br>
 
 <br>
 <br>
