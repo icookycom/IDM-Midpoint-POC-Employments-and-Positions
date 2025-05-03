@@ -138,7 +138,7 @@ Folder contents:<br>
 </tr>
 </tbody></table>
 <br>
-- Do not delete data, disable it by putting "disabled" in <b></b>status_poce</b><br>
+- Do not delete lines, disable it by putting "disabled" in <b></b>status_poce</b><br>
 - 
 <br>
 <b>Docker</b><br>
