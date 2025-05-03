@@ -23,7 +23,7 @@ services:
       grep -q \"ERROR\" /tmp/ninja.log && (
       bin/ninja.sh run-sql --create --mode REPOSITORY  ;
       bin/ninja.sh run-sql --create --mode AUDIT	;
-      bin/ninja.sh import -O -i /opt/midpoint/var/POCE_export.zip -z -l 4 -r
+      bin/ninja.sh import -O -i /opt/midpoint/var/poce_export_v2.zip -z -l 4 -r
       ) ||
       echo -e '\\n Repository init is not needed...' ;
       "
@@ -39,7 +39,7 @@ services:
      - net
     volumes:
      - midpoint_home:/opt/midpoint/var
-     - ./poce_data/POCE_export.zip:/opt/midpoint/var/POCE_export.zip
+     - ./poce_data/poce_export_v2.zip:/opt/midpoint/var/poce_export_v2.zip
      
      
 
