@@ -4,7 +4,7 @@ http://localhost:8080/midpoint/<br>
 Username: administrator<br>
 Password: Test5ecr3t<br>
 <br>
-ATTENTION: Script ninja.sh provided by Midpoint developers for import export operations does not work now propertly, it does no import systemconfig settings like objectCollectionView.
+ATTENTION: Script ninja.sh provided by Midpoint developers for import export operations does not work now propertly, it does not import systemconfig settings like objectCollectionView.
 So on first start of Midpoint do:<br> 
 1. In admin GUI go to CONFIGURATTION/System/Admin GUI Configuration/Edit raw<br>
 And add befor<br>
