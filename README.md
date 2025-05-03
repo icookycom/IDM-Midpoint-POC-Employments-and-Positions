@@ -138,5 +138,8 @@ Folder contents:<br>
 </tr>
 </tbody></table>
 <br>
+- Do not delete data, disable it by putting "disabled" in <b></b>status_poce</b><br>
+- 
+<br>
 <b>Docker</b><br>
 Yes! In here <a href="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker">https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker</a>
