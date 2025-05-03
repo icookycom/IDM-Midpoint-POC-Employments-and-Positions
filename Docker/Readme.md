@@ -21,7 +21,7 @@ Go to  CONFIGURATTION/About and press Reindex repository objects<br>
 <br>
 <br>
 <b>Docker Compose</b><br>
-For the Docker Compose, the Docker environment is required.<br>
+For the Docker Compose, the Docker environment is required and Internet connection on first run.<br>
 <br>
 <b>Linux</b><br>
 Copy folder Docker_POCE_Midpoint_491<br>
