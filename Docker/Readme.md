@@ -7,7 +7,7 @@ Password: Test5ecr3t<br>
 ATTENTION: Script ninja.sh made by Evolvium for import export does not work now propertly, it does no import systemconfig settings like objectCollectionView.
 So firts start of Midpoint, in admin GUI go to CONFIGURATTION/System/Admin GUI Configuration/Edit raw<br>
 And add befor<br>
-</objectCollectionViews><br>
+&lt;/objectCollectionViews&gt;<br>
 code from this file<br>
 https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/Docker/add_after_run_midpoint_objectcollectionviews.xml<br>
 <br>
