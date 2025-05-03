@@ -139,7 +139,8 @@ Folder contents:<br>
 </tbody></table>
 <br>
 - Do not delete lines, disable it by putting "disabled" in <b></b>status_poce</b><br>
-- 
+- In department_poce last part of org departments identifier "\DC\EMP001001\DEP10001\DEP10101"<br>
+- In info_03 if position is a manager of department put "manager"<br>
 <br>
 <b>Docker</b><br>
 Yes! In here <a href="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker">https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker</a>
