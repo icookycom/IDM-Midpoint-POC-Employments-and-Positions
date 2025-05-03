@@ -33,5 +33,110 @@ Folder contents:<br>
 &emsp;&emsp;&emsp;/opt/var/schema<br>
 &emsp;&emsp;&emsp;&emsp;- additional attributes file<br>
 <br>
+<b>Data</b><br>
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">number_poce</th>
+<th title="Field #2">type_poce</th>
+<th title="Field #3">main_id</th>
+<th title="Field #4">parent_id</th>
+<th title="Field #5">members_poce</th>
+<th title="Field #6">member_of_poce</th>
+<th title="Field #7">name_poce</th>
+<th title="Field #8">grade_poce</th>
+<th title="Field #9">title_poce</th>
+<th title="Field #10">department_poce</th>
+<th title="Field #11">subordinate_to_poce</th>
+<th title="Field #12">status_poce</th>
+<th title="Field #13">info_01</th>
+<th title="Field #14">info_02</th>
+<th title="Field #15">info_03</th>
+</tr></thead>
+<tbody><tr>
+<td align="right">20</td>
+<td>user</td>
+<td>602021</td>
+<td> </td>
+<td align="right"></td>
+<td>EMP012033,EMP012999</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>active</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">21</td>
+<td>employment</td>
+<td>EMP012033</td>
+<td>EMP001002</td>
+<td align="right">602021</td>
+<td>POS102202</td>
+<td> </td>
+<td> </td>
+<td>Основное</td>
+<td> </td>
+<td> </td>
+<td>active</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">22</td>
+<td>position</td>
+<td>POS102202</td>
+<td>EMP012033</td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Ревизорро</td>
+<td>DEP20101</td>
+<td> </td>
+<td>active</td>
+<td> </td>
+<td> </td>
+<td>default</td>
+</tr>
+<tr>
+<td align="right">23</td>
+<td>position</td>
+<td>POS102303</td>
+<td>EMP002004</td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Главный Идеолог</td>
+<td>DEP20101</td>
+<td> </td>
+<td>active</td>
+<td> </td>
+<td> </td>
+<td>manager</td>
+</tr>
+<tr>
+<td align="right">24</td>
+<td>employment</td>
+<td>EMP012999</td>
+<td>EMP001002</td>
+<td align="right">602021</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Тестовое</td>
+<td> </td>
+<td> </td>
+<td>disabled</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody></table>
+<br>
 <b>Docker</b><br>
 Yes! In here <a href="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker">https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker</a>
