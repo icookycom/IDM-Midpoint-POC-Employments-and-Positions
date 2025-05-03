@@ -16,7 +16,7 @@ And add after<br>
 &lt;internals&gt;<br>
 code from this file<br>
 <a href ="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/Docker/add_after_run_midpoint_normalsearch.xml">./add_after_run_midpoint_normalsearch.xml</a><br>
-Go to  CONFIGURATTION/About and press Reindex repository objects<br>
+In Admin GUI go to CONFIGURATION/About and press Reindex repository objects<br>
 
 <br>
 <br>
