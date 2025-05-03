@@ -1,0 +1,129 @@
+<objectCollectionView>
+                <identifier>Forward_role_view</identifier>
+                <visibility>visible</visibility>
+                <type>c:RoleType</type>
+                <collection>
+                    <collectionRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType">
+                        <!-- POCE Forward Role ArcheType -->
+                    </collectionRef>
+                </collection>
+            </objectCollectionView>
+            <objectCollectionView>
+                <identifier>my-idm-objects</identifier>
+                <display>
+                    <label>My IDM Users</label>
+                    <singularLabel>My IDM User</singularLabel>
+                    <pluralLabel>My IDM Users</pluralLabel>
+                    <icon>
+                        <cssClass>fa fa-compass-drafting</cssClass>
+                    </icon>
+                </display>
+                <visibility>hidden</visibility>
+                <displayOrder>10</displayOrder>
+                <column>
+                    <name>Name</name>
+                    <path>c:name</path>
+                </column>
+                <column>
+                    <name>Full Name</name>
+                    <path>c:fullName</path>
+                    <previousColumn>Co.</previousColumn>
+                </column>
+                <column>
+                    <name>Employment Type</name>
+                    <path xmlns:gen795="http://example.com/xml/ns/mySchema">c:extension/gen795:person_employment_type</path>
+                    <previousColumn>Name</previousColumn>
+                </column>
+                <column>
+                    <name>Co.</name>
+                    <path>c:costCenter</path>
+                    <previousColumn>Employment Type</previousColumn>
+                </column>
+                <type>c:UserType</type>
+                <collection>
+                    <collectionRef oid="1c3bd39e-ed63-11ed-b1ac-0050568cc7f8" relation="org:default" type="c:ObjectCollectionType">
+                        <!-- my-idm-objects-view -->
+                    </collectionRef>
+                </collection>
+            </objectCollectionView>
+            <objectCollectionView>
+                <identifier>Role_catalog_view</identifier>
+                <visibility>visible</visibility>
+                <type>c:OrgType</type>
+                <collection>
+                    <collectionRef oid="cd509999-d455-4852-b2a0-a3da588d9475" relation="org:default" type="c:ArchetypeType">
+                        <!-- POCE Role Catalog ORG ArcheType -->
+                    </collectionRef>
+                </collection>
+            </objectCollectionView>
+            <objectCollectionView>
+                <identifier>Department_catalog_view</identifier>
+                <visibility>visible</visibility>
+                <type>c:OrgType</type>
+                <collection>
+                    <collectionRef oid="7cab0b16-142a-4d37-8b60-9668e95b4b94" relation="org:default" type="c:ArchetypeType">
+                        <!-- POCE Department Catalog ArcheType -->
+                    </collectionRef>
+                </collection>
+            </objectCollectionView>
+            <objectCollectionView>
+                <identifier>my-idm-subordinates</identifier>
+                <display>
+                    <label>My IDM Subordinates</label>
+                    <pluralLabel>My IDM Subordinates</pluralLabel>
+                    <icon>
+                        <cssClass>fa fa-users-cog</cssClass>
+                    </icon>
+                </display>
+                <visibility>hidden</visibility>
+                <displayOrder>100</displayOrder>
+                <column>
+                    <name>Name</name>
+                    <path>c:name</path>
+                </column>
+                <column>
+                    <name>Full Name</name>
+                    <path>c:fullName</path>
+                    <previousColumn>Dep.ID</previousColumn>
+                </column>
+                <column>
+                    <name>Employment Type</name>
+                    <path xmlns:gen795="http://example.com/xml/ns/mySchema">c:extension/gen795:person_employment_type</path>
+                    <previousColumn>Name</previousColumn>
+                </column>
+                <column>
+                    <name>Co.</name>
+                    <path>c:costCenter</path>
+                    <display>
+                        <label>Company</label>
+                    </display>
+                    <previousColumn>Employment Type</previousColumn>
+                </column>
+                <column>
+                    <name>Dep.ID</name>
+                    <path>c:organizationalUnit</path>
+                    <display>
+                        <label>Department</label>
+                    </display>
+                    <previousColumn>Co.</previousColumn>
+                    <export>
+                        <expression>
+                            <script>
+                                <code>import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+orgId = basic.stringify(input)
+query_org = midpoint.queryFor(OrgType.class, "identifier endsWith '$orgId' and archetypeRef matches (oid = '7cab0b16-142a-4d37-8b60-9668e95b4b94') and activation/effectiveStatus!='disabled'") 
+org_respond = midpoint.searchObjects(query_org)
+orgIt = midpoint.getObject(OrgType.class, basic.stringify(org_respond.oid))
+result =  basic.stringify(input) + ":" + basic.stringify(orgIt.displayName)
+return result</code>
+                            </script>
+                        </expression>
+                    </export>
+                </column>
+                <type>c:UserType</type>
+                <collection>
+                    <collectionRef oid="6a23173b-fef8-43a0-9230-11edbaf0ac82" relation="org:default" type="c:ObjectCollectionType">
+                        <!-- pose-all-users-org-default-view -->
+                    </collectionRef>
+                </collection>
+            </objectCollectionView>
