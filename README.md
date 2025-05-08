@@ -143,4 +143,4 @@ Folder contents:<br>
 - In info_03 if position is a manager of department put "manager"<br>
 <br>
 <b>Docker</b><br>
-Yes! In here <a href="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker">https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker</a>
+Yes! In here <a href="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker">IDM-Midpoint-POC-Employments-and-Positions/tree/main/Docker</a>
