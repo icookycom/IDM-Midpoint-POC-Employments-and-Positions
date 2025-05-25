@@ -1,7 +1,7 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="a7e711b3-f8d1-477c-8c9e-95c7fc76c67f" version="8"  xsi:type="c:RoleType">
-        <_metadata id="3">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="e3e77b2c-eea6-4328-8e7b-144e084e7cb1" version="14"  xsi:type="c:RoleType">
+        <_metadata id="2">
             <storage>
-                <createTimestamp>2025-05-02T03:43:24.635Z</createTimestamp>
+                <createTimestamp>2025-05-22T14:08:40.930Z</createTimestamp>
                 <creatorRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -13,7 +13,7 @@
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:TaskType</t:type>
                 </createTaskRef>
-                <modifyTimestamp>2025-05-02T03:44:12.072Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-22T14:24:47.105Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -27,7 +27,7 @@
                 </modifyTaskRef>
             </storage>
             <process>
-                <requestTimestamp>2025-05-02T03:43:24.600Z</requestTimestamp>
+                <requestTimestamp>2025-05-22T14:08:40.909Z</requestTimestamp>
                 <requestorRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -35,20 +35,20 @@
                 </requestorRef>
             </process>
             <provisioning>
-                <lastProvisioningTimestamp>2025-05-02T03:43:24.635Z</lastProvisioningTimestamp>
+                <lastProvisioningTimestamp>2025-05-22T14:08:40.930Z</lastProvisioningTimestamp>
             </provisioning>
         </_metadata>
         <name>EMP012033</name>
-        <extension xmlns:gen137="http://example.com/xml/ns/mySchema">
-            <gen137:user_givenName>Карен</gen137:user_givenName>
-            <gen137:user_familyName>Топо</gen137:user_familyName>
-            <gen137:user_additionalName>Смитовна</gen137:user_additionalName>
-            <gen137:user_personalNumber>602021</gen137:user_personalNumber>
-            <gen137:user_administrativeStatus>ENABLED</gen137:user_administrativeStatus>
+        <extension xmlns:gen606="http://example.com/xml/ns/mySchema">
+            <gen606:user_givenName>Карен</gen606:user_givenName>
+            <gen606:user_familyName>Топо</gen606:user_familyName>
+            <gen606:user_additionalName>Смитовна</gen606:user_additionalName>
+            <gen606:user_personalNumber>602021</gen606:user_personalNumber>
+            <gen606:user_administrativeStatus>ENABLED</gen606:user_administrativeStatus>
         </extension>
-        <operationExecution id="15">
+        <operationExecution id="9">
             <recordType>simple</recordType>
-            <timestamp>2025-05-02T03:43:24.711Z</timestamp>
+            <timestamp>2025-05-22T14:08:40.995Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>add</t:changeType>
@@ -58,7 +58,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000016612</token>
+                    <token>1000000000000069951</token>
                 </executionResult>
                 <objectName>EMP012033</objectName>
             </operation>
@@ -71,7 +71,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.linkShadow</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000016613</token>
+                    <token>1000000000000069952</token>
                 </executionResult>
                 <objectName>EMP012033</objectName>
                 <resourceOid>a566cbe6-1abf-4314-8263-9901bd83d8b1</resourceOid>
@@ -86,7 +86,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000016614</token>
+                    <token>1000000000000069953</token>
                 </executionResult>
                 <objectName>EMP012033</objectName>
             </operation>
@@ -98,9 +98,9 @@
             </activityPath>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
         </operationExecution>
-        <operationExecution id="16">
+        <operationExecution id="10">
             <recordType>simple</recordType>
-            <timestamp>2025-05-02T03:43:34.355Z</timestamp>
+            <timestamp>2025-05-22T14:08:54.025Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -110,7 +110,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000018568</token>
+                    <token>1000000000000072773</token>
                 </executionResult>
                 <objectName>EMP012033</objectName>
             </operation>
@@ -122,9 +122,9 @@
             </activityPath>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
         </operationExecution>
-        <operationExecution id="19">
+        <operationExecution id="20">
             <recordType>simple</recordType>
-            <timestamp>2025-05-02T03:44:12.552Z</timestamp>
+            <timestamp>2025-05-22T14:24:47.758Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -134,7 +134,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000024448</token>
+                    <token>1000000000000147943</token>
                 </executionResult>
                 <objectName>EMP012033</objectName>
             </operation>
@@ -147,7 +147,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000024449</token>
+                    <token>1000000000000147944</token>
                 </executionResult>
                 <objectName>EMP012033</objectName>
             </operation>
@@ -159,11 +159,38 @@
             </activityPath>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</channel>
         </operationExecution>
+        <operationExecution id="21">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:04.602Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:48.775Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="23">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:22.134Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
         <indestructible>true</indestructible>
         <assignment id="1">
-            <_metadata id="4">
+            <_metadata id="3">
                 <storage>
-                    <createTimestamp>2025-05-02T03:43:24.635Z</createTimestamp>
+                    <createTimestamp>2025-05-22T14:08:40.930Z</createTimestamp>
                     <creatorRef>
                         <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                         <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -177,7 +204,7 @@
                     </createTaskRef>
                 </storage>
                 <process>
-                    <requestTimestamp>2025-05-02T03:43:24.600Z</requestTimestamp>
+                    <requestTimestamp>2025-05-22T14:08:40.909Z</requestTimestamp>
                     <requestorRef>
                         <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                         <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -190,10 +217,10 @@
                 <effectiveStatus>enabled</effectiveStatus>
             </activation>
         </assignment>
-        <assignment id="2">
-            <_metadata id="5">
+        <assignment id="14">
+            <_metadata id="15">
                 <storage>
-                    <createTimestamp>2025-05-02T03:43:24.635Z</createTimestamp>
+                    <createTimestamp>2025-05-22T14:24:47.067Z</createTimestamp>
                     <creatorRef>
                         <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                         <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -201,13 +228,13 @@
                     </creatorRef>
                     <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#reconciliation</createChannel>
                     <createTaskRef>
-                        <t:oid>ec520e16-502b-42a8-8acd-3a96afe63c59</t:oid>
+                        <t:oid>a67878e0-cf6b-49c4-a8c4-a3ea5c65b17d</t:oid>
                         <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
                         <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:TaskType</t:type>
                     </createTaskRef>
                 </storage>
                 <process>
-                    <requestTimestamp>2025-05-02T03:43:24.600Z</requestTimestamp>
+                    <requestTimestamp>2025-05-22T14:24:47.029Z</requestTimestamp>
                     <requestorRef>
                         <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                         <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -224,7 +251,7 @@
                     </mappingSpecification>
                 </provenance>
             </_metadata>
-            <targetRef oid="9fad33eb-d7cb-4aea-a828-835665d6ce9b" relation="org:default" type="c:RoleType"/>
+            <targetRef oid="17e83a58-2961-4a0c-b98f-86317107d0f6" relation="org:default" type="c:RoleType"/>
             <activation>
                 <effectiveStatus>enabled</effectiveStatus>
             </activation>
@@ -232,18 +259,18 @@
         <iteration>0</iteration>
         <iterationToken/>
         <archetypeRef oid="3e97bf04-93de-486b-a17b-ca686f9c6a68" relation="org:default" type="c:ArchetypeType"/>
-        <roleMembershipRef oid="9fad33eb-d7cb-4aea-a828-835665d6ce9b" relation="org:default" type="c:RoleType">
-            <_metadata id="13">
+        <roleMembershipRef oid="17e83a58-2961-4a0c-b98f-86317107d0f6" relation="org:default" type="c:RoleType">
+            <_metadata id="16">
                 <storage>
-                    <createTimestamp>2025-05-02T03:43:24.635Z</createTimestamp>
+                    <createTimestamp>2025-05-22T14:24:47.063Z</createTimestamp>
                 </storage>
                 <provenance>
                     <assignmentPath>
-                        <sourceRef oid="a7e711b3-f8d1-477c-8c9e-95c7fc76c67f" relation="org:default" type="c:RoleType"/>
-                        <segment id="14">
+                        <sourceRef oid="e3e77b2c-eea6-4328-8e7b-144e084e7cb1" relation="org:default" type="c:RoleType"/>
+                        <segment id="17">
                             <segmentOrder>1</segmentOrder>
-                            <assignmentId>2</assignmentId>
-                            <targetRef oid="9fad33eb-d7cb-4aea-a828-835665d6ce9b" relation="org:default" type="c:RoleType"/>
+                            <assignmentId>14</assignmentId>
+                            <targetRef oid="17e83a58-2961-4a0c-b98f-86317107d0f6" relation="org:default" type="c:RoleType"/>
                             <matchingOrder>true</matchingOrder>
                         </segment>
                     </assignmentPath>
@@ -251,14 +278,14 @@
             </_metadata>
         </roleMembershipRef>
         <roleMembershipRef oid="3e97bf04-93de-486b-a17b-ca686f9c6a68" relation="org:default" type="c:ArchetypeType">
-            <_metadata id="11">
+            <_metadata id="18">
                 <storage>
-                    <createTimestamp>2025-05-02T03:43:24.635Z</createTimestamp>
+                    <createTimestamp>2025-05-22T14:08:40.930Z</createTimestamp>
                 </storage>
                 <provenance>
                     <assignmentPath>
-                        <sourceRef oid="a7e711b3-f8d1-477c-8c9e-95c7fc76c67f" relation="org:default" type="c:RoleType"/>
-                        <segment id="12">
+                        <sourceRef oid="e3e77b2c-eea6-4328-8e7b-144e084e7cb1" relation="org:default" type="c:RoleType"/>
+                        <segment id="19">
                             <segmentOrder>1</segmentOrder>
                             <assignmentId>1</assignmentId>
                             <targetRef oid="3e97bf04-93de-486b-a17b-ca686f9c6a68" relation="org:default" type="c:ArchetypeType"/>
@@ -268,17 +295,17 @@
                 </provenance>
             </_metadata>
         </roleMembershipRef>
-        <linkRef oid="7ba83b9d-88b1-4549-86d6-89c9b2150973" relation="org:default" type="c:ShadowType"/>
+        <linkRef oid="3d0fb49c-346d-4d8e-8431-7ab4987d1bad" relation="org:default" type="c:ShadowType"/>
         <activation>
             <effectiveStatus>enabled</effectiveStatus>
-            <enableTimestamp>2025-05-02T03:43:24.600Z</enableTimestamp>
+            <enableTimestamp>2025-05-22T14:08:40.909Z</enableTimestamp>
         </activation>
         <costCenter>ООО "ДОС"</costCenter>
         <locality>EMP001002</locality>
         <displayName>EMP012033@ООО "ДОС"[FUN.OBJ DND]</displayName>
         <identifier>EMP012033</identifier>
-        <inducement id="17">
-            <_metadata id="18">
+        <inducement id="11">
+            <_metadata id="12">
                 <provenance>
                     <mappingSpecification>
                         <definitionObjectRef>

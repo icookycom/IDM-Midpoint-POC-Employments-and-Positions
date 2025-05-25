@@ -1,0 +1,114 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="bd3bc6a4-7318-4ef1-9599-cf61aae14434" version="7"  xsi:type="c:RoleType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-05-16T04:45:55.977Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-16T04:45:55.925Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCP GUI all new view</name>
+        <operationExecution id="2">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-16T04:45:56.021Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000013795</token>
+                </executionResult>
+                <objectName>POCP GUI all new view</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="10">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:03.777Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:48.000Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="12">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:21.247Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-05-16T04:45:55.938Z</enableTimestamp>
+        </activation>
+        <adminGuiConfiguration>
+            <objectCollectionViews>
+                <objectCollectionView id="3">
+                    <identifier>my-projects-view</identifier>
+                    <visibility>visible</visibility>
+                    <type>RoleType</type>
+                </objectCollectionView>
+                <objectCollectionView id="4">
+                    <identifier>Forward_role_view</identifier>
+                    <visibility>visible</visibility>
+                    <type>RoleType</type>
+                </objectCollectionView>
+                <objectCollectionView id="5">
+                    <identifier>my-idm-objects</identifier>
+                    <visibility>visible</visibility>
+                    <type>UserType</type>
+                </objectCollectionView>
+                <objectCollectionView id="6">
+                    <identifier>Role_catalog_view</identifier>
+                    <visibility>visible</visibility>
+                    <type>OrgType</type>
+                </objectCollectionView>
+                <objectCollectionView id="7">
+                    <identifier>Department_catalog_view</identifier>
+                    <visibility>visible</visibility>
+                    <type>OrgType</type>
+                </objectCollectionView>
+                <objectCollectionView id="8">
+                    <identifier>my-idm-subordinates</identifier>
+                    <visibility>visible</visibility>
+                    <type>UserType</type>
+                </objectCollectionView>
+                <objectCollectionView id="9">
+                    <identifier>my-company-roles</identifier>
+                    <visibility>visible</visibility>
+                    <type>RoleType</type>
+                </objectCollectionView>
+            </objectCollectionViews>
+        </adminGuiConfiguration>
+    </apti:object>

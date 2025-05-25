@@ -1,0 +1,237 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="e781c75e-17bb-45d5-910f-426b22ef37cf" version="112"  xsi:type="c:RoleType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-03-24T09:48:41.217Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-05-16T12:37:28.324Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-15T05:31:00.123Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCP Policy: Project Project Role only for User with Project Role</name>
+        <operationExecution id="29">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-15T08:21:15.403Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000101933</token>
+                </executionResult>
+                <objectName>POCP Policy: Project Role only for User with Project Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="30">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-15T08:21:57.146Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000103389</token>
+                </executionResult>
+                <objectName>POCP Policy: Project Role only for User with Project Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="32">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-15T08:23:00.335Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000104923</token>
+                </executionResult>
+                <objectName>POCP Policy: Project Role only for User with Project Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="34">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-15T08:24:09.716Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000105957</token>
+                </executionResult>
+                <objectName>POCP Policy: Project Role only for User with Project Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="35">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-16T12:37:28.346Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000197249</token>
+                </executionResult>
+                <objectName>POCP Policy: Project Project Role only for User with Project Role</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="36">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:04.829Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="37">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:48.921Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="38">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:22.403Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-05-15T05:31:00.170Z</enableTimestamp>
+        </activation>
+        <inducement id="2">
+            <policyRule>
+                <name>Member must have </name>
+                <policyConstraints>
+                    <assignmentState id="7">
+                        <expression>
+                            <script>
+                                <code>import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+import com.evolveum.midpoint.prism.delta.builder.*
+import com.evolveum.midpoint.model.api.*
+
+assignmentsToDelete = []
+boolean yes = false
+boolean yes_my = false
+
+user_oid = focus.getOid()
+role_oid = target.getOid()
+
+user = midpoint.getObject(UserType.class, user_oid)
+role = midpoint.getObject(RoleType.class, role_oid)
+role_f = basic.stringify(basic.getExtensionPropertyValue(role, "http://example.com/xml/ns/mySchema", "user_personalNumber"))
+query_role_depend = midpoint.queryFor(RoleType.class, "name = '$role_f' and archetypeRef matches (oid = '49952180-49a0-4884-a8d1-5e1a50f26fa1')") 
+role_depend = midpoint.searchObjects(query_role_depend)
+                               
+for (i in user.assignment) {
+
+if (i.targetRef?.oid == basic.stringify(role_depend.oid)) 
+{ yes = true 
+}
+if (i.targetRef?.oid == basic.stringify(role_oid)) 
+{ yes_my = true 
+
+def removeAssignment = new AssignmentType()
+removeAssignment.id = i.id
+assignmentsToDelete.add removeAssignment.asPrismContainerValue()
+
+}
+ }
+ 
+ if (yes &amp;&amp; !yes_my)
+ {log.info "AAAAAAAAAAAAAAA: OK to assign " + role.name
+ return false}
+ else
+ {if (!yes &amp;&amp; !yes_my)
+ {log.info "AAAAAAAAAAAAAAA: No root project " + role_f
+return true
+ }else{
+ 
+ if (yes &amp;&amp; yes_my){
+ log.info "AAAAAAAAAAAAAAA: OK i have " + role.name + " and " + role_f
+
+ return false
+ }else{log.info "AAAAAAAAAAAAAAA: Must unassign " + role.name
+delta_un = prismContext.deltaFor(UserType.class).item(UserType.F_ASSIGNMENT).delete(assignmentsToDelete).asObjectDelta(user_oid)
+midpoint.modifyObject(delta_un, ModelExecuteOptions.createRaw())
+midpoint.recompute(UserType, basic.stringify(user_oid))
+ return false}
+ }
+ }
+ 
+ </code>
+                            </script>
+                        </expression>
+                        <messageExpression/>
+                    </assignmentState>
+                </policyConstraints>
+                <policyActions>
+                    <enforcement>
+                        <name>Enf</name>
+                    </enforcement>
+                    <suspendTask/>
+                </policyActions>
+                <evaluationTarget>assignment</evaluationTarget>
+            </policyRule>
+        </inducement>
+    </apti:object>

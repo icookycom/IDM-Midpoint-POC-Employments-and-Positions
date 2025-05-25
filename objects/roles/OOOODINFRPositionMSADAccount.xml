@@ -1,4 +1,4 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="252d86e5-e81f-43fc-a24f-fd2b0aa03548" version="26"  xsi:type="c:RoleType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="252d86e5-e81f-43fc-a24f-fd2b0aa03548" version="35"  xsi:type="c:RoleType">
         <_metadata id="4">
             <storage>
                 <createTimestamp>2025-04-03T05:23:11.817Z</createTimestamp>
@@ -28,10 +28,10 @@
         <name>OOO ODIN FR: Position MS AD Account</name>
         <description>Creates Persona User for Position MS AD Account from Position User
 and FR</description>
-        <extension xmlns:gen137="http://example.com/xml/ns/mySchema">
-            <gen137:user_employment_parent>EMP001001</gen137:user_employment_parent>
-            <gen137:role_purpose_type>Position</gen137:role_purpose_type>
-            <gen137:role_root_system>NICKNAME</gen137:role_root_system>
+        <extension xmlns:gen606="http://example.com/xml/ns/mySchema">
+            <gen606:user_employment_parent>EMP001001</gen606:user_employment_parent>
+            <gen606:role_purpose_type>Position</gen606:role_purpose_type>
+            <gen606:role_root_system>NICKNAME</gen606:role_root_system>
         </extension>
         <parentOrgRef oid="6158e5b9-3f0b-4c95-b9df-3b7f17a398e1" relation="org:default" type="c:OrgType"/>
         <operationExecution id="146">
@@ -134,12 +134,48 @@ and FR</description>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="163">
+        <operationExecution id="168">
             <recordType>complex</recordType>
-            <timestamp>2025-04-16T12:18:53.590Z</timestamp>
+            <timestamp>2025-05-13T08:48:05.989Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="169">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:40.056Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="170">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:28:58.553Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="171">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:43.163Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="172">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:15.257Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
@@ -286,24 +322,6 @@ and FR</description>
         <iteration>0</iteration>
         <iterationToken/>
         <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
-        <roleMembershipRef oid="8e4b4ea4-22b7-4b09-98ce-aa8fd5ace849" relation="org:default" type="c:RoleType">
-            <_metadata id="160">
-                <storage>
-                    <createTimestamp>2025-04-03T05:23:11.807Z</createTimestamp>
-                </storage>
-                <provenance>
-                    <assignmentPath>
-                        <sourceRef oid="252d86e5-e81f-43fc-a24f-fd2b0aa03548" relation="org:default" type="c:RoleType"/>
-                        <segment id="161">
-                            <segmentOrder>1</segmentOrder>
-                            <assignmentId>3</assignmentId>
-                            <targetRef oid="8e4b4ea4-22b7-4b09-98ce-aa8fd5ace849" relation="org:default" type="c:RoleType"/>
-                            <matchingOrder>true</matchingOrder>
-                        </segment>
-                    </assignmentPath>
-                </provenance>
-            </_metadata>
-        </roleMembershipRef>
         <roleMembershipRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType">
             <_metadata id="154">
                 <storage>
@@ -316,6 +334,24 @@ and FR</description>
                             <segmentOrder>1</segmentOrder>
                             <assignmentId>1</assignmentId>
                             <targetRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+                            <matchingOrder>true</matchingOrder>
+                        </segment>
+                    </assignmentPath>
+                </provenance>
+            </_metadata>
+        </roleMembershipRef>
+        <roleMembershipRef oid="6158e5b9-3f0b-4c95-b9df-3b7f17a398e1" relation="org:default" type="c:OrgType">
+            <_metadata id="156">
+                <storage>
+                    <createTimestamp>2025-04-15T06:59:20.484Z</createTimestamp>
+                </storage>
+                <provenance>
+                    <assignmentPath>
+                        <sourceRef oid="252d86e5-e81f-43fc-a24f-fd2b0aa03548" relation="org:default" type="c:RoleType"/>
+                        <segment id="157">
+                            <segmentOrder>1</segmentOrder>
+                            <assignmentId>152</assignmentId>
+                            <targetRef oid="6158e5b9-3f0b-4c95-b9df-3b7f17a398e1" relation="org:default" type="c:OrgType"/>
                             <matchingOrder>true</matchingOrder>
                         </segment>
                     </assignmentPath>
@@ -340,18 +376,18 @@ and FR</description>
                 </provenance>
             </_metadata>
         </roleMembershipRef>
-        <roleMembershipRef oid="6158e5b9-3f0b-4c95-b9df-3b7f17a398e1" relation="org:default" type="c:OrgType">
-            <_metadata id="156">
+        <roleMembershipRef oid="8e4b4ea4-22b7-4b09-98ce-aa8fd5ace849" relation="org:default" type="c:RoleType">
+            <_metadata id="160">
                 <storage>
-                    <createTimestamp>2025-04-15T06:59:20.484Z</createTimestamp>
+                    <createTimestamp>2025-04-03T05:23:11.807Z</createTimestamp>
                 </storage>
                 <provenance>
                     <assignmentPath>
                         <sourceRef oid="252d86e5-e81f-43fc-a24f-fd2b0aa03548" relation="org:default" type="c:RoleType"/>
-                        <segment id="157">
+                        <segment id="161">
                             <segmentOrder>1</segmentOrder>
-                            <assignmentId>152</assignmentId>
-                            <targetRef oid="6158e5b9-3f0b-4c95-b9df-3b7f17a398e1" relation="org:default" type="c:OrgType"/>
+                            <assignmentId>3</assignmentId>
+                            <targetRef oid="8e4b4ea4-22b7-4b09-98ce-aa8fd5ace849" relation="org:default" type="c:RoleType"/>
                             <matchingOrder>true</matchingOrder>
                         </segment>
                     </assignmentPath>

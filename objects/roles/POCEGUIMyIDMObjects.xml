@@ -1,4 +1,4 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467" version="271"  xsi:type="c:RoleType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="dc435ebd-4ee0-480b-a8a3-ff3c9e6ea467" version="325"  xsi:type="c:RoleType">
         <_metadata id="1">
             <storage>
                 <createTimestamp>2025-04-07T07:54:19.346Z</createTimestamp>
@@ -8,7 +8,7 @@
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-04-23T06:08:04.730Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-23T07:50:33.717Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -26,29 +26,9 @@
             </process>
         </_metadata>
         <name>POCE GUI My IDM Objects</name>
-        <operationExecution id="2">
+        <operationExecution id="6660015">
             <recordType>simple</recordType>
-            <timestamp>2025-04-07T07:54:19.370Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>add</t:changeType>
-                    <t:objectType>c:RoleType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000379758</token>
-                </executionResult>
-                <objectName>POCE GUI My IDM Objects</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="1233528">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-16T09:59:05.817Z</timestamp>
+            <timestamp>2025-05-13T07:01:38.941Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -58,7 +38,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000101875</token>
+                    <token>1000000000000012835</token>
                 </executionResult>
                 <objectName>POCE GUI My IDM Objects</objectName>
             </operation>
@@ -66,9 +46,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1233529">
+        <operationExecution id="6660016">
             <recordType>simple</recordType>
-            <timestamp>2025-04-16T10:00:02.136Z</timestamp>
+            <timestamp>2025-05-13T07:09:40.592Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -78,7 +58,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000108887</token>
+                    <token>1000000000000039693</token>
                 </executionResult>
                 <objectName>POCE GUI My IDM Objects</objectName>
             </operation>
@@ -86,18 +66,56 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1233530">
+        <operationExecution id="6660018">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-13T07:14:22.021Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000051068</token>
+                </executionResult>
+                <objectName>POCE GUI My IDM Objects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6660019">
             <recordType>complex</recordType>
-            <timestamp>2025-04-16T12:24:19.036Z</timestamp>
+            <timestamp>2025-05-13T08:48:12.719Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="6660003">
+        <operationExecution id="6660020">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:46.991Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6660021">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:04.497Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6660022">
             <recordType>simple</recordType>
-            <timestamp>2025-04-23T06:08:04.791Z</timestamp>
+            <timestamp>2025-05-23T03:25:18.756Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -107,12 +125,50 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000029623</token>
+                    <token>1000000000000063182</token>
                 </executionResult>
                 <objectName>POCE GUI My IDM Objects</objectName>
             </operation>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6660023">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:48.626Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6660025">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-23T07:50:33.749Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000082191</token>
+                </executionResult>
+                <objectName>POCE GUI My IDM Objects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="6660026">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:22.020Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
         <iteration>0</iteration>
@@ -121,7 +177,7 @@
             <effectiveStatus>enabled</effectiveStatus>
             <enableTimestamp>2025-04-07T07:54:19.329Z</enableTimestamp>
         </activation>
-        <inducement id="6660002">
+        <inducement id="6660024">
             <targetRef oid="ba1ea07d-c0a6-4cdb-8160-77e627a09603" relation="org:default" type="c:RoleType"/>
         </inducement>
         <authorization id="3">
@@ -258,8 +314,9 @@ POCE idm object Users
         </authorization>
         <authorization id="55510">
             <name>operation-with-my-nickName-role</name>
-            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
             <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>execution</phase>
             <object id="3">
                 <type>RoleType</type>
                 <archetypeRef oid="7f71dcf3-c89d-4e23-930b-215423af3849" relation="org:default" type="c:ArchetypeType"/>
@@ -278,6 +335,18 @@ POCE idm object Users
             <object id="3">
                 <type>OrgType</type>
                 <archetypeRef oid="cd509999-d455-4852-b2a0-a3da588d9475" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+        </authorization>
+        <authorization id="55511">
+            <name>operation-with-my-nickName-role</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>request</phase>
+            <object id="3">
+                <type>RoleType</type>
+                <archetypeRef oid="7f71dcf3-c89d-4e23-930b-215423af3849" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_personalNumber = `actor.personalNumber`</q:text>
+                </filter>
             </object>
         </authorization>
         <adminGuiConfiguration>
@@ -403,19 +472,9 @@ POCE idm object Users
                         </display>
                         <collection>
                             <filter>
-                                <q:text>personalNumber = `actor.personalNumber` and archetypeRef matches (oid = "441f8e23-33cd-41f2-bbb6-beea20feeaee") and activation/effectiveStatus!="disabled"</q:text>
+                                <q:text>personalNumber = `actor.personalNumber` and archetypeRef matches (oid = '441f8e23-33cd-41f2-bbb6-beea20feeaee') and activation/effectiveStatus != 'disabled'</q:text>
                             </filter>
                         </collection>
-                        <autocompleteConfiguration>
-                            <displayExpression>
-                                <script>
-                                    <code>
-                                    return "My Employment: " + object.fullName
-                                </code>
-                                </script>
-                            </displayExpression>
-                            <autocompleteMinChars>1</autocompleteMinChars>
-                        </autocompleteConfiguration>
                     </group>
                     <group id="17657">
                         <identifier>my-positions</identifier>
@@ -430,16 +489,6 @@ POCE idm object Users
                                 <q:text>personalNumber = `actor.personalNumber` and archetypeRef matches (oid = "0d1b1269-0011-49e6-b9f1-e62e7827dfed") and activation/effectiveStatus!="disabled"</q:text>
                             </filter>
                         </collection>
-                        <autocompleteConfiguration>
-                            <displayExpression>
-                                <script>
-                                    <code>
-                                    return "My Employment: " + object.fullName
-                                </code>
-                                </script>
-                            </displayExpression>
-                            <autocompleteMinChars>1</autocompleteMinChars>
-                        </autocompleteConfiguration>
                     </group>
                     <group id="17658">
                         <identifier>my-subordinates</identifier>
@@ -451,19 +500,23 @@ POCE idm object Users
                         </display>
                         <collection>
                             <filter>
-                                <q:text>assignment/targetRef matches (relation = org:default and @ matches (name startsWith "DC:")) and personalNumber != `actor.personalNumber`  and activation/effectiveStatus != "disabled"</q:text>
+                                <q:text>extension/person_boss contains `actor.personalNumber` and activation/effectiveStatus != 'disabled' and archetypeRef matches (oid = '0d1b1269-0011-49e6-b9f1-e62e7827dfed')</q:text>
                             </filter>
                         </collection>
-                        <autocompleteConfiguration>
-                            <displayExpression>
-                                <script>
-                                    <code>
-                                    return "My Subordinates: " + object.fullName
-                                </code>
-                                </script>
-                            </displayExpression>
-                            <autocompleteMinChars>1</autocompleteMinChars>
-                        </autocompleteConfiguration>
+                    </group>
+                    <group id="17659">
+                        <identifier>my-projects</identifier>
+                        <display>
+                            <label>My Projects</label>
+                            <icon>
+                                <cssClass>fa fa-briefcase-clock</cssClass>
+                            </icon>
+                        </display>
+                        <collection>
+                            <filter>
+                                <q:text>extension/person_boss contains `actor.personalNumber` and archetypeRef matches (oid = 'c2523d38-76ed-43bc-9e73-5158ed225042')</q:text>
+                            </filter>
+                        </collection>
                     </group>
                 </targetSelection>
                 <relationSelection>

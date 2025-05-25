@@ -1,4 +1,4 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="891532cb-88e3-41dd-bb76-59b773b96eff" version="13"  xsi:type="c:RoleType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="891532cb-88e3-41dd-bb76-59b773b96eff" version="54"  xsi:type="c:RoleType">
         <_metadata id="1">
             <storage>
                 <createTimestamp>2025-03-26T07:07:48.463Z</createTimestamp>
@@ -8,7 +8,7 @@
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-04-25T05:29:05.285Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-23T04:02:52.978Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -27,29 +27,28 @@
         </_metadata>
         <name>POCE Policy: Assign  ORG to  another user if</name>
         <extension/>
-        <operationExecution id="12">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-25T05:04:45.411Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>add</t:changeType>
-                    <t:objectType>c:RoleType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000001054</token>
-                </executionResult>
-                <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
-            </operation>
+        <lifecycleState>archived</lifecycleState>
+        <operationExecution id="163">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:48:09.638Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="13">
+        <operationExecution id="164">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:43.990Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="175">
             <recordType>simple</recordType>
-            <timestamp>2025-04-25T05:27:47.432Z</timestamp>
+            <timestamp>2025-05-13T09:19:39.662Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -59,7 +58,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000008841</token>
+                    <token>1000000000000029355</token>
                 </executionResult>
                 <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
             </operation>
@@ -67,9 +66,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="16">
+        <operationExecution id="177">
             <recordType>simple</recordType>
-            <timestamp>2025-04-25T05:29:05.322Z</timestamp>
+            <timestamp>2025-05-13T09:20:07.932Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -79,32 +78,118 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000009402</token>
+                    <token>1000000000000029842</token>
                 </executionResult>
                 <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
             </operation>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="178">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-13T09:20:55.243Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000031162</token>
+                </executionResult>
+                <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="180">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-13T09:21:36.935Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000032010</token>
+                </executionResult>
+                <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="181">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:01.571Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="182">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:46.090Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="183">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-23T04:02:52.993Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000004307</token>
+                </executionResult>
+                <objectName>POCE Policy: Assign  ORG to  another user if</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="184">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:18.901Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
         <iteration>0</iteration>
         <iterationToken/>
         <activation>
-            <effectiveStatus>enabled</effectiveStatus>
+            <effectiveStatus>disabled</effectiveStatus>
+            <disableTimestamp>2025-05-23T04:02:52.964Z</disableTimestamp>
             <enableTimestamp>2025-04-25T05:04:45.164Z</enableTimestamp>
         </activation>
         <inducement id="9">
             <policyRule>
                 <name>Script</name>
                 <policyConstraints>
-                    <or id="14">
-                        <modification id="15">
-                            <name>Name 2</name>
-                            <item>c:activation/c:effectiveStatus</item>
+                    <or id="166">
+                        <modification id="167">
+                            <item xmlns:gen110="http://example.com/xml/ns/mySchema">c:extension/gen110:person_you_are_boss</item>
                         </modification>
-                        <modification id="152">
-                            <name>Name 1</name>
-                            <item>c:extension/c:person_you_are_boss</item>
+                        <modification id="179">
+                            <item>c:activation/c:effectiveStatus</item>
                         </modification>
                     </or>
                 </policyConstraints>
@@ -148,6 +233,7 @@ user_isboss = basic.stringify(basic.getExtensionPropertyValue(input, "http://exa
 user_organizationalUnit = basic.stringify(input.organizationalUnit)
 user_status = basic.stringify(input.activation.effectiveStatus)
 
+log.info "SSSSSSSSSSSSSStart:"
 
 if (user_isboss == 'true' &amp;&amp;  user_organizationalUnit &amp;&amp; user_status != "DISABLED")
 {
@@ -163,6 +249,7 @@ if (target_user)
 
 query_org_for_ass = midpoint.queryFor(OrgType.class, "identifier endsWith '$user_organizationalUnit' and archetypeRef matches (oid = '7cab0b16-142a-4d37-8b60-9668e95b4b94') and activation/effectiveStatus!='disabled'") 
 org_for_ass = midpoint.searchObjects(query_org_for_ass)
+
 log.info "Data:" + org_for_ass
 
 
@@ -223,6 +310,7 @@ midpoint.recompute(UserType, basic.stringify(target_user.oid))
                                 </s:action>
                             </s:pipeline>
                         </executeScript>
+                        <privileges/>
                     </scriptExecution>
                 </policyActions>
             </policyRule>

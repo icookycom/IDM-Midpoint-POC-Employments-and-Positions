@@ -1,0 +1,379 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="4b92e145-06d7-4cf5-82ee-a2f7e74a5efd" version="182"  xsi:type="c:RoleType">
+        <_metadata id="1">
+            <storage>
+                <createTimestamp>2025-05-12T07:12:46.776Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-12T07:12:46.713Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>POCP GUI Project Manager</name>
+        <operationExecution id="2">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-12T07:12:46.797Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:RoleType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000010397</token>
+                </executionResult>
+                <objectName>POCP GUI Project Manager</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233537">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:48:07.350Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233538">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:41.640Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233539">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:28:59.850Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233540">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:44.453Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1233541">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:17.040Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <activation>
+            <effectiveStatus>enabled</effectiveStatus>
+            <enableTimestamp>2025-05-12T07:12:46.727Z</enableTimestamp>
+        </activation>
+        <authorization id="2">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="7">
+                <type>RoleType</type>
+                <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>
+     extension/user_boss contains `actor.personalNumber`
+        </q:text>
+                </filter>
+            </object>
+        </authorization>
+        <authorization id="3">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <phase>request</phase>
+            <object id="7">
+                <type>RoleType</type>
+                <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>
+     extension/user_boss contains `actor.personalNumber`
+        </q:text>
+                </filter>
+            </object>
+            <item>assignment</item>
+            <item>extension/user_boss</item>
+            <item>roleMembershipRef</item>
+            <item>documentation</item>
+            <item>description</item>
+            <item>identifier</item>
+            <item>extension/user_employment_parent</item>
+            <item>extension/role_active</item>
+        </authorization>
+        <authorization id="4">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <phase>execution</phase>
+            <object id="7">
+                <type>RoleType</type>
+                <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>
+     extension/user_boss contains `actor.personalNumber`
+        </q:text>
+                </filter>
+            </object>
+        </authorization>
+        <authorization id="5">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>execution</phase>
+            <object id="7">
+                <type>RoleType</type>
+                <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+        </authorization>
+        <authorization id="1">
+            <name>to see Roles folder</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#rolesView</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#role</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#roleDetails</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-bulk-3#recompute</action>
+        </authorization>
+        <authorization id="6">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>request</phase>
+            <object id="7">
+                <type>RoleType</type>
+                <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+            <item>documentation</item>
+            <item>description</item>
+            <item>assignment</item>
+            <item>identifier</item>
+            <item>extension/user_employment_parent</item>
+            <item>extension/role_active</item>
+        </authorization>
+        <authorization id="31">
+            <name>create-usr-project-from-role-project</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>execution</phase>
+            <object id="1233534">
+                <type>UserType</type>
+                <archetypeRef oid="c2523d38-76ed-43bc-9e73-5158ed225042" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+        </authorization>
+        <authorization id="20">
+            <name>assign-project-role-to-project-user</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#assign</action>
+            <object id="1768">
+                <type>UserType</type>
+                <archetypeRef oid="c2523d38-76ed-43bc-9e73-5158ed225042" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/person_boss contains `actor.personalNumber` and activation/effectiveStatus != 'disabled'"</q:text>
+                </filter>
+            </object>
+            <target id="1">
+                <type>RoleType</type>
+                <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/role_purpose_type = 'Project' or extension/role_purpose_type = 'Positions and Projects'</q:text>
+                </filter>
+            </target>
+            <relation>org:default</relation>
+        </authorization>
+        <authorization id="21">
+            <name>pocp-read-user-project</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="1768">
+                <type>UserType</type>
+                <archetypeRef oid="c2523d38-76ed-43bc-9e73-5158ed225042" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/person_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+            <item>assignment</item>
+            <item>name</item>
+            <item>fullName</item>
+            <item>costCenter</item>
+            <item>roleMembershipRef</item>
+            <item>organization</item>
+        </authorization>
+        <authorization id="23">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#delete</action>
+            <phase>execution</phase>
+            <object id="1768">
+                <type>UserType</type>
+                <archetypeRef oid="c2523d38-76ed-43bc-9e73-5158ed225042" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/person_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+        </authorization>
+        <authorization id="1765">
+            <name>assign-project-roles-to-subordinates</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#assign</action>
+            <target id="1">
+                <type>RoleType</type>
+                <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_boss contains `actor.personalNumber` and extension/role_active != false</q:text>
+                </filter>
+            </target>
+            <relation>org:default</relation>
+        </authorization>
+        <authorization id="555">
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#adminUnassignMember</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-ui-3#adminUnassign</action>
+        </authorization>
+        <authorization id="556">
+            <name>unassign-project-roles-from-subordinates</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#unassign</action>
+            <object id="1768">
+                <orgRelation>
+                    <subjectRelation>org:manager</subjectRelation>
+                    <scope>allDescendants</scope>
+                    <includeReferenceOrg>false</includeReferenceOrg>
+                </orgRelation>
+            </object>
+            <target id="1">
+                <type>RoleType</type>
+                <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </target>
+            <relation>org:default</relation>
+        </authorization>
+        <authorization id="600">
+            <name>unassign-project-roles-from-project-user</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#unassign</action>
+            <object id="1768">
+                <type>UserType</type>
+                <archetypeRef oid="c2523d38-76ed-43bc-9e73-5158ed225042" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/person_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+            <target id="1">
+                <type>RoleType</type>
+                <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/role_purpose_type = 'Project' or extension/role_purpose_type = 'Positions and Projects'</q:text>
+                </filter>
+            </target>
+            <relation>org:default</relation>
+        </authorization>
+        <authorization id="77700">
+            <name>operation-with-personal-forward-roles-for-project</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#delete</action>
+            <phase>execution</phase>
+            <object id="3">
+                <type>RoleType</type>
+                <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+        </authorization>
+        <authorization id="77701">
+            <name>operation-ad-group-roles-for-project</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#modify</action>
+            <phase>execution</phase>
+            <object id="3">
+                <type>RoleType</type>
+                <archetypeRef oid="e9eda47b-b097-4814-9605-7177a2482fa1" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+        </authorization>
+        <authorization id="77703">
+            <name>read-roles</name>
+            <description>
+            For POCP Policy: Project Project Role only for User with Project Role could work under GUI User
+        </description>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="3">
+                <type>RoleType</type>
+                <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+            </object>
+            <item>extension/user_personalNumber</item>
+        </authorization>
+        <authorization id="3325">
+            <name>poce-shadow-read</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="32325">
+                <type>ShadowType</type>
+                <owner>
+                    <type>RoleType</type>
+                    <archetypeRef oid="e9eda47b-b097-4814-9605-7177a2482fa1" relation="org:default" type="c:ArchetypeType"/>
+                    <filter>
+                        <q:text>extension/user_boss contains `actor.personalNumber`</q:text>
+                    </filter>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="11">
+            <name>poce-shadow-execution-add-modify-delete</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>execution</phase>
+            <object id="3325">
+                <type>ShadowType</type>
+                <owner>
+                    <type>RoleType</type>
+                    <archetypeRef oid="e9eda47b-b097-4814-9605-7177a2482fa1" relation="org:default" type="c:ArchetypeType"/>
+                    <filter>
+                        <q:text>extension/user_boss contains `actor.personalNumber`</q:text>
+                    </filter>
+                </owner>
+            </object>
+        </authorization>
+        <authorization id="77707">
+            <name>operation-ad-group-roles-for-project</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#add</action>
+            <phase>request</phase>
+            <object id="3">
+                <type>RoleType</type>
+                <archetypeRef oid="e9eda47b-b097-4814-9605-7177a2482fa1" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+        </authorization>
+        <authorization id="77702">
+            <name>read-personal-forward-roles-for-project</name>
+            <action>http://midpoint.evolveum.com/xml/ns/public/security/authorization-model-3#read</action>
+            <object id="3">
+                <type>RoleType</type>
+                <archetypeRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType"/>
+                <filter>
+                    <q:text>extension/user_boss contains `actor.personalNumber`</q:text>
+                </filter>
+            </object>
+        </authorization>
+        <adminGuiConfiguration>
+            <objectCollectionViews>
+                <objectCollectionView id="1760">
+                    <identifier>my-projects-view</identifier>
+                    <visibility>visible</visibility>
+                    <type>RoleType</type>
+                </objectCollectionView>
+            </objectCollectionViews>
+        </adminGuiConfiguration>
+    </apti:object>
