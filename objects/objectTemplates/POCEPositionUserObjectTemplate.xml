@@ -1,4 +1,4 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="9af76493-714f-41e6-9864-34eb5ea469ea" version="71"  xsi:type="c:ObjectTemplateType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="9af76493-714f-41e6-9864-34eb5ea469ea" version="93"  xsi:type="c:ObjectTemplateType">
         <_metadata id="1">
             <storage>
                 <createTimestamp>2025-03-14T09:53:08.787Z</createTimestamp>
@@ -8,7 +8,7 @@
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-04-25T05:50:25.076Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-23T05:37:07.077Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -26,82 +26,6 @@
             </process>
         </_metadata>
         <name>POCE Position User Object Template</name>
-        <operationExecution id="10">
-            <recordType>complex</recordType>
-            <timestamp>2025-03-26T07:06:29.804Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="4a297939-0496-47e5-a5a3-cb40f81a7d6f" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="11">
-            <recordType>complex</recordType>
-            <timestamp>2025-04-02T06:20:38.050Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="13">
-            <recordType>complex</recordType>
-            <timestamp>2025-04-02T10:39:02.273Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="19">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-03T06:17:51.723Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ObjectTemplateType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000101150</token>
-                </executionResult>
-                <objectName>POCE Position User Object Template</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="20">
-            <recordType>complex</recordType>
-            <timestamp>2025-04-16T12:21:53.563Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="101">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-22T09:51:58.910Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ObjectTemplateType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000219028</token>
-                </executionResult>
-                <objectName>POCE Position User Object Template</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
         <operationExecution id="104">
             <recordType>simple</recordType>
             <timestamp>2025-04-22T09:55:02.878Z</timestamp>
@@ -160,6 +84,91 @@
             </operation>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22229">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:48:10.268Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22230">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:44.603Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22231">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:02.224Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22232">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:46.673Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22234">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-23T05:35:10.086Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000005443</token>
+                </executionResult>
+                <objectName>POCE Position User Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22235">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-23T05:37:07.118Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ObjectTemplateType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000006109</token>
+                </executionResult>
+                <objectName>POCE Position User Object Template</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="22236">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:19.512Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
         <iteration>0</iteration>
@@ -247,6 +256,9 @@ if (i.startsWith("NICKNAME|EMP001001|Position MS AD Account|"))
                 <source>
                     <path xmlns:gen671="http://example.com/xml/ns/mySchema">c:extension/gen671:person_forward_roles</path>
                 </source>
+                <source>
+                    <path>extension/person_boss</path>
+                </source>
                 <expression>
                     <assignmentTargetSearch>
                         <targetType>RoleType</targetType>
@@ -293,6 +305,16 @@ if (i.startsWith("NICKNAME|EMP001001|Position MS AD Account|"))
                                 </expression>
                                 <target>
                                     <path>extension/user_additionalName</path>
+                                </target>
+                            </populateItem>
+                            <populateItem>
+                                <expression>
+                                    <script>
+                                        <code>person_boss</code>
+                                    </script>
+                                </expression>
+                                <target>
+                                    <path>extension/user_boss</path>
                                 </target>
                             </populateItem>
                             <populateItem>
@@ -349,7 +371,7 @@ return false
         </item>
         <item id="22221">
             <ref>assignment</ref>
-            <displayName>Assignment to Department Org as Manager</displayName>
+            <displayName>Assignment to Department Org as (Manager) NO as default</displayName>
             <mapping id="9">
                 <name>NameName</name>
                 <source>
@@ -365,7 +387,7 @@ return false
                             <q:text>name endsWith $organizationalUnit and archetypeRef matches (oid = "7cab0b16-142a-4d37-8b60-9668e95b4b94")</q:text>
                         </filter>
                         <assignmentProperties xsi:type="c:AssignmentPropertiesSpecificationType">
-                            <relation>manager</relation>
+                            <relation>default</relation>
                         </assignmentProperties>
                     </assignmentTargetSearch>
                 </expression>
@@ -449,6 +471,40 @@ else
             </expression>
             <target>
                 <path>fullName</path>
+            </target>
+        </mapping>
+        <mapping id="22233">
+            <name>02</name>
+            <source>
+                <path>c:organization</path>
+            </source>
+            <source>
+                <path>c:organizationalUnit</path>
+            </source>
+            <source>
+                <path>c:personalNumber</path>
+            </source>
+            <source>
+                <path>extension/person_employment_parent</path>
+            </source>
+            <source>
+                <path>extension/person_you_are_boss</path>
+            </source>
+            <source>
+                <path>c:name</path>
+            </source>
+            <expression>
+                <script>
+                    <code>
+                   if (person_you_are_boss)
+                   {
+                   return "DEPARTMENT|" + organization  + "|" + organizationalUnit + "|" + name + "|" + person_employment_parent + "|" + personalNumber + "|manager"}
+                   else
+                   {return "DEPARTMENT|" + organization  + "|" + organizationalUnit + "|" + name + "|" + person_employment_parent + "|" + personalNumber + "|default"}</code>
+                </script>
+            </expression>
+            <target>
+                <path xmlns:gen170="http://example.com/xml/ns/mySchema">c:extension/gen170:person_forward_roles</path>
             </target>
         </mapping>
     </apti:object>

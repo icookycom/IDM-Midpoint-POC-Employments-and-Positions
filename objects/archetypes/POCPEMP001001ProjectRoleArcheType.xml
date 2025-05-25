@@ -1,14 +1,14 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="f44dc355-31d3-499b-9854-e0ae277a60dc" version="46"  xsi:type="c:ArchetypeType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" version="101"  xsi:type="c:ArchetypeType">
         <_metadata id="1">
             <storage>
-                <createTimestamp>2025-03-15T04:11:21.819Z</createTimestamp>
+                <createTimestamp>2025-05-08T11:32:33.358Z</createTimestamp>
                 <creatorRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-05-09T05:40:04.375Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-14T10:08:59.186Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -17,7 +17,7 @@
                 <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
             </storage>
             <process>
-                <requestTimestamp>2025-03-15T04:11:21.646Z</requestTimestamp>
+                <requestTimestamp>2025-05-08T11:32:33.312Z</requestTimestamp>
                 <requestorRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -25,146 +25,146 @@
                 </requestorRef>
             </process>
         </_metadata>
-        <name>POCE Company Role ArcheType</name>
-        <operationExecution id="39">
-            <recordType>simple</recordType>
-            <timestamp>2025-03-15T05:17:39.651Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ArchetypeType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000070454</token>
-                </executionResult>
-                <objectName>POCE Company Role ArcheType</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="41">
-            <recordType>simple</recordType>
-            <timestamp>2025-03-15T05:18:30.367Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ArchetypeType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000071001</token>
-                </executionResult>
-                <objectName>POCE Company Role ArcheType</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="42">
-            <recordType>simple</recordType>
-            <timestamp>2025-03-15T05:18:44.575Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ArchetypeType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000071522</token>
-                </executionResult>
-                <objectName>POCE Company Role ArcheType</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="44">
-            <recordType>simple</recordType>
-            <timestamp>2025-03-15T05:19:19.597Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ArchetypeType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000071959</token>
-                </executionResult>
-                <objectName>POCE Company Role ArcheType</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="52">
-            <recordType>simple</recordType>
-            <timestamp>2025-05-09T05:40:04.417Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ArchetypeType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000017446</token>
-                </executionResult>
-                <objectName>POCE Company Role ArcheType</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="55">
+        <name>POCP EMP001001 Project Role ArcheType</name>
+        <operationExecution id="1237">
             <recordType>complex</recordType>
-            <timestamp>2025-05-13T08:48:13.536Z</timestamp>
+            <timestamp>2025-05-13T08:48:07.302Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="56">
+        <operationExecution id="1238">
             <recordType>complex</recordType>
-            <timestamp>2025-05-13T08:52:47.767Z</timestamp>
+            <timestamp>2025-05-13T08:52:41.584Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="57">
+        <operationExecution id="1264">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-14T10:01:29.032Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000166399</token>
+                </executionResult>
+                <objectName>POCP EMP001001 Project Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1265">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-14T10:02:16.367Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000167561</token>
+                </executionResult>
+                <objectName>POCP EMP001001 Project Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1266">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-14T10:03:26.620Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000168677</token>
+                </executionResult>
+                <objectName>POCP EMP001001 Project Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1267">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-14T10:03:55.660Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000169662</token>
+                </executionResult>
+                <objectName>POCP EMP001001 Project Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1268">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-14T10:08:59.210Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000171427</token>
+                </executionResult>
+                <objectName>POCP EMP001001 Project Role ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2223">
             <recordType>complex</recordType>
-            <timestamp>2025-05-22T15:29:05.066Z</timestamp>
+            <timestamp>2025-05-22T15:28:59.792Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="58">
+        <operationExecution id="2224">
             <recordType>complex</recordType>
-            <timestamp>2025-05-23T03:58:49.146Z</timestamp>
+            <timestamp>2025-05-23T03:58:44.392Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="59">
+        <operationExecution id="2225">
             <recordType>complex</recordType>
-            <timestamp>2025-05-23T09:05:22.710Z</timestamp>
+            <timestamp>2025-05-23T09:05:16.976Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
@@ -184,93 +184,145 @@
         <iterationToken/>
         <activation>
             <effectiveStatus>enabled</effectiveStatus>
-            <enableTimestamp>2025-03-15T04:11:21.686Z</enableTimestamp>
+            <enableTimestamp>2025-05-08T11:32:33.336Z</enableTimestamp>
         </activation>
-        <inducement id="12">
-            <policyRule>
-                <name>Recompute Employment Role on displayname change</name>
-                <policyConstraints>
-                    <or id="13">
-                        <modification id="14">
-                            <item>
-                                <_value>c:displayName</_value>
-                                <_metadata id="26">
-                                    <provenance>
-                                        <acquisition id="27">
-                                            <actorRef>
-                                                <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
-                                                <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
-                                                <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
-                                            </actorRef>
-                                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-                                            <timestamp>2025-03-15T04:35:58.170Z</timestamp>
-                                        </acquisition>
-                                    </provenance>
-                                </_metadata>
-                            </item>
-                        </modification>
-                    </or>
-                </policyConstraints>
-                <policyActions>
-                    <scriptExecution id="16">
-                        <object>
-                            <linkSource id="40">
-                                <name>Company to Employment</name>
-                            </linkSource>
-                        </object>
-                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
-                            <s:recompute/>
-                        </executeScript>
-                    </scriptExecution>
-                </policyActions>
-            </policyRule>
+        <inducement id="18">
+            <focusMappings>
+                <mapping id="7">
+                    <name>to costCenter</name>
+                    <documentation>displayName from Company Role</documentation>
+                    <authoritative>false</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <code>
+linkedDATA = midpoint.findLinkedTarget('from Company to Project')
+return linkedDATA.displayName
+                        </code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>costCenter</path>
+                    </target>
+                    <condition>
+                        <script>
+                            <code>linkedDATA = midpoint.findLinkedTarget('from Company to Project')
+                        if (basic.isEmpty(linkedDATA))
+                        {return false}
+                        else{return !basic.isEmpty(linkedDATA.displayName)}</code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
         </inducement>
-        <inducement id="13">
+        <inducement id="1226">
+            <focusMappings>
+                <mapping id="7">
+                    <name>11</name>
+                    <documentation>get Forward Roles from Project user</documentation>
+                    <authoritative>true</authoritative>
+                    <strength>strong</strength>
+                    <source>
+                        <path xmlns:gen851="http://example.com/xml/ns/mySchema">c:extension/gen851:role_active</path>
+                    </source>
+                    <expression>
+                        <script>
+                            <code>linkedDATA = midpoint.findLinkedSource('from Project User to me')
+if (basic.isEmpty(linkedDATA))
+{return "NO CONNECTION"}             
+else               
+{
+roles_result = []  
+roles = basic.getExtensionPropertyValues(linkedDATA, "http://example.com/xml/ns/mySchema", "person_forward_roles")
+
+for (i in roles)
+{
+if (!i.startsWith("ROLE|"))
+{roles_result.add(i)}
+}
+
+return roles_result 
+
+}</code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>$focus/extension/user_forward_roles</path>
+                        <set>
+                            <predefined>all</predefined>
+                        </set>
+                    </target>
+                    <condition>
+                        <script>
+                            <code>role_active</code>
+                        </script>
+                    </condition>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="1234">
             <policyRule>
-                <name>Recompute Project Role on displayname change</name>
+                <name>Recompute Users Position</name>
                 <policyConstraints>
                     <or id="13">
-                        <modification id="14">
-                            <item>c:displayName</item>
+                        <modification id="22">
+                            <item xmlns:gen365="http://example.com/xml/ns/mySchema">c:extension/gen365:user_forward_roles</item>
+                        </modification>
+                        <modification id="2222">
+                            <item xmlns:gen365="http://example.com/xml/ns/mySchema">c:extension/gen365:role_active</item>
                         </modification>
                     </or>
                 </policyConstraints>
                 <policyActions>
                     <scriptExecution id="16">
                         <object>
-                            <linkSource id="40">
-                                <name>Company to Project</name>
+                            <linkSource id="131">
+                                <name>from Position User to me</name>
                             </linkSource>
                         </object>
                         <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
                             <s:recompute/>
                         </executeScript>
+                        <privileges>
+                            <runPrivileged>true</runPrivileged>
+                        </privileges>
                     </scriptExecution>
                 </policyActions>
             </policyRule>
         </inducement>
         <archetypePolicy>
             <display>
+                <label>Project EMP001001</label>
+                <singularLabel>Project EMP001001</singularLabel>
+                <pluralLabel>Projects EMP001001</pluralLabel>
                 <icon>
-                    <cssClass>fa fa-city</cssClass>
+                    <cssClass>fa fa-briefcase-clock</cssClass>
                     <color>#d88222</color>
                 </icon>
             </display>
+            <objectTemplateRef oid="8640b699-e697-4044-8c41-33073d49ed38" relation="org:default" type="c:ObjectTemplateType"/>
             <links>
-                <sourceLink id="43">
-                    <name>Company to Employment</name>
+                <sourceLink id="36">
+                    <name>from Project User to me</name>
                     <selector>
-                        <type>c:RoleType</type>
-                        <archetypeRef oid="3e97bf04-93de-486b-a17b-ca686f9c6a68" relation="org:default" type="c:ArchetypeType"/>
+                        <type>c:UserType</type>
+                        <archetypeRef oid="c2523d38-76ed-43bc-9e73-5158ed225042" relation="org:default" type="c:ArchetypeType"/>
                     </selector>
                 </sourceLink>
-                <sourceLink id="51">
-                    <name>Company to Project</name>
+                <sourceLink id="1227">
+                    <name>from Position User to me</name>
                     <selector>
                         <type>c:RoleType</type>
-                        <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
+                        <archetypeRef oid="0d1b1269-0011-49e6-b9f1-e62e7827dfed" relation="org:default" type="c:ArchetypeType"/>
                     </selector>
                 </sourceLink>
+                <targetLink id="16">
+                    <name>from Company to Project</name>
+                    <selector>
+                        <type>c:RoleType</type>
+                        <archetypeRef oid="f44dc355-31d3-499b-9854-e0ae277a60dc" relation="org:default" type="c:ArchetypeType"/>
+                    </selector>
+                </targetLink>
             </links>
         </archetypePolicy>
     </apti:object>

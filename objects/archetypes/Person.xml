@@ -1,9 +1,9 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="00000000-0000-0000-0000-000000000702" version="146"  xsi:type="c:ArchetypeType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="00000000-0000-0000-0000-000000000702" version="220"  xsi:type="c:ArchetypeType">
         <_metadata id="3">
             <storage>
                 <createTimestamp>2024-11-08T07:43:56.234Z</createTimestamp>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#init</createChannel>
-                <modifyTimestamp>2025-04-17T09:43:28.053Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-16T06:51:27.671Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -17,45 +17,27 @@
         </_metadata>
         <name>Person</name>
         <description>POCE modified Archetype for person users.</description>
-        <operationExecution id="16">
+        <operationExecution id="1793">
             <recordType>complex</recordType>
-            <timestamp>2025-03-07T07:36:42.171Z</timestamp>
+            <timestamp>2025-05-13T08:48:02.743Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="b97d7896-f40d-4f70-b1d7-00f08b3b8019" relation="org:default" type="c:TaskType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="180">
+        <operationExecution id="1794">
             <recordType>complex</recordType>
-            <timestamp>2025-03-26T07:03:19.395Z</timestamp>
+            <timestamp>2025-05-13T08:52:36.794Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="4a297939-0496-47e5-a5a3-cb40f81a7d6f" relation="org:default" type="c:TaskType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1737">
-            <recordType>complex</recordType>
-            <timestamp>2025-04-02T06:17:04.616Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="d4bf6ef4-1268-4556-aeea-e9df67842985" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="1742">
-            <recordType>complex</recordType>
-            <timestamp>2025-04-02T10:35:06.401Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="ed821526-c7c4-43eb-ab28-69f991a146cc" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="1778">
+        <operationExecution id="1000000000041">
             <recordType>simple</recordType>
-            <timestamp>2025-04-15T07:47:11.782Z</timestamp>
+            <timestamp>2025-05-16T06:46:44.950Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -65,7 +47,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000182513</token>
+                    <token>1000000000000026275</token>
                 </executionResult>
                 <objectName>Person</objectName>
             </operation>
@@ -73,9 +55,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1779">
+        <operationExecution id="1000000000042">
             <recordType>simple</recordType>
-            <timestamp>2025-04-16T09:48:45.048Z</timestamp>
+            <timestamp>2025-05-16T06:48:26.025Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -85,7 +67,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000093177</token>
+                    <token>1000000000000028065</token>
                 </executionResult>
                 <objectName>Person</objectName>
             </operation>
@@ -93,9 +75,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1785">
+        <operationExecution id="1000000000045">
             <recordType>simple</recordType>
-            <timestamp>2025-04-16T09:49:15.271Z</timestamp>
+            <timestamp>2025-05-16T06:49:06.425Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -105,7 +87,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000093871</token>
+                    <token>1000000000000029472</token>
                 </executionResult>
                 <objectName>Person</objectName>
             </operation>
@@ -113,9 +95,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1786">
+        <operationExecution id="1000000000048">
             <recordType>simple</recordType>
-            <timestamp>2025-04-16T09:51:36.935Z</timestamp>
+            <timestamp>2025-05-16T06:50:05.696Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -125,7 +107,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000095901</token>
+                    <token>1000000000000030645</token>
                 </executionResult>
                 <objectName>Person</objectName>
             </operation>
@@ -133,33 +115,51 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1787">
+        <operationExecution id="1000000000049">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-16T06:51:27.698Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000032967</token>
+                </executionResult>
+                <objectName>Person</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1000000000050">
             <recordType>complex</recordType>
-            <timestamp>2025-04-16T12:17:54.322Z</timestamp>
+            <timestamp>2025-05-22T15:28:55.569Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1788">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-17T09:43:28.074Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ArchetypeType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000266196</token>
-                </executionResult>
-                <objectName>Person</objectName>
-            </operation>
+        <operationExecution id="1000000000051">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:40.358Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1000000000052">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:11.789Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
         <assignment id="1">
@@ -278,6 +278,73 @@
         </inducement>
         <inducement id="1777">
             <targetRef oid="8ae75673-e3b5-4905-8fe8-101eb1770e52" relation="org:default" type="c:RoleType"/>
+        </inducement>
+        <inducement id="999999999999">
+            <policyRule>
+                <name>TEST unassign project roles for project on unassign project role</name>
+                <policyConstraints>
+                    <modification id="1000000000022">
+                        <name>ass</name>
+                        <item>
+                            <_value>c:assignment</_value>
+                            <_metadata id="1000000000043">
+                                <provenance>
+                                    <acquisition id="1000000000044">
+                                        <actorRef>
+                                            <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                                        </actorRef>
+                                        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                                        <timestamp>2025-05-16T06:49:06.362Z</timestamp>
+                                    </acquisition>
+                                </provenance>
+                            </_metadata>
+                        </item>
+                    </modification>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="178">
+                        <object>
+                            <currentObject>
+                                <type>c:RoleType</type>
+                            </currentObject>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <s:pipeline list="true">
+                                <s:action>
+                                    <s:type>execute-script</s:type>
+                                    <s:parameter>
+                                        <s:name>script</s:name>
+                                        <s:value>
+                                            <code>
+import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+import com.evolveum.midpoint.prism.delta.builder.*
+import com.evolveum.midpoint.model.api.*
+
+
+                               user_oid = focus.getOid()
+                               role_oid = input.getOid()
+
+
+
+
+log.info "UUUUUUUUU" + user_oid 
+log.info "RRRRRRRRRR"  + role_oid
+
+
+
+
+</code>
+                                        </s:value>
+                                    </s:parameter>
+                                </s:action>
+                            </s:pipeline>
+                        </executeScript>
+                        <privileges/>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
         </inducement>
         <archetypePolicy>
             <display>

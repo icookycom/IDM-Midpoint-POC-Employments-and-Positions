@@ -1,4 +1,4 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="7cab0b16-142a-4d37-8b60-9668e95b4b94" version="10"  xsi:type="c:ArchetypeType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="7cab0b16-142a-4d37-8b60-9668e95b4b94" version="48"  xsi:type="c:ArchetypeType">
         <_metadata id="1">
             <storage>
                 <createTimestamp>2025-04-22T08:32:30.457Z</createTimestamp>
@@ -8,7 +8,7 @@
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-04-22T09:04:09.529Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-23T07:46:21.112Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -26,29 +26,45 @@
             </process>
         </_metadata>
         <name>POCE Department Catalog ArcheType</name>
-        <operationExecution id="2">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-22T08:32:30.481Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>add</t:changeType>
-                    <t:objectType>c:ArchetypeType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000169891</token>
-                </executionResult>
-                <objectName>Poce Department Catalog ArcheType</objectName>
-            </operation>
+        <operationExecution id="12">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:48:09.076Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="3">
+        <operationExecution id="13">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:43.419Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="14">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:01.074Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="15">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:45.641Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1227">
             <recordType>simple</recordType>
-            <timestamp>2025-04-22T08:32:40.553Z</timestamp>
+            <timestamp>2025-05-23T06:21:21.750Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -58,7 +74,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000170250</token>
+                    <token>1000000000000027611</token>
                 </executionResult>
                 <objectName>POCE Department Catalog ArcheType</objectName>
             </operation>
@@ -66,9 +82,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="5">
+        <operationExecution id="1230">
             <recordType>simple</recordType>
-            <timestamp>2025-04-22T08:35:06.623Z</timestamp>
+            <timestamp>2025-05-23T06:22:12.770Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -78,7 +94,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000177853</token>
+                    <token>1000000000000028145</token>
                 </executionResult>
                 <objectName>POCE Department Catalog ArcheType</objectName>
             </operation>
@@ -86,9 +102,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="6">
+        <operationExecution id="1231">
             <recordType>simple</recordType>
-            <timestamp>2025-04-22T08:40:05.805Z</timestamp>
+            <timestamp>2025-05-23T06:27:28.188Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -98,7 +114,7 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000182277</token>
+                    <token>1000000000000031398</token>
                 </executionResult>
                 <objectName>POCE Department Catalog ArcheType</objectName>
             </operation>
@@ -106,9 +122,9 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="7">
+        <operationExecution id="1237">
             <recordType>simple</recordType>
-            <timestamp>2025-04-22T09:04:09.547Z</timestamp>
+            <timestamp>2025-05-23T07:45:37.027Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -118,12 +134,41 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000190789</token>
+                    <token>1000000000000073549</token>
                 </executionResult>
                 <objectName>POCE Department Catalog ArcheType</objectName>
             </operation>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1240">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-23T07:46:21.144Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ArchetypeType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000074879</token>
+                </executionResult>
+                <objectName>POCE Department Catalog ArcheType</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1241">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:18.439Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
         <assignment id="1">
@@ -141,6 +186,73 @@
             <effectiveStatus>enabled</effectiveStatus>
             <enableTimestamp>2025-04-22T08:32:30.405Z</enableTimestamp>
         </activation>
+        <inducement id="1226">
+            <focusMappings>
+                <mapping id="7">
+                    <name>001</name>
+                    <documentation>get from user Forward Roles the department manager</documentation>
+                    <authoritative>true</authoritative>
+                    <strength>strong</strength>
+                    <expression>
+                        <script>
+                            <code>
+ user_froles = midpoint.findLinkedSources('from Project User to Org Dep').collect { basic.getExtensionPropertyValues(it, "http://example.com/xml/ns/mySchema", "person_forward_roles")}
+result = []
+for (i in user_froles)
+{
+for (ii in i)
+{
+if (ii.startsWith("DEPARTMENT|"))
+{
+iii = ii.tokenize( '|' )
+if (iii[6] == "manager")
+{
+result.add(iii[5])}
+
+log.info "AAAAAAAAAAAAAA " + result
+}
+}
+
+}
+
+return result
+</code>
+                        </script>
+                    </expression>
+                    <target>
+                        <path>$focus/extension/org_boss</path>
+                        <set>
+                            <predefined>all</predefined>
+                        </set>
+                    </target>
+                </mapping>
+            </focusMappings>
+        </inducement>
+        <inducement id="1234">
+            <policyRule>
+                <name>Recompute Users Position</name>
+                <policyConstraints>
+                    <or id="13">
+                        <modification id="22">
+                            <item xmlns:gen369="http://example.com/xml/ns/mySchema">c:extension/gen369:org_boss</item>
+                        </modification>
+                    </or>
+                </policyConstraints>
+                <policyActions>
+                    <scriptExecution id="16">
+                        <object>
+                            <linkSource id="131">
+                                <name>from Project User to Org Dep</name>
+                            </linkSource>
+                        </object>
+                        <executeScript xmlns:s="http://midpoint.evolveum.com/xml/ns/public/model/scripting-3">
+                            <s:recompute/>
+                        </executeScript>
+                        <privileges/>
+                    </scriptExecution>
+                </policyActions>
+            </policyRule>
+        </inducement>
         <archetypePolicy>
             <display>
                 <label>Department Catalogs</label>
@@ -149,5 +261,14 @@
                     <color>#14aed8</color>
                 </icon>
             </display>
+            <links>
+                <sourceLink id="16">
+                    <name>from Project User to Org Dep</name>
+                    <selector>
+                        <type>c:UserType</type>
+                        <archetypeRef oid="0d1b1269-0011-49e6-b9f1-e62e7827dfed" relation="org:default" type="c:ArchetypeType"/>
+                    </selector>
+                </sourceLink>
+            </links>
         </archetypePolicy>
     </apti:object>

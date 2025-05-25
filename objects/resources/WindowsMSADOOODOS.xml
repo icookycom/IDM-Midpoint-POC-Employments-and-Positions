@@ -1,4 +1,4 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="19e2df96-b110-4af2-957c-6db3c50ce7ec" version="22"  xsi:type="c:ResourceType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="19e2df96-b110-4af2-957c-6db3c50ce7ec" version="40"  xsi:type="c:ResourceType">
         <_metadata id="1">
             <storage>
                 <createTimestamp>2024-11-17T11:32:05.066Z</createTimestamp>
@@ -8,7 +8,7 @@
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-04-15T06:14:14.503Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-08T06:48:55.614Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -27,87 +27,7 @@
         </_metadata>
         <name>Windows MS AD OOO DOS</name>
         <description>Copy of Windows MS AD OOO ODIN</description>
-        <lifecycleState>active</lifecycleState>
-        <operationExecution id="11739">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-15T06:07:27.212Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ResourceType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000033603</token>
-                </executionResult>
-                <objectName>Windows MS AD OOO DOS</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="11740">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-15T06:08:14.538Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ResourceType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000037048</token>
-                </executionResult>
-                <objectName>Windows MS AD OOO DOS</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="11741">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-15T06:11:11.581Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ResourceType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000042738</token>
-                </executionResult>
-                <objectName>Windows MS AD OOO DOS</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="11744">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-15T06:11:52.874Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:ResourceType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000045536</token>
-                </executionResult>
-                <objectName>Windows MS AD OOO DOS</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
+        <lifecycleState>draft</lifecycleState>
         <operationExecution id="11745">
             <recordType>simple</recordType>
             <timestamp>2025-04-15T06:14:14.654Z</timestamp>
@@ -128,12 +48,128 @@
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="11746">
-            <recordType>complex</recordType>
-            <timestamp>2025-04-16T12:18:36.564Z</timestamp>
+        <operationExecution id="11747">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-02T13:15:32.466Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000291576</token>
+                </executionResult>
+                <objectName>Windows MS AD OOO DOS</objectName>
+            </operation>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="17fbdfff-3d29-47a5-842d-9a3d28d52c4c" relation="org:default" type="c:TaskType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11748">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-02T13:22:42.298Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000299856</token>
+                </executionResult>
+                <objectName>Windows MS AD OOO DOS</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11750">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-03T04:09:19.894Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000003911</token>
+                </executionResult>
+                <objectName>Windows MS AD OOO DOS</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11752">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-08T06:48:55.786Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:ResourceType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000004279</token>
+                </executionResult>
+                <objectName>Windows MS AD OOO DOS</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11755">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:48:05.410Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11756">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:39.360Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11757">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:28:58.060Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11758">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:42.627Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="11759">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:14.590Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
@@ -151,26 +187,13 @@
             <timestamp>2025-04-15T06:02:52.176Z</timestamp>
             <nodeId>DefaultNode</nodeId>
         </operationalStateHistory>
-        <connectorRef oid="d0ff2d8b-27c8-424e-8cb6-4a01d713a6bb" relation="org:default" type="c:ConnectorType"/>
+        <connectorRef oid="b95413a9-aab1-417f-a465-6c4b58688609" relation="org:default" type="c:ConnectorType"/>
         <connectorConfiguration xmlns:icfc="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/connector-schema-3">
             <icfc:configurationProperties xmlns:cfg="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/bundle/com.evolveum.polygon.connector-ldap/com.evolveum.polygon.connector.ldap.ad.AdLdapConnector">
                 <cfg:host>192.168.1.168</cfg:host>
                 <cfg:port>636</cfg:port>
                 <cfg:connectionSecurity>ssl</cfg:connectionSecurity>
                 <cfg:bindDn>cn=midpoint,cn=Users,dc=168testserverhome,dc=com</cfg:bindDn>
-                <cfg:bindPassword>
-                    <t:encryptedData>
-                        <t:encryptionMethod>
-                            <t:algorithm>http://www.w3.org/2001/04/xmlenc#aes256-cbc</t:algorithm>
-                        </t:encryptionMethod>
-                        <t:keyInfo>
-                            <t:keyName>rvl4H8QKIsY0SH/sI+iGBUj5dqs=</t:keyName>
-                        </t:keyInfo>
-                        <t:cipherData>
-                            <t:cipherValue>yn/J9vVixJ2NgwdvWKYAI+WnQadsx54FtaMf0/FzDOQ=</t:cipherValue>
-                        </t:cipherData>
-                    </t:encryptedData>
-                </cfg:bindPassword>
                 <cfg:baseContext>OU=OOO_DOS,DC=168testserverhome,DC=com</cfg:baseContext>
             </icfc:configurationProperties>
         </connectorConfiguration>
@@ -12111,6 +12134,7 @@
                 <kind>account</kind>
                 <intent>intent  MS AD account OOO DOS</intent>
                 <displayName>MS AD account OOO DOS</displayName>
+                <lifecycleState>draft</lifecycleState>
                 <default>true</default>
                 <delineation>
                     <objectClass>ri:user</objectClass>
@@ -12428,6 +12452,15 @@ else
                         </outbound>
                     </password>
                 </credentials>
+                <caching>
+                    <cachingStrategy>passive</cachingStrategy>
+                    <scope>
+                        <attributes>all</attributes>
+                        <associations>none</associations>
+                    </scope>
+                    <timeToLive>P1D</timeToLive>
+                    <defaultCacheUse>useCachedOrFresh</defaultCacheUse>
+                </caching>
                 <correlation>
                     <correlators>
                         <items id="11626">
@@ -12512,6 +12545,15 @@ else
                         </target>
                     </inbound>
                 </attribute>
+                <caching>
+                    <cachingStrategy>passive</cachingStrategy>
+                    <scope>
+                        <attributes>all</attributes>
+                        <associations>none</associations>
+                    </scope>
+                    <timeToLive>P1D</timeToLive>
+                    <defaultCacheUse>useCachedOrFresh</defaultCacheUse>
+                </caching>
                 <correlation>
                     <correlators>
                         <items id="11642">

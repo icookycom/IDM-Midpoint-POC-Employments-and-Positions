@@ -1,0 +1,596 @@
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" version="266"  xsi:type="c:TaskType">
+        <_metadata id="2">
+            <storage>
+                <createTimestamp>2025-05-02T13:47:34.544Z</createTimestamp>
+                <creatorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </creatorRef>
+                <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                <modifyTimestamp>2025-05-22T13:40:41.487Z</modifyTimestamp>
+                <modifierRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </modifierRef>
+                <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
+            </storage>
+            <process>
+                <requestTimestamp>2025-05-02T13:47:34.451Z</requestTimestamp>
+                <requestorRef>
+                    <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                    <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                    <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                </requestorRef>
+            </process>
+        </_metadata>
+        <name>Clenup audit log, delete all but one</name>
+        <operationExecution id="7">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-02T13:47:34.590Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>add</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000346589</token>
+                </executionResult>
+                <objectName>Clenup audit log</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="29">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:48:13.379Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="30">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:47.626Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="31">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-22T13:40:20.448Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000025148</token>
+                </executionResult>
+                <objectName>Clenup audit log</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="32">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-22T13:40:41.525Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000025756</token>
+                </executionResult>
+                <objectName>Clenup audit log, delete all but one</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="69">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:29:05.039Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="70">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:49.120Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="71">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:22.642Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <assignment id="1">
+            <_metadata id="3">
+                <storage>
+                    <createTimestamp>2025-05-02T13:47:34.544Z</createTimestamp>
+                    <creatorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </creatorRef>
+                    <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
+                </storage>
+                <process>
+                    <requestTimestamp>2025-05-02T13:47:34.451Z</requestTimestamp>
+                    <requestorRef>
+                        <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                        <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                        <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                    </requestorRef>
+                </process>
+                <provenance>
+                    <acquisition id="4">
+                        <actorRef>
+                            <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
+                            <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
+                            <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
+                        </actorRef>
+                        <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+                        <timestamp>2025-05-02T13:47:34.451Z</timestamp>
+                    </acquisition>
+                </provenance>
+            </_metadata>
+            <targetRef oid="00000000-0000-0000-0000-000000000506" relation="org:default" type="c:ArchetypeType"/>
+            <activation>
+                <effectiveStatus>enabled</effectiveStatus>
+            </activation>
+        </assignment>
+        <iteration>0</iteration>
+        <iterationToken/>
+        <archetypeRef oid="00000000-0000-0000-0000-000000000506" relation="org:default" type="c:ArchetypeType"/>
+        <roleMembershipRef oid="00000000-0000-0000-0000-000000000506" relation="org:default" type="c:ArchetypeType">
+            <_metadata id="5">
+                <storage>
+                    <createTimestamp>2025-05-02T13:47:34.535Z</createTimestamp>
+                </storage>
+                <provenance>
+                    <assignmentPath>
+                        <sourceRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType"/>
+                        <segment id="6">
+                            <segmentOrder>1</segmentOrder>
+                            <assignmentId>1</assignmentId>
+                            <targetRef oid="00000000-0000-0000-0000-000000000506" relation="org:default" type="c:ArchetypeType"/>
+                            <matchingOrder>true</matchingOrder>
+                        </segment>
+                    </assignmentPath>
+                </provenance>
+            </_metadata>
+        </roleMembershipRef>
+        <taskIdentifier>1746193654544-53013-1</taskIdentifier>
+        <ownerRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+        <executionState>closed</executionState>
+        <schedulingState>closed</schedulingState>
+        <result incomplete="true"/>
+        <resultStatus>success</resultStatus>
+        <lastRunStartTimestamp>2025-05-25T03:05:50.947Z</lastRunStartTimestamp>
+        <lastRunFinishTimestamp>2025-05-25T03:05:51.421Z</lastRunFinishTimestamp>
+        <completionTimestamp>2025-05-25T03:05:51.436Z</completionTimestamp>
+        <progress>0</progress>
+        <operationStats>
+            <environmentalPerformanceInformation>
+                <provisioningStatistics/>
+                <mappingsStatistics/>
+                <notificationsStatistics/>
+            </environmentalPerformanceInformation>
+            <repositoryPerformanceInformation>
+                <operation>
+                    <name>SqaleRepositoryService.getObject</name>
+                    <invocationCount>9</invocationCount>
+                    <executionCount>9</executionCount>
+                    <totalTime>32</totalTime>
+                    <minTime>2</minTime>
+                    <maxTime>8</maxTime>
+                    <totalWastedTime>0</totalWastedTime>
+                    <minWastedTime>0</minWastedTime>
+                    <maxWastedTime>0</maxWastedTime>
+                </operation>
+                <operation>
+                    <name>SqaleAuditService.cleanupAuditMaxRecords</name>
+                    <invocationCount>1</invocationCount>
+                    <executionCount>1</executionCount>
+                    <totalTime>7</totalTime>
+                    <minTime>7</minTime>
+                    <maxTime>7</maxTime>
+                    <totalWastedTime>0</totalWastedTime>
+                    <minWastedTime>0</minWastedTime>
+                    <maxWastedTime>0</maxWastedTime>
+                </operation>
+                <operation>
+                    <name>SqaleAuditService.cleanupAuditMaxAge</name>
+                    <invocationCount>1</invocationCount>
+                    <executionCount>1</executionCount>
+                    <totalTime>0</totalTime>
+                    <minTime>0</minTime>
+                    <maxTime>0</maxTime>
+                    <totalWastedTime>0</totalWastedTime>
+                    <minWastedTime>0</minWastedTime>
+                    <maxWastedTime>0</maxWastedTime>
+                </operation>
+                <operation>
+                    <name>SqaleRepositoryService.modifyObjectDynamically</name>
+                    <invocationCount>15</invocationCount>
+                    <executionCount>15</executionCount>
+                    <totalTime>142</totalTime>
+                    <minTime>6</minTime>
+                    <maxTime>16</maxTime>
+                    <totalWastedTime>0</totalWastedTime>
+                    <minWastedTime>0</minWastedTime>
+                    <maxWastedTime>0</maxWastedTime>
+                </operation>
+                <operation>
+                    <name>SqaleRepositoryService.modifyObject</name>
+                    <invocationCount>25</invocationCount>
+                    <executionCount>25</executionCount>
+                    <totalTime>218</totalTime>
+                    <minTime>5</minTime>
+                    <maxTime>17</maxTime>
+                    <totalWastedTime>0</totalWastedTime>
+                    <minWastedTime>0</minWastedTime>
+                    <maxWastedTime>0</maxWastedTime>
+                </operation>
+            </repositoryPerformanceInformation>
+            <cachesPerformanceInformation>
+                <cache>
+                    <name>com.evolveum.midpoint.repo.cache.global.GlobalObjectCache</name>
+                    <hitCount>7</hitCount>
+                    <weakHitCount>0</weakHitCount>
+                    <missCount>0</missCount>
+                    <passCount>0</passCount>
+                    <notAvailableCount>0</notAvailableCount>
+                </cache>
+                <cache>
+                    <name>com.evolveum.midpoint.repo.cache.local.LocalObjectCache</name>
+                    <hitCount>0</hitCount>
+                    <weakHitCount>0</weakHitCount>
+                    <missCount>0</missCount>
+                    <passCount>0</passCount>
+                    <notAvailableCount>7</notAvailableCount>
+                </cache>
+            </cachesPerformanceInformation>
+            <operationsPerformanceInformation>
+                <operation>
+                    <name>com.evolveum.midpoint.task.api.Task.refresh</name>
+                    <invocationCount>8</invocationCount>
+                    <totalTime>23821</totalTime>
+                    <minTime>1931</minTime>
+                    <maxTime>7917</maxTime>
+                </operation>
+                <operation>
+                    <name>SqaleRepositoryService.getObject</name>
+                    <invocationCount>9</invocationCount>
+                    <totalTime>29777</totalTime>
+                    <minTime>1810</minTime>
+                    <maxTime>7782</maxTime>
+                </operation>
+                <operation>
+                    <name>SqaleAuditService.cleanupAuditMaxRecords</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>7266</totalTime>
+                    <minTime>7266</minTime>
+                    <maxTime>7266</maxTime>
+                </operation>
+                <operation>
+                    <name>SqaleAuditService.cleanupAuditMaxAge</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>519</totalTime>
+                    <minTime>519</minTime>
+                    <maxTime>519</maxTime>
+                </operation>
+                <operation>
+                    <name>com.evolveum.midpoint.notifications.api.NotificationManager.processEvent</name>
+                    <invocationCount>7</invocationCount>
+                    <totalTime>6364</totalTime>
+                    <minTime>852</minTime>
+                    <maxTime>977</maxTime>
+                </operation>
+                <operation>
+                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.getObject</name>
+                    <invocationCount>7</invocationCount>
+                    <totalTime>6073</totalTime>
+                    <minTime>818</minTime>
+                    <maxTime>931</maxTime>
+                </operation>
+                <operation>
+                    <name>SqaleRepositoryService.modifyObjectDynamically</name>
+                    <invocationCount>15</invocationCount>
+                    <totalTime>141485</totalTime>
+                    <minTime>6010</minTime>
+                    <maxTime>16035</maxTime>
+                </operation>
+                <operation>
+                    <name>SqaleRepositoryService.modifyObject</name>
+                    <invocationCount>25</invocationCount>
+                    <totalTime>222995</totalTime>
+                    <minTime>5191</minTime>
+                    <maxTime>17227</maxTime>
+                </operation>
+                <operation>
+                    <name>com.evolveum.midpoint.repo.common.activity.run.LocalActivityRun.runLocally</name>
+                    <invocationCount>7</invocationCount>
+                    <totalTime>356557</totalTime>
+                    <minTime>179</minTime>
+                    <maxTime>347107</maxTime>
+                </operation>
+            </operationsPerformanceInformation>
+            <cachingConfiguration>Caching configuration for thread midPointScheduler_Worker-8 on 2025-05-25T03:05:51.413Z:
+
+Profiles: []</cachingConfiguration>
+            <timestamp>2025-05-25T03:05:51.413Z</timestamp>
+        </operationStats>
+        <binding>loose</binding>
+        <activity>
+            <work>
+                <cleanup>
+                    <policies>
+                        <auditRecords>
+                            <maxAge>P1M</maxAge>
+                            <maxRecords>1</maxRecords>
+                        </auditRecords>
+                    </policies>
+                </cleanup>
+            </work>
+        </activity>
+        <activityState>
+            <activity>
+                <realizationState>complete</realizationState>
+                <resultStatus>success</resultStatus>
+                <realizationStartTimestamp>2025-05-25T03:05:51.027Z</realizationStartTimestamp>
+                <realizationEndTimestamp>2025-05-25T03:05:51.394Z</realizationEndTimestamp>
+                <runStartTimestamp>2025-05-25T03:05:51.027Z</runStartTimestamp>
+                <runEndTimestamp>2025-05-25T03:05:51.394Z</runEndTimestamp>
+                <workState/>
+                <persistence>singleRealization</persistence>
+                <activity id="90">
+                    <identifier>auditRecords</identifier>
+                    <realizationState>complete</realizationState>
+                    <resultStatus>success</resultStatus>
+                    <realizationStartTimestamp>2025-05-25T03:05:51.122Z</realizationStartTimestamp>
+                    <realizationEndTimestamp>2025-05-25T03:05:51.155Z</realizationEndTimestamp>
+                    <runStartTimestamp>2025-05-25T03:05:51.122Z</runStartTimestamp>
+                    <runEndTimestamp>2025-05-25T03:05:51.155Z</runEndTimestamp>
+                    <statistics>
+                        <itemProcessing>
+                            <run id="97">
+                                <startTimestamp>2025-05-25T03:05:51.122Z</startTimestamp>
+                                <endTimestamp>2025-05-25T03:05:51.155Z</endTimestamp>
+                            </run>
+                        </itemProcessing>
+                    </statistics>
+                    <persistence>singleRealization</persistence>
+                </activity>
+                <activity id="91">
+                    <identifier>closedTasks</identifier>
+                    <realizationState>complete</realizationState>
+                    <resultStatus>success</resultStatus>
+                    <realizationStartTimestamp>2025-05-25T03:05:51.179Z</realizationStartTimestamp>
+                    <realizationEndTimestamp>2025-05-25T03:05:51.205Z</realizationEndTimestamp>
+                    <runStartTimestamp>2025-05-25T03:05:51.179Z</runStartTimestamp>
+                    <runEndTimestamp>2025-05-25T03:05:51.205Z</runEndTimestamp>
+                    <progress/>
+                    <statistics>
+                        <itemProcessing>
+                            <run id="99">
+                                <startTimestamp>2025-05-25T03:05:51.179Z</startTimestamp>
+                                <endTimestamp>2025-05-25T03:05:51.205Z</endTimestamp>
+                            </run>
+                        </itemProcessing>
+                    </statistics>
+                    <persistence>singleRealization</persistence>
+                </activity>
+                <activity id="92">
+                    <identifier>closedCases</identifier>
+                    <realizationState>complete</realizationState>
+                    <resultStatus>success</resultStatus>
+                    <realizationStartTimestamp>2025-05-25T03:05:51.237Z</realizationStartTimestamp>
+                    <realizationEndTimestamp>2025-05-25T03:05:51.258Z</realizationEndTimestamp>
+                    <runStartTimestamp>2025-05-25T03:05:51.237Z</runStartTimestamp>
+                    <runEndTimestamp>2025-05-25T03:05:51.258Z</runEndTimestamp>
+                    <progress/>
+                    <statistics>
+                        <itemProcessing>
+                            <run id="101">
+                                <startTimestamp>2025-05-25T03:05:51.237Z</startTimestamp>
+                                <endTimestamp>2025-05-25T03:05:51.258Z</endTimestamp>
+                            </run>
+                        </itemProcessing>
+                    </statistics>
+                    <persistence>singleRealization</persistence>
+                </activity>
+                <activity id="93">
+                    <identifier>deadNodes</identifier>
+                    <realizationState>complete</realizationState>
+                    <resultStatus>success</resultStatus>
+                    <realizationStartTimestamp>2025-05-25T03:05:51.292Z</realizationStartTimestamp>
+                    <realizationEndTimestamp>2025-05-25T03:05:51.320Z</realizationEndTimestamp>
+                    <runStartTimestamp>2025-05-25T03:05:51.292Z</runStartTimestamp>
+                    <runEndTimestamp>2025-05-25T03:05:51.320Z</runEndTimestamp>
+                    <progress/>
+                    <statistics>
+                        <itemProcessing>
+                            <run id="103">
+                                <startTimestamp>2025-05-25T03:05:51.292Z</startTimestamp>
+                                <endTimestamp>2025-05-25T03:05:51.320Z</endTimestamp>
+                            </run>
+                        </itemProcessing>
+                    </statistics>
+                    <persistence>singleRealization</persistence>
+                </activity>
+                <activity id="94">
+                    <identifier>outputReports</identifier>
+                    <realizationState>complete</realizationState>
+                    <resultStatus>success</resultStatus>
+                    <realizationStartTimestamp>2025-05-25T03:05:51.340Z</realizationStartTimestamp>
+                    <realizationEndTimestamp>2025-05-25T03:05:51.354Z</realizationEndTimestamp>
+                    <runStartTimestamp>2025-05-25T03:05:51.340Z</runStartTimestamp>
+                    <runEndTimestamp>2025-05-25T03:05:51.354Z</runEndTimestamp>
+                    <statistics>
+                        <itemProcessing>
+                            <run id="105">
+                                <startTimestamp>2025-05-25T03:05:51.340Z</startTimestamp>
+                                <endTimestamp>2025-05-25T03:05:51.354Z</endTimestamp>
+                            </run>
+                        </itemProcessing>
+                    </statistics>
+                    <persistence>singleRealization</persistence>
+                </activity>
+                <activity id="95">
+                    <identifier>closedCertificationCampaigns</identifier>
+                    <realizationState>complete</realizationState>
+                    <resultStatus>success</resultStatus>
+                    <realizationStartTimestamp>2025-05-25T03:05:51.369Z</realizationStartTimestamp>
+                    <realizationEndTimestamp>2025-05-25T03:05:51.381Z</realizationEndTimestamp>
+                    <runStartTimestamp>2025-05-25T03:05:51.369Z</runStartTimestamp>
+                    <runEndTimestamp>2025-05-25T03:05:51.381Z</runEndTimestamp>
+                    <statistics>
+                        <itemProcessing>
+                            <run id="107">
+                                <startTimestamp>2025-05-25T03:05:51.369Z</startTimestamp>
+                                <endTimestamp>2025-05-25T03:05:51.381Z</endTimestamp>
+                            </run>
+                        </itemProcessing>
+                    </statistics>
+                    <persistence>singleRealization</persistence>
+                </activity>
+            </activity>
+            <tree>
+                <realizationState>complete</realizationState>
+                <activity>
+                    <realizationState>complete</realizationState>
+                    <resultStatus>success</resultStatus>
+                    <task>
+                        <taskRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                            <targetName>Clenup audit log, delete all but one</targetName>
+                        </taskRef>
+                        <node>DefaultNode</node>
+                        <executionState>notRunning</executionState>
+                        <resultStatus>success</resultStatus>
+                    </task>
+                    <progressInformationVisibility>hidden</progressInformationVisibility>
+                    <persistence>singleRealization</persistence>
+                    <activity>
+                        <identifier>auditRecords</identifier>
+                        <realizationState>complete</realizationState>
+                        <resultStatus>success</resultStatus>
+                        <task>
+                            <taskRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                                <targetName>Clenup audit log, delete all but one</targetName>
+                            </taskRef>
+                            <node>DefaultNode</node>
+                            <executionState>notRunning</executionState>
+                            <resultStatus>success</resultStatus>
+                        </task>
+                        <progressInformationVisibility>hidden</progressInformationVisibility>
+                        <persistence>singleRealization</persistence>
+                    </activity>
+                    <activity>
+                        <identifier>closedTasks</identifier>
+                        <realizationState>complete</realizationState>
+                        <resultStatus>success</resultStatus>
+                        <task>
+                            <taskRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                                <targetName>Clenup audit log, delete all but one</targetName>
+                            </taskRef>
+                            <node>DefaultNode</node>
+                            <executionState>notRunning</executionState>
+                            <resultStatus>success</resultStatus>
+                        </task>
+                        <progressInformationVisibility>hidden</progressInformationVisibility>
+                        <persistence>singleRealization</persistence>
+                    </activity>
+                    <activity>
+                        <identifier>closedCases</identifier>
+                        <realizationState>complete</realizationState>
+                        <resultStatus>success</resultStatus>
+                        <task>
+                            <taskRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                                <targetName>Clenup audit log, delete all but one</targetName>
+                            </taskRef>
+                            <node>DefaultNode</node>
+                            <executionState>notRunning</executionState>
+                            <resultStatus>success</resultStatus>
+                        </task>
+                        <progressInformationVisibility>hidden</progressInformationVisibility>
+                        <persistence>singleRealization</persistence>
+                    </activity>
+                    <activity>
+                        <identifier>deadNodes</identifier>
+                        <realizationState>complete</realizationState>
+                        <resultStatus>success</resultStatus>
+                        <task>
+                            <taskRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                                <targetName>Clenup audit log, delete all but one</targetName>
+                            </taskRef>
+                            <node>DefaultNode</node>
+                            <executionState>notRunning</executionState>
+                            <resultStatus>success</resultStatus>
+                        </task>
+                        <progressInformationVisibility>hidden</progressInformationVisibility>
+                        <persistence>singleRealization</persistence>
+                    </activity>
+                    <activity>
+                        <identifier>outputReports</identifier>
+                        <realizationState>complete</realizationState>
+                        <resultStatus>success</resultStatus>
+                        <task>
+                            <taskRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                                <targetName>Clenup audit log, delete all but one</targetName>
+                            </taskRef>
+                            <node>DefaultNode</node>
+                            <executionState>notRunning</executionState>
+                            <resultStatus>success</resultStatus>
+                        </task>
+                        <progressInformationVisibility>hidden</progressInformationVisibility>
+                        <persistence>singleRealization</persistence>
+                    </activity>
+                    <activity>
+                        <identifier>closedCertificationCampaigns</identifier>
+                        <realizationState>complete</realizationState>
+                        <resultStatus>success</resultStatus>
+                        <task>
+                            <taskRef oid="ecaf88b1-7710-4b52-8e4c-ebaeb26f55a2" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                                <targetName>Clenup audit log, delete all but one</targetName>
+                            </taskRef>
+                            <node>DefaultNode</node>
+                            <executionState>notRunning</executionState>
+                            <resultStatus>success</resultStatus>
+                        </task>
+                        <progressInformationVisibility>hidden</progressInformationVisibility>
+                        <persistence>singleRealization</persistence>
+                    </activity>
+                </activity>
+            </tree>
+        </activityState>
+        <affectedObjects/>
+    </apti:object>

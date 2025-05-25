@@ -1,4 +1,4 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="489dfdae-2936-4068-a32f-d6f4837ab418" version="7079"  xsi:type="c:TaskType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="489dfdae-2936-4068-a32f-d6f4837ab418" version="32320"  xsi:type="c:TaskType">
         <_metadata id="2">
             <storage>
                 <createTimestamp>2025-04-21T09:26:46.705Z</createTimestamp>
@@ -8,7 +8,7 @@
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-05-01T07:57:35.362Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-20T08:39:37.851Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -26,86 +26,6 @@
             </process>
         </_metadata>
         <name>POCE Recompute Position roles if User Position has been mod bu main user</name>
-        <operationExecution id="242">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-21T14:25:11.562Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000000703</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod bu main user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="295">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-21T14:55:00.584Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000046207</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod bu main user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="320">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-21T14:58:14.577Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000103537</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod bu main user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="425">
-            <recordType>simple</recordType>
-            <timestamp>2025-04-22T06:34:16.746Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000141886</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod bu main user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
         <operationExecution id="1326">
             <recordType>simple</recordType>
             <timestamp>2025-05-01T07:57:35.413Z</timestamp>
@@ -124,6 +44,131 @@
             </operation>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2587">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:48:07.285Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2592">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-13T08:52:41.562Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2817">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-14T09:02:54.361Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000122618</token>
+                </executionResult>
+                <objectName>POCP Recompute Position roles if User Position has been mod bu main user</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="2826">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-14T09:03:33.547Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000123142</token>
+                </executionResult>
+                <objectName>POCE Recompute Position roles if User Position has been mod bu main user</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4183">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-20T08:34:48.076Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000180667</token>
+                </executionResult>
+                <objectName>POCE Recompute Position roles if User Position has been mod bu main user</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4188">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-20T08:39:37.870Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000185356</token>
+                </executionResult>
+                <objectName>POCE Recompute Position roles if User Position has been mod bu main user</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="4957">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-22T15:28:59.774Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="5030">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T03:58:44.375Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="5271">
+            <recordType>complex</recordType>
+            <timestamp>2025-05-23T09:05:16.941Z</timestamp>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
+            <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
         <assignment id="1">
@@ -189,209 +234,24 @@
         <schedulingState>ready</schedulingState>
         <result incomplete="true"/>
         <resultStatus>success</resultStatus>
-        <lastRunStartTimestamp>2025-05-02T04:05:01.197Z</lastRunStartTimestamp>
-        <lastRunFinishTimestamp>2025-05-02T04:05:02.309Z</lastRunFinishTimestamp>
+        <lastRunStartTimestamp>2025-05-25T03:15:29.826Z</lastRunStartTimestamp>
+        <lastRunFinishTimestamp>2025-05-25T03:15:32.076Z</lastRunFinishTimestamp>
         <completionTimestamp>2025-04-21T13:49:12.722Z</completionTimestamp>
-        <progress>1</progress>
+        <progress>0</progress>
         <operationStats>
             <environmentalPerformanceInformation>
-                <provisioningStatistics>
-                    <entry>
-                        <resourceRef oid="98d08acb-665d-4a06-83de-113eef122d82" relation="org:default" type="c:ResourceType" xsi:type="c:ObjectReferenceType">
-                            <targetName>POCE 02 EMPLOYMENT User + POSITIONS Role</targetName>
-                        </resourceRef>
-                        <objectClass>ri:AccountObjectClass</objectClass>
-                        <operation>
-                            <operation>get</operation>
-                            <count>1</count>
-                            <totalTime>1</totalTime>
-                            <minTime>1</minTime>
-                            <maxTime>1</maxTime>
-                        </operation>
-                        <operation>
-                            <operation>search</operation>
-                            <count>1</count>
-                            <totalTime>0</totalTime>
-                            <minTime>0</minTime>
-                            <maxTime>0</maxTime>
-                        </operation>
-                    </entry>
-                    <entry>
-                        <resourceRef oid="b8618fba-cf8b-416c-8e3b-32ea34cf003d" relation="org:default" type="c:ResourceType" xsi:type="c:ObjectReferenceType">
-                            <targetName>Windows MS AD OOO ODIN</targetName>
-                        </resourceRef>
-                        <objectClass>ri:user</objectClass>
-                        <operation>
-                            <operation>get</operation>
-                            <count>1</count>
-                            <totalTime>8</totalTime>
-                            <minTime>8</minTime>
-                            <maxTime>8</maxTime>
-                        </operation>
-                    </entry>
-                    <entry>
-                        <resourceRef oid="b8618fba-cf8b-416c-8e3b-32ea34cf003d" relation="org:default" type="c:ResourceType" xsi:type="c:ObjectReferenceType">
-                            <targetName>Windows MS AD OOO ODIN</targetName>
-                        </resourceRef>
-                        <objectClass>ri:group</objectClass>
-                        <operation>
-                            <operation>search</operation>
-                            <count>2</count>
-                            <totalTime>1</totalTime>
-                            <minTime>0</minTime>
-                            <maxTime>1</maxTime>
-                        </operation>
-                        <operation>
-                            <operation>update</operation>
-                            <count>1</count>
-                            <totalTime>3</totalTime>
-                            <minTime>3</minTime>
-                            <maxTime>3</maxTime>
-                        </operation>
-                    </entry>
-                    <entry>
-                        <resourceRef oid="72528d9d-04e7-469d-918e-c1c026f2b4db" relation="org:default" type="c:ResourceType" xsi:type="c:ObjectReferenceType">
-                            <targetName>POCE 03 POSITIONS USER</targetName>
-                        </resourceRef>
-                        <objectClass>ri:AccountObjectClass</objectClass>
-                        <operation>
-                            <operation>get</operation>
-                            <count>1</count>
-                            <totalTime>1</totalTime>
-                            <minTime>1</minTime>
-                            <maxTime>1</maxTime>
-                        </operation>
-                    </entry>
-                </provisioningStatistics>
-                <mappingsStatistics>
-                    <entry>
-                        <count>24</count>
-                        <minTime>0</minTime>
-                        <maxTime>1</maxTime>
-                        <totalTime>2</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Person Employment MS AD Account Object Template</object>
-                        <count>13</count>
-                        <minTime>0</minTime>
-                        <maxTime>1</maxTime>
-                        <totalTime>2</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE 02 EMPLOYMENT User + POSITIONS Role</object>
-                        <count>10</count>
-                        <minTime>0</minTime>
-                        <maxTime>1</maxTime>
-                        <totalTime>2</totalTime>
-                    </entry>
-                    <entry>
-                        <object>AD Group ArcheType</object>
-                        <count>3</count>
-                        <minTime>2</minTime>
-                        <maxTime>3</maxTime>
-                        <totalTime>8</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Employment User ArcheType</object>
-                        <count>16</count>
-                        <minTime>1</minTime>
-                        <maxTime>3</maxTime>
-                        <totalTime>30</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Position Role ArcheType</object>
-                        <count>18</count>
-                        <minTime>0</minTime>
-                        <maxTime>14</maxTime>
-                        <totalTime>37</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE POLICY: identifier from Forward Role to User Forward Roles List</object>
-                        <count>10</count>
-                        <minTime>0</minTime>
-                        <maxTime>1</maxTime>
-                        <totalTime>3</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Employment MS AD Account Object Template</object>
-                        <count>2</count>
-                        <minTime>1</minTime>
-                        <maxTime>8</maxTime>
-                        <totalTime>9</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Position Role Object Template</object>
-                        <count>4</count>
-                        <minTime>0</minTime>
-                        <maxTime>1</maxTime>
-                        <totalTime>1</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Employment User Object Template</object>
-                        <count>10</count>
-                        <minTime>0</minTime>
-                        <maxTime>5</maxTime>
-                        <totalTime>15</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE 03 POSITIONS USER</object>
-                        <count>12</count>
-                        <minTime>0</minTime>
-                        <maxTime>0</maxTime>
-                        <totalTime>0</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Position User Object Template</object>
-                        <count>14</count>
-                        <minTime>0</minTime>
-                        <maxTime>3</maxTime>
-                        <totalTime>6</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Position User ArcheType</object>
-                        <count>20</count>
-                        <minTime>0</minTime>
-                        <maxTime>1</maxTime>
-                        <totalTime>16</totalTime>
-                    </entry>
-                    <entry>
-                        <object>Windows MS AD OOO ODIN</object>
-                        <count>13</count>
-                        <minTime>0</minTime>
-                        <maxTime>0</maxTime>
-                        <totalTime>0</totalTime>
-                    </entry>
-                    <entry>
-                        <object>POCE Policy: emailAddress from Role atribute to User nickName</object>
-                        <count>2</count>
-                        <minTime>0</minTime>
-                        <maxTime>1</maxTime>
-                        <totalTime>1</totalTime>
-                    </entry>
-                </mappingsStatistics>
+                <provisioningStatistics/>
+                <mappingsStatistics/>
                 <notificationsStatistics/>
-                <lastMessageTimestamp>2025-05-02T04:05:02.231Z</lastMessageTimestamp>
-                <lastMessage>Successfully finished evaluation of mapping mapping '01 some' in assigned mapping '01 some (name, extension/person_account_number, extension/person_employment_parent -&gt; $user/extension/person_forward_roles)' in role:d7763c65-c038-432f-9a12-01d99d0f38ce(POCE POLICY: identifier from Forward Role to User Forward Roles List) in role:035aa89a-6d17-4dd2-ac1f-86a34522b093(OOO ODIN FR:ADG Jupiter WC) in user:5bf58bd3-50f8-4f23-bbe3-38d9f7f8aad0(POS100886) in 0 ms.</lastMessage>
             </environmentalPerformanceInformation>
             <repositoryPerformanceInformation>
                 <operation>
                     <name>SqaleRepositoryService.getObject</name>
-                    <invocationCount>88</invocationCount>
-                    <executionCount>88</executionCount>
-                    <totalTime>194</totalTime>
-                    <minTime>0</minTime>
-                    <maxTime>10</maxTime>
-                    <totalWastedTime>0</totalWastedTime>
-                    <minWastedTime>0</minWastedTime>
-                    <maxWastedTime>0</maxWastedTime>
-                </operation>
-                <operation>
-                    <name>SqaleAuditService.audit</name>
-                    <invocationCount>9</invocationCount>
-                    <executionCount>9</executionCount>
-                    <totalTime>39</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>9</maxTime>
+                    <invocationCount>7</invocationCount>
+                    <executionCount>7</executionCount>
+                    <totalTime>88</totalTime>
+                    <minTime>4</minTime>
+                    <maxTime>17</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -400,26 +260,15 @@
                     <name>SqaleRepositoryService.countObjects</name>
                     <invocationCount>1</invocationCount>
                     <executionCount>1</executionCount>
-                    <totalTime>7</totalTime>
-                    <minTime>7</minTime>
-                    <maxTime>7</maxTime>
+                    <totalTime>8</totalTime>
+                    <minTime>8</minTime>
+                    <maxTime>8</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.searchObjects</name>
-                    <invocationCount>33</invocationCount>
-                    <executionCount>33</executionCount>
-                    <totalTime>128</totalTime>
-                    <minTime>1</minTime>
-                    <maxTime>38</maxTime>
-                    <totalWastedTime>0</totalWastedTime>
-                    <minWastedTime>0</minWastedTime>
-                    <maxWastedTime>0</maxWastedTime>
-                </operation>
-                <operation>
-                    <name>SqaleRepositoryService.allocateContainerIdentifiers</name>
                     <invocationCount>1</invocationCount>
                     <executionCount>1</executionCount>
                     <totalTime>2</totalTime>
@@ -431,22 +280,11 @@
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.modifyObject</name>
-                    <invocationCount>34</invocationCount>
-                    <executionCount>34</executionCount>
-                    <totalTime>273</totalTime>
-                    <minTime>3</minTime>
-                    <maxTime>15</maxTime>
-                    <totalWastedTime>0</totalWastedTime>
-                    <minWastedTime>0</minWastedTime>
-                    <maxWastedTime>0</maxWastedTime>
-                </operation>
-                <operation>
-                    <name>SqaleRepositoryService.getVersion</name>
-                    <invocationCount>3</invocationCount>
-                    <executionCount>3</executionCount>
-                    <totalTime>4</totalTime>
-                    <minTime>0</minTime>
-                    <maxTime>4</maxTime>
+                    <invocationCount>12</invocationCount>
+                    <executionCount>12</executionCount>
+                    <totalTime>299</totalTime>
+                    <minTime>11</minTime>
+                    <maxTime>37</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -466,9 +304,9 @@
                     <name>SqaleRepositoryService.searchObjectsIterativePage</name>
                     <invocationCount>1</invocationCount>
                     <executionCount>1</executionCount>
-                    <totalTime>6</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>6</maxTime>
+                    <totalTime>11</totalTime>
+                    <minTime>11</minTime>
+                    <maxTime>11</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -477,9 +315,9 @@
                     <name>SqaleRepositoryService.modifyObjectDynamically</name>
                     <invocationCount>4</invocationCount>
                     <executionCount>4</executionCount>
-                    <totalTime>28</totalTime>
-                    <minTime>4</minTime>
-                    <maxTime>10</maxTime>
+                    <totalTime>189</totalTime>
+                    <minTime>22</minTime>
+                    <maxTime>108</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -488,74 +326,34 @@
             <cachesPerformanceInformation>
                 <cache>
                     <name>com.evolveum.midpoint.repo.cache.global.GlobalObjectCache</name>
-                    <hitCount>2</hitCount>
+                    <hitCount>1</hitCount>
                     <weakHitCount>0</weakHitCount>
-                    <missCount>17</missCount>
-                    <passCount>63</passCount>
-                    <notAvailableCount>0</notAvailableCount>
-                </cache>
-                <cache>
-                    <name>com.evolveum.midpoint.provisioning.impl.shadows.ConstraintsChecker$Cache</name>
-                    <hitCount>0</hitCount>
-                    <weakHitCount>0</weakHitCount>
-                    <missCount>5</missCount>
-                    <passCount>0</passCount>
-                    <notAvailableCount>0</notAvailableCount>
-                </cache>
-                <cache>
-                    <name>com.evolveum.midpoint.repo.cache.global.GlobalVersionCache</name>
-                    <hitCount>0</hitCount>
-                    <weakHitCount>0</weakHitCount>
-                    <missCount>3</missCount>
-                    <passCount>0</passCount>
-                    <notAvailableCount>0</notAvailableCount>
-                </cache>
-                <cache>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.FocusConstraintsChecker$Cache</name>
-                    <hitCount>5</hitCount>
-                    <weakHitCount>0</weakHitCount>
-                    <missCount>3</missCount>
+                    <missCount>0</missCount>
                     <passCount>0</passCount>
                     <notAvailableCount>0</notAvailableCount>
                 </cache>
                 <cache>
                     <name>com.evolveum.midpoint.repo.cache.local.LocalQueryCache</name>
-                    <hitCount>64</hitCount>
+                    <hitCount>0</hitCount>
                     <weakHitCount>0</weakHitCount>
-                    <missCount>27</missCount>
-                    <passCount>6</passCount>
-                    <notAvailableCount>1</notAvailableCount>
-                </cache>
-                <cache>
-                    <name>com.evolveum.midpoint.repo.cache.local.LocalVersionCache</name>
-                    <hitCount>27</hitCount>
-                    <weakHitCount>0</weakHitCount>
-                    <missCount>3</missCount>
+                    <missCount>0</missCount>
                     <passCount>0</passCount>
-                    <notAvailableCount>0</notAvailableCount>
+                    <notAvailableCount>2</notAvailableCount>
                 </cache>
                 <cache>
                     <name>com.evolveum.midpoint.repo.cache.local.LocalObjectCache</name>
-                    <hitCount>879</hitCount>
+                    <hitCount>0</hitCount>
                     <weakHitCount>0</weakHitCount>
-                    <missCount>73</missCount>
-                    <passCount>8</passCount>
+                    <missCount>0</missCount>
+                    <passCount>0</passCount>
                     <notAvailableCount>1</notAvailableCount>
                 </cache>
                 <cache>
                     <name>com.evolveum.midpoint.repo.cache.global.GlobalQueryCache</name>
                     <hitCount>0</hitCount>
                     <weakHitCount>0</weakHitCount>
-                    <missCount>1</missCount>
-                    <passCount>33</passCount>
-                    <notAvailableCount>0</notAvailableCount>
-                </cache>
-                <cache>
-                    <name>com.evolveum.midpoint.provisioning.impl.resources.ResourceCache</name>
-                    <hitCount>29</hitCount>
-                    <weakHitCount>0</weakHitCount>
                     <missCount>0</missCount>
-                    <passCount>0</passCount>
+                    <passCount>2</passCount>
                     <notAvailableCount>0</notAvailableCount>
                 </cache>
             </cachesPerformanceInformation>
@@ -563,1065 +361,127 @@
                 <operation>
                     <name>com.evolveum.midpoint.task.api.Task.refresh</name>
                     <invocationCount>4</invocationCount>
-                    <totalTime>18486</totalTime>
-                    <minTime>2492</minTime>
-                    <maxTime>8626</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.ActivationProcessor.projectionActivation</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>79537</totalTime>
-                    <minTime>3</minTime>
-                    <maxTime>79408</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.project</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>577519</totalTime>
-                    <minTime>6985</minTime>
-                    <maxTime>187043</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.objectTemplateBeforeAssignments</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>34967</totalTime>
-                    <minTime>494</minTime>
-                    <maxTime>12225</maxTime>
-                </operation>
-                <operation>
-                    <name>SqaleRepositoryService.allocateContainerIdentifiers</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>2519</totalTime>
-                    <minTime>2519</minTime>
-                    <maxTime>2519</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.ConsolidationProcessor.consolidateValues</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>727</totalTime>
-                    <minTime>36</minTime>
-                    <maxTime>530</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.evaluators.CompositeConstraintEvaluator.evaluate</name>
-                    <invocationCount>52</invocationCount>
-                    <totalTime>9689</totalTime>
-                    <minTime>5</minTime>
-                    <maxTime>3790</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.common.util.OperationExecutionWriter.write</name>
-                    <invocationCount>5</invocationCount>
-                    <totalTime>24916</totalTime>
-                    <minTime>3182</minTime>
-                    <maxTime>10001</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.resourceobjects.ResourceObjectConverter.modifyResourceObject</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>7238</totalTime>
-                    <minTime>7238</minTime>
-                    <maxTime>7238</maxTime>
-                </operation>
-                <operation>
-                    <name>SqaleRepositoryService.modifyObjectDynamically</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>29305</totalTime>
-                    <minTime>4146</minTime>
-                    <maxTime>10416</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.focusPolicyRules</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>6619</totalTime>
-                    <minTime>71</minTime>
-                    <maxTime>4163</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.execute.focus.RoleType</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>15362</totalTime>
-                    <minTime>15362</minTime>
-                    <maxTime>15362</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.assignmentsOrg</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>92</totalTime>
-                    <minTime>7</minTime>
-                    <maxTime>27</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.ProvisioningContext.getConnectorInstance</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>276</totalTime>
-                    <minTime>54</minTime>
-                    <maxTime>87</maxTime>
-                </operation>
-                <operation>
-                    <name>SqaleRepositoryService.searchObjects</name>
-                    <invocationCount>33</invocationCount>
-                    <totalTime>126910</totalTime>
-                    <minTime>595</minTime>
-                    <maxTime>38388</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.shadows.ShadowSearchLikeOperation.processShadow</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>13075</totalTime>
-                    <minTime>141</minTime>
-                    <maxTime>6043</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.modifyObject</name>
-                    <invocationCount>22</invocationCount>
-                    <totalTime>183940</totalTime>
-                    <minTime>3142</minTime>
-                    <maxTime>14860</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.wf.impl.processors.primary.policy.AssignmentPolicyAspectPart.extractAssignmentBasedInstructions</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>3392</totalTime>
-                    <minTime>3392</minTime>
-                    <maxTime>3392</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.load</name>
-                    <invocationCount>7</invocationCount>
-                    <totalTime>131204</totalTime>
-                    <minTime>60</minTime>
-                    <maxTime>68644</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.mapping.metadata.ValueMetadataComputation.execute</name>
-                    <invocationCount>105</invocationCount>
-                    <totalTime>1864</totalTime>
-                    <minTime>4</minTime>
-                    <maxTime>90</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.mapping.MappingImpl.prepare</name>
-                    <invocationCount>172</invocationCount>
-                    <totalTime>1711</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>93</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.inbound</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>5443</totalTime>
-                    <minTime>135</minTime>
-                    <maxTime>1418</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.expression.script.ScriptExpression.evaluate</name>
-                    <invocationCount>183</invocationCount>
-                    <totalTime>920224</totalTime>
-                    <minTime>1</minTime>
-                    <maxTime>836420</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.IvwoConsolidator.consolidateToDelta</name>
-                    <invocationCount>135</invocationCount>
-                    <totalTime>2864</totalTime>
-                    <minTime>0</minTime>
-                    <maxTime>235</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projectionReconciliation</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>778</totalTime>
-                    <minTime>13</minTime>
-                    <maxTime>469</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.Clockwork.authorizeRequest</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>660</totalTime>
-                    <minTime>5</minTime>
-                    <maxTime>349</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.evaluators.ObjectModificationConstraintEvaluator.evaluate</name>
-                    <invocationCount>42</invocationCount>
-                    <totalTime>386</totalTime>
-                    <minTime>0</minTime>
-                    <maxTime>105</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.shadows.ConstraintsChecker.check</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>23308</totalTime>
-                    <minTime>2442</minTime>
-                    <maxTime>10414</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.shadows.AccessChecker.accessCheck</name>
-                    <invocationCount>5</invocationCount>
-                    <totalTime>11</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>3</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.invalidateCacheEntries</name>
-                    <invocationCount>22</invocationCount>
-                    <totalTime>1838</totalTime>
-                    <minTime>38</minTime>
-                    <maxTime>124</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.policyRuleCounters</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>38</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>13</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.notifications.impl.AccountOperationListener.notifySuccess</name>
-                    <invocationCount>5</invocationCount>
-                    <totalTime>10740</totalTime>
-                    <minTime>707</minTime>
-                    <maxTime>7676</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.loader.ContextLoader.load</name>
-                    <invocationCount>7</invocationCount>
-                    <totalTime>131094</totalTime>
-                    <minTime>49</minTime>
-                    <maxTime>68628</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.objectTemplateAfterAssignments</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>832</totalTime>
-                    <minTime>33</minTime>
-                    <maxTime>233</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.ucf.api.ConnectorInstance.search</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>13978</totalTime>
-                    <minTime>1860</minTime>
-                    <maxTime>7310</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.execute.focus.UserType</name>
-                    <invocationCount>2</invocationCount>
-                    <totalTime>18522</totalTime>
-                    <minTime>7290</minTime>
-                    <maxTime>11232</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.getVersion</name>
-                    <invocationCount>30</invocationCount>
-                    <totalTime>4910</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>3764</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.assignments.AssignmentEvaluator.evaluate</name>
-                    <invocationCount>48</invocationCount>
-                    <totalTime>112201</totalTime>
-                    <minTime>48</minTime>
-                    <maxTime>30674</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projectionValues</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>27401</totalTime>
-                    <minTime>2594</minTime>
-                    <maxTime>13604</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projectionValuesPostRecon</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>327</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>286</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.ProjectionValuesProcessor.iteration</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>27294</totalTime>
-                    <minTime>2584</minTime>
-                    <maxTime>13590</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.expression.evaluator.transformation.ValueTupleTransformation.evaluate</name>
-                    <invocationCount>94</invocationCount>
-                    <totalTime>31382</totalTime>
-                    <minTime>7</minTime>
-                    <maxTime>3324</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.AssignmentTripleEvaluator.evaluateAssignment</name>
-                    <invocationCount>48</invocationCount>
-                    <totalTime>112891</totalTime>
-                    <minTime>55</minTime>
-                    <maxTime>30692</maxTime>
-                </operation>
-                <operation>
-                    <name>SqaleRepositoryService.modifyObject</name>
-                    <invocationCount>34</invocationCount>
-                    <totalTime>272466</totalTime>
-                    <minTime>3088</minTime>
-                    <maxTime>15214</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.OperationExecutionRecorderForClockwork.recordOperationExecutions</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>22831</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>14224</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.inbounds.prep.SingleShadowInboundsPreparation.prepareOrEvaluate</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>1758</totalTime>
-                    <minTime>5</minTime>
-                    <maxTime>555</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.PolicyStatementProcessor.processPolicyStatements</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>41</totalTime>
-                    <minTime>3</minTime>
-                    <maxTime>14</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.countObjects</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>7007</totalTime>
-                    <minTime>7007</minTime>
-                    <maxTime>7007</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>54826</totalTime>
-                    <minTime>7179</minTime>
-                    <maxTime>22412</maxTime>
-                </operation>
-                <operation>
-                    <name>org.identityconnectors.framework.api.ConnectorFacade.updateDelta</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>3550</totalTime>
-                    <minTime>3550</minTime>
-                    <maxTime>3550</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.api.ProvisioningService.checkConstraints</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>23387</totalTime>
-                    <minTime>2451</minTime>
-                    <maxTime>10424</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projection</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>34267</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>14588</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.loader.ContextLoader.loadFullShadow</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>78287</totalTime>
-                    <minTime>78287</minTime>
-                    <maxTime>78287</maxTime>
+                    <totalTime>47441</totalTime>
+                    <minTime>7139</minTime>
+                    <maxTime>17285</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.getObject</name>
-                    <invocationCount>88</invocationCount>
-                    <totalTime>193104</totalTime>
-                    <minTime>476</minTime>
-                    <maxTime>9878</maxTime>
+                    <invocationCount>7</invocationCount>
+                    <totalTime>89826</totalTime>
+                    <minTime>4507</minTime>
+                    <maxTime>17122</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.repo.common.activity.run.processing.ItemProcessingGatekeeper.handle</name>
+                    <name>com.evolveum.midpoint.notifications.api.NotificationManager.processEvent</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>841693</totalTime>
-                    <minTime>841693</minTime>
-                    <maxTime>841693</maxTime>
-                </operation>
-                <operation>
-                    <name>org.identityconnectors.framework.api.ConnectorFacade.getObject</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>9549</totalTime>
-                    <minTime>686</minTime>
-                    <maxTime>7691</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.assignments.PathSegmentEvaluation.evaluate</name>
-                    <invocationCount>492</invocationCount>
-                    <totalTime>200903</totalTime>
-                    <minTime>0</minTime>
-                    <maxTime>30641</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.mapping.MappingImpl.evaluate</name>
-                    <invocationCount>171</invocationCount>
-                    <totalTime>131294</totalTime>
-                    <minTime>14</minTime>
-                    <maxTime>13550</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.ucf.api.ConnectorInstance.modifyObject</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>3731</totalTime>
-                    <minTime>3731</minTime>
-                    <maxTime>3731</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.Clockwork.execution</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>122046</totalTime>
-                    <minTime>12</minTime>
-                    <maxTime>48517</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.assignments</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>267942</totalTime>
-                    <minTime>3654</minTime>
-                    <maxTime>90881</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.PolicyRuleProcessor.enforce</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>73</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>32</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.wf.impl.processors.primary.PrimaryChangeProcessor.gatherStartInstructions</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>4714</totalTime>
-                    <minTime>4714</minTime>
-                    <maxTime>4714</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.wf.impl.hook.WfHook.invoke</name>
-                    <invocationCount>16</invocationCount>
-                    <totalTime>5021</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>4774</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.assignmentsConflicts</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>29</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>8</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.api.ModelService.executeChanges</name>
-                    <invocationCount>2</invocationCount>
-                    <totalTime>599712</totalTime>
-                    <minTime>86507</minTime>
-                    <maxTime>513205</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.AssignmentProcessor.processProjections</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>10082</totalTime>
-                    <minTime>21</minTime>
-                    <maxTime>9335</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.activation</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>79623</totalTime>
-                    <minTime>9</minTime>
-                    <maxTime>79420</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.searchObjects</name>
-                    <invocationCount>97</invocationCount>
-                    <totalTime>150738</totalTime>
-                    <minTime>11</minTime>
-                    <maxTime>39745</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.execute</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>121998</totalTime>
-                    <minTime>8</minTime>
-                    <maxTime>48510</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.PolicyRuleProcessor.evaluateAssignmentPolicyRules</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>43120</totalTime>
-                    <minTime>81</minTime>
-                    <maxTime>39844</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.wf.impl.processors.primary.PrimaryChangeProcessor.previewOrProcessModelInvocation</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>4749</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>4738</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.mapping.MappingImpl.evaluateTimeValidity</name>
-                    <invocationCount>2</invocationCount>
-                    <totalTime>116</totalTime>
-                    <minTime>44</minTime>
-                    <maxTime>72</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.api.ProvisioningService.getObject</name>
-                    <invocationCount>16</invocationCount>
-                    <totalTime>188320</totalTime>
-                    <minTime>16</minTime>
-                    <maxTime>78206</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.ConsolidationProcessor.consolidateValuesPostRecon</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>288</totalTime>
-                    <minTime>1</minTime>
-                    <maxTime>280</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.common.AuditHelper.resolveName</name>
-                    <invocationCount>6</invocationCount>
-                    <totalTime>9132</totalTime>
-                    <minTime>4</minTime>
-                    <maxTime>5801</maxTime>
-                </operation>
-                <operation>
-                    <name>class com.evolveum.midpoint.provisioning.impl.shadows.ShadowGetOperation.getResourceObject</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>26231</totalTime>
-                    <minTime>993</minTime>
-                    <maxTime>21341</maxTime>
+                    <totalTime>1806</totalTime>
+                    <minTime>1806</minTime>
+                    <maxTime>1806</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.countObjects</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>6972</totalTime>
-                    <minTime>6972</minTime>
-                    <maxTime>6972</maxTime>
+                    <totalTime>8527</totalTime>
+                    <minTime>8527</minTime>
+                    <maxTime>8527</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projectionCredentials</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>113</totalTime>
-                    <minTime>16</minTime>
-                    <maxTime>51</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.focusActivation</name>
-                    <invocationCount>24</invocationCount>
-                    <totalTime>501</totalTime>
-                    <minTime>7</minTime>
-                    <maxTime>148</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.focusLifecycle</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>18</totalTime>
-                    <minTime>1</minTime>
-                    <maxTime>6</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.scriptExecutor.SynchronousScriptExecutor.executeScript</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>624819</totalTime>
-                    <minTime>1075</minTime>
-                    <maxTime>622258</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.schema.result.searchResult</name>
-                    <invocationCount>6</invocationCount>
-                    <totalTime>507</totalTime>
-                    <minTime>48</minTime>
-                    <maxTime>120</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.ucf.impl.connid.ConnIdObjectConvertor.convertToUcfObject</name>
-                    <invocationCount>9</invocationCount>
-                    <totalTime>1268</totalTime>
-                    <minTime>40</minTime>
-                    <maxTime>389</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.loader.ContextLoader.determineFocusContext</name>
-                    <invocationCount>27</invocationCount>
-                    <totalTime>9428</totalTime>
-                    <minTime>0</minTime>
-                    <maxTime>3726</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.ConsolidationProcessor.consolidateItem</name>
-                    <invocationCount>20</invocationCount>
-                    <totalTime>550</totalTime>
-                    <minTime>4</minTime>
-                    <maxTime>244</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.scriptExecutor.LinkSourceFinder.getSources</name>
+                    <name>SqaleRepositoryService.searchObjects</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>21188</totalTime>
-                    <minTime>21188</minTime>
-                    <maxTime>21188</maxTime>
+                    <totalTime>2146</totalTime>
+                    <minTime>2146</minTime>
+                    <maxTime>2146</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projectProjection</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>32479</totalTime>
-                    <minTime>2815</minTime>
-                    <maxTime>14576</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.api.ModelService.searchObjects</name>
-                    <invocationCount>33</invocationCount>
-                    <totalTime>39600</totalTime>
-                    <minTime>151</minTime>
-                    <maxTime>13322</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.inbounds.AbstractInboundsProcessing.evaluateMappings</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>2025</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>541</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.PruningOperation.execute</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>31</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>11</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.execute.projection.ShadowType</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>87853</totalTime>
-                    <minTime>10226</minTime>
-                    <maxTime>37232</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.notifications.impl.NotificationHook.invoke</name>
-                    <invocationCount>16</invocationCount>
-                    <totalTime>2551</totalTime>
-                    <minTime>0</minTime>
-                    <maxTime>750</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.searchObjectsIterative</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>851359</totalTime>
-                    <minTime>851359</minTime>
-                    <maxTime>851359</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.Clockwork.click</name>
-                    <invocationCount>20</invocationCount>
-                    <totalTime>1634754</totalTime>
-                    <minTime>91</minTime>
-                    <maxTime>644656</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.DependencyProcessor.sortProjectionsToWaves</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>39</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>17</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.api.ModelService.recompute</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>826806</totalTime>
-                    <minTime>826806</minTime>
-                    <maxTime>826806</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.ucf.api.ConnectorInstance.fetchObject</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>10677</totalTime>
-                    <minTime>817</minTime>
-                    <maxTime>8326</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.Clockwork.run</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>1658550</totalTime>
-                    <minTime>86430</minTime>
-                    <maxTime>826628</maxTime>
+                    <name>SqaleRepositoryService.modifyObject</name>
+                    <invocationCount>12</invocationCount>
+                    <totalTime>299300</totalTime>
+                    <minTime>11025</minTime>
+                    <maxTime>37800</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.repo.common.activity.run.LocalActivityRun.runLocally</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>919554</totalTime>
-                    <minTime>919554</minTime>
-                    <maxTime>919554</maxTime>
-                </operation>
-                <operation>
-                    <name>SqaleRepositoryService.getVersion</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>4401</totalTime>
-                    <minTime>304</minTime>
-                    <maxTime>3712</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.updateLinks</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>64621</totalTime>
-                    <minTime>10213</minTime>
-                    <maxTime>21865</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.common.AuditHelper.audit</name>
-                    <invocationCount>9</invocationCount>
-                    <totalTime>50087</totalTime>
-                    <minTime>2230</minTime>
-                    <maxTime>14939</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.evaluators.AlwaysTrueConstraintEvaluator.evaluate</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>37</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>18</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.focus</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>330719</totalTime>
-                    <minTime>6818</minTime>
-                    <maxTime>109757</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.wf.impl.processors.primary.policy.ObjectPolicyAspectPart.extractObjectBasedInstructions</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>892</totalTime>
-                    <minTime>892</minTime>
-                    <maxTime>892</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.getObject</name>
-                    <invocationCount>961</invocationCount>
-                    <totalTime>210982</totalTime>
-                    <minTime>1</minTime>
-                    <maxTime>10029</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.resourceobjects.ResourceObjectConverter.searchResourceObjects</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>14050</totalTime>
-                    <minTime>1886</minTime>
-                    <maxTime>7336</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.expression.evaluator.transformation.SingleShotEvaluation.evaluateExpression</name>
-                    <invocationCount>118</invocationCount>
-                    <totalTime>79878</totalTime>
-                    <minTime>3</minTime>
-                    <maxTime>13499</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.updateSituationInShadow</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>64421</totalTime>
-                    <minTime>10198</minTime>
-                    <maxTime>21733</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.focusCredentials</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>133</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>57</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.notifications.api.NotificationManager.processEvent</name>
-                    <invocationCount>10</invocationCount>
-                    <totalTime>6780</totalTime>
-                    <minTime>438</minTime>
-                    <maxTime>826</maxTime>
-                </operation>
-                <operation>
-                    <name>SqaleAuditService.audit</name>
-                    <invocationCount>9</invocationCount>
-                    <totalTime>39487</totalTime>
-                    <minTime>2212</minTime>
-                    <maxTime>9091</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projectionPolicyRules</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>592</totalTime>
-                    <minTime>89</minTime>
-                    <maxTime>207</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.AssignmentProcessor.processAssignments</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>267898</totalTime>
-                    <minTime>3650</minTime>
-                    <maxTime>90877</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.PolicyRuleProcessor.recordAssignmentPolicyRules</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>202</totalTime>
-                    <minTime>14</minTime>
-                    <maxTime>50</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.objectTemplateAfterProjections</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>586</totalTime>
-                    <minTime>39</minTime>
-                    <maxTime>120</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.PersonaProcessor.executePersonaDelta</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>232528</totalTime>
-                    <minTime>232528</minTime>
-                    <maxTime>232528</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.FocusConstraintsChecker.check</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>10103</totalTime>
-                    <minTime>3</minTime>
-                    <maxTime>4320</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.construction.EvaluatedResourceObjectConstructionImpl.evaluate</name>
-                    <invocationCount>12</invocationCount>
-                    <totalTime>10488</totalTime>
-                    <minTime>2</minTime>
-                    <maxTime>3357</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.AssignmentProcessor.evaluateFocusMappings</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>92925</totalTime>
-                    <minTime>17</minTime>
-                    <maxTime>31766</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.controller.ModelController.authorizeChangeExecutionStart</name>
-                    <invocationCount>2</invocationCount>
-                    <totalTime>22</totalTime>
-                    <minTime>8</minTime>
-                    <maxTime>14</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.inbounds.FullInboundsProcessing.collectMappings</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>1970</totalTime>
-                    <minTime>26</minTime>
-                    <maxTime>588</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.scriptExecutor.LinkTargetFinder.getTargets</name>
-                    <invocationCount>2</invocationCount>
-                    <totalTime>732</totalTime>
-                    <minTime>295</minTime>
-                    <maxTime>437</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.expression.evaluator.transformation.AbstractValueTransformationExpressionEvaluator.evaluate</name>
-                    <invocationCount>189</invocationCount>
-                    <totalTime>113353</totalTime>
-                    <minTime>14</minTime>
-                    <maxTime>13506</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.loader.ProjectionsLoadOperation.load</name>
-                    <invocationCount>7</invocationCount>
-                    <totalTime>46999</totalTime>
-                    <minTime>14</minTime>
-                    <maxTime>19246</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.scripting.actions.ExecuteScriptExecutor.execute</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>836523</totalTime>
-                    <minTime>836523</minTime>
-                    <maxTime>836523</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.loader.ProjectionUpdateOperation.update</name>
-                    <invocationCount>11</invocationCount>
-                    <totalTime>48772</totalTime>
-                    <minTime>7</minTime>
-                    <maxTime>39662</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.common.mapping.MappingImpl.evaluatePrepared</name>
-                    <invocationCount>171</invocationCount>
-                    <totalTime>128460</totalTime>
-                    <minTime>7</minTime>
-                    <maxTime>13535</maxTime>
-                </operation>
-                <operation>
-                    <name>class com.evolveum.midpoint.model.impl.lens.projector.policy.scriptExecutor.PolicyRuleScriptExecutor.executeScriptsFromRules</name>
-                    <invocationCount>2</invocationCount>
-                    <totalTime>624983</totalTime>
-                    <minTime>2632</minTime>
-                    <maxTime>622351</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.api.ProvisioningService.searchObjects</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>6839</totalTime>
-                    <minTime>1725</minTime>
-                    <maxTime>2617</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.resourceobjects.ResourceObjectConverter.modifyEntitlement</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>6666</totalTime>
-                    <minTime>6666</minTime>
-                    <maxTime>6666</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.AssignmentProcessor.distributeConstructions</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>199</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>102</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.Clockwork.runWithConflictDetection</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>1658350</totalTime>
-                    <minTime>86400</minTime>
-                    <maxTime>826573</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.wf.impl.processors.primary.policy.PolicyRuleBasedAspect.getStartInstructions</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>4697</totalTime>
-                    <minTime>4697</minTime>
-                    <maxTime>4697</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.repo.common.activity.run.processing.ItemProcessingGatekeeper.process</name>
-                    <invocationCount>1</invocationCount>
-                    <totalTime>845558</totalTime>
-                    <minTime>845558</minTime>
-                    <maxTime>845558</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.evaluators.ExclusionRequirementConstraintEvaluator.evaluate</name>
-                    <invocationCount>24</invocationCount>
-                    <totalTime>870</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>90</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.scripting.actions.RecomputeExecutor.execute</name>
-                    <invocationCount>2</invocationCount>
-                    <totalTime>599898</totalTime>
-                    <minTime>86564</minTime>
-                    <maxTime>513334</maxTime>
-                </operation>
-                <operation>
-                    <name>org.identityconnectors.framework.api.ConnectorFacade.search</name>
-                    <invocationCount>3</invocationCount>
-                    <totalTime>13553</totalTime>
-                    <minTime>1767</minTime>
-                    <maxTime>7152</maxTime>
+                    <totalTime>1554594</totalTime>
+                    <minTime>1554594</minTime>
+                    <maxTime>1554594</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.searchObjectsIterative</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>851287</totalTime>
-                    <minTime>851287</minTime>
-                    <maxTime>851287</maxTime>
+                    <totalTime>11185</totalTime>
+                    <minTime>11185</minTime>
+                    <maxTime>11185</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.assignmentsMembershipAndDelegate</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>2886</totalTime>
-                    <minTime>103</minTime>
-                    <maxTime>791</maxTime>
+                    <name>com.evolveum.midpoint.model.common.expression.script.ScriptExpression.evaluate</name>
+                    <invocationCount>2</invocationCount>
+                    <totalTime>1137366</totalTime>
+                    <minTime>293</minTime>
+                    <maxTime>1137073</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.policy.PolicyRuleEvaluator.evaluateRule</name>
-                    <invocationCount>40</invocationCount>
-                    <totalTime>5869</totalTime>
-                    <minTime>10</minTime>
-                    <maxTime>3837</maxTime>
+                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.countObjects</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>8618</totalTime>
+                    <minTime>8618</minTime>
+                    <maxTime>8618</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.focus.consolidation.DeltaSetTripleMapConsolidation.consolidate</name>
-                    <invocationCount>20</invocationCount>
-                    <totalTime>3697</totalTime>
-                    <minTime>38</minTime>
-                    <maxTime>333</maxTime>
+                    <name>com.evolveum.midpoint.model.common.expression.evaluator.transformation.AbstractValueTransformationExpressionEvaluator.evaluate</name>
+                    <invocationCount>2</invocationCount>
+                    <totalTime>1149429</totalTime>
+                    <minTime>345</minTime>
+                    <maxTime>1149084</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.api.ModelService.getObject</name>
-                    <invocationCount>564</invocationCount>
-                    <totalTime>29826</totalTime>
-                    <minTime>21</minTime>
-                    <maxTime>203</maxTime>
+                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.getObject</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>1739</totalTime>
+                    <minTime>1739</minTime>
+                    <maxTime>1739</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.construction.PlainResourceObjectConstruction.evaluate</name>
+                    <name>SqaleRepositoryService.modifyObjectDynamically</name>
                     <invocationCount>4</invocationCount>
-                    <totalTime>1591</totalTime>
-                    <minTime>61</minTime>
-                    <maxTime>1305</maxTime>
+                    <totalTime>188650</totalTime>
+                    <minTime>22136</minTime>
+                    <maxTime>108096</maxTime>
                 </operation>
                 <operation>
-                    <name>class com.evolveum.midpoint.model.impl.scripting.BulkActionsExecutor.evaluate</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>1437001</totalTime>
-                    <minTime>37</minTime>
-                    <maxTime>836859</maxTime>
+                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.searchObjects</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>2255</totalTime>
+                    <minTime>2255</minTime>
+                    <maxTime>2255</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.construction.AssignedResourceObjectConstruction.evaluate</name>
-                    <invocationCount>8</invocationCount>
-                    <totalTime>9274</totalTime>
-                    <minTime>9</minTime>
-                    <maxTime>3405</maxTime>
+                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.searchObjectsIterative</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>11382</totalTime>
+                    <minTime>11382</minTime>
+                    <maxTime>11382</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.provisioning.impl.shadows.AssociationsHelper.convertReferenceAttributesToAssociations</name>
-                    <invocationCount>26</invocationCount>
-                    <totalTime>36886</totalTime>
-                    <minTime>4</minTime>
-                    <maxTime>8544</maxTime>
+                    <name>com.evolveum.midpoint.model.common.expression.functions.FunctionLibraryManager.fetchFunctionLibraries</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>2328</totalTime>
+                    <minTime>2328</minTime>
+                    <maxTime>2328</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.model.impl.lens.projector.Projector.projectionLifecycle</name>
-                    <invocationCount>4</invocationCount>
-                    <totalTime>23</totalTime>
-                    <minTime>5</minTime>
-                    <maxTime>8</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.model.impl.controller.SchemaTransformer.applySchemasAndSecurityToObject</name>
-                    <invocationCount>33</invocationCount>
-                    <totalTime>480</totalTime>
-                    <minTime>8</minTime>
-                    <maxTime>39</maxTime>
-                </operation>
-                <operation>
-                    <name>com.evolveum.midpoint.provisioning.api.ProvisioningService.modifyObject</name>
-                    <invocationCount>5</invocationCount>
-                    <totalTime>69711</totalTime>
-                    <minTime>8893</minTime>
-                    <maxTime>21183</maxTime>
+                    <name>com.evolveum.midpoint.model.common.expression.evaluator.transformation.SingleShotEvaluation.evaluateExpression</name>
+                    <invocationCount>2</invocationCount>
+                    <totalTime>1137941</totalTime>
+                    <minTime>314</minTime>
+                    <maxTime>1137627</maxTime>
                 </operation>
             </operationsPerformanceInformation>
-            <cachingConfiguration>Caching configuration for thread midPointScheduler_Worker-6 on 2025-05-02T04:05:02.300Z:
+            <cachingConfiguration>Caching configuration for thread midPointScheduler_Worker-7 on 2025-05-25T03:15:32.056Z:
 
 Profiles: []</cachingConfiguration>
-            <timestamp>2025-05-02T04:05:02.300Z</timestamp>
+            <timestamp>2025-05-25T03:15:32.056Z</timestamp>
         </operationStats>
         <binding>loose</binding>
         <schedule>
@@ -1678,114 +538,25 @@ midpoint.recompute(RoleType.class, basic.stringify(result_role.oid))
             <activity>
                 <realizationState>complete</realizationState>
                 <resultStatus>success</resultStatus>
-                <realizationStartTimestamp>2025-05-02T04:05:01.334Z</realizationStartTimestamp>
-                <realizationEndTimestamp>2025-05-02T04:05:02.273Z</realizationEndTimestamp>
-                <runStartTimestamp>2025-05-02T04:05:01.334Z</runStartTimestamp>
-                <runEndTimestamp>2025-05-02T04:05:02.273Z</runEndTimestamp>
+                <realizationStartTimestamp>2025-05-25T03:15:30.285Z</realizationStartTimestamp>
+                <realizationEndTimestamp>2025-05-25T03:15:31.975Z</realizationEndTimestamp>
+                <runStartTimestamp>2025-05-25T03:15:30.285Z</runStartTimestamp>
+                <runEndTimestamp>2025-05-25T03:15:31.975Z</runEndTimestamp>
                 <progress>
-                    <committed id="1376">
-                        <outcome>
-                            <outcome>success</outcome>
-                        </outcome>
-                        <count>1</count>
-                    </committed>
-                    <expectedTotal>1</expectedTotal>
-                    <expectedInCurrentBucket>1</expectedInCurrentBucket>
+                    <expectedTotal>0</expectedTotal>
+                    <expectedInCurrentBucket>0</expectedInCurrentBucket>
                 </progress>
                 <statistics>
                     <itemProcessing>
-                        <processed id="1378">
-                            <outcome>
-                                <outcome>success</outcome>
-                            </outcome>
-                            <count>1</count>
-                            <duration>841.8</duration>
-                            <lastItem>
-                                <name>POS100886</name>
-                                <displayName>600110 А.М.Перальта Кассир в ООО "ОДИН"</displayName>
-                                <type>c:UserType</type>
-                                <oid>5bf58bd3-50f8-4f23-bbe3-38d9f7f8aad0</oid>
-                                <startTimestamp>2025-05-02T04:05:01.399Z</startTimestamp>
-                                <endTimestamp>2025-05-02T04:05:02.241Z</endTimestamp>
-                                <operationId>134</operationId>
-                            </lastItem>
-                        </processed>
-                        <run id="1377">
-                            <startTimestamp>2025-05-02T04:05:01.334Z</startTimestamp>
-                            <endTimestamp>2025-05-02T04:05:02.273Z</endTimestamp>
+                        <run id="5731">
+                            <startTimestamp>2025-05-25T03:15:30.285Z</startTimestamp>
+                            <endTimestamp>2025-05-25T03:15:31.975Z</endTimestamp>
                         </run>
                     </itemProcessing>
-                    <actionsExecuted>
-                        <objectActionsEntry>
-                            <objectType>c:UserType</objectType>
-                            <operation>modify</operation>
-                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
-                            <totalSuccessCount>2</totalSuccessCount>
-                            <lastSuccessObjectName>600110 EMP002003 Employment MS AD Account</lastSuccessObjectName>
-                            <lastSuccessObjectDisplayName>AD login is:APeralta</lastSuccessObjectDisplayName>
-                            <lastSuccessObjectOid>80149271-96c9-4892-a600-c8a6e168006f</lastSuccessObjectOid>
-                            <lastSuccessTimestamp>2025-05-02T04:05:02.072Z</lastSuccessTimestamp>
-                            <totalFailureCount>0</totalFailureCount>
-                        </objectActionsEntry>
-                        <objectActionsEntry>
-                            <objectType>c:ShadowType</objectType>
-                            <operation>modify</operation>
-                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
-                            <totalSuccessCount>1</totalSuccessCount>
-                            <lastSuccessObjectName>CN=APeralta,OU=New_Employees,OU=OOO_ODIN,DC=168testserverhome,DC=com</lastSuccessObjectName>
-                            <lastSuccessObjectDisplayName>CN=APeralta,OU=New_Employees,OU=OOO_ODIN,DC=168testserverhome,DC=com (ACCOUNT - intent  MS AD account - user)</lastSuccessObjectDisplayName>
-                            <lastSuccessObjectOid>9bbeffbb-565e-4984-ba2b-62733844258e</lastSuccessObjectOid>
-                            <lastSuccessTimestamp>2025-05-02T04:05:02.095Z</lastSuccessTimestamp>
-                            <totalFailureCount>0</totalFailureCount>
-                        </objectActionsEntry>
-                        <objectActionsEntry>
-                            <objectType>c:RoleType</objectType>
-                            <operation>modify</operation>
-                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
-                            <totalSuccessCount>1</totalSuccessCount>
-                            <lastSuccessObjectName>POS100886</lastSuccessObjectName>
-                            <lastSuccessObjectDisplayName>POS100886@ООО "ОДИН"[FUN.OBJ DND]</lastSuccessObjectDisplayName>
-                            <lastSuccessObjectOid>f65a7209-f0d6-4d5d-8e8f-9598be2b0614</lastSuccessObjectOid>
-                            <lastSuccessTimestamp>2025-05-02T04:05:01.552Z</lastSuccessTimestamp>
-                            <totalFailureCount>0</totalFailureCount>
-                        </objectActionsEntry>
-                        <resultingObjectActionsEntry>
-                            <objectType>c:UserType</objectType>
-                            <operation>modify</operation>
-                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
-                            <totalSuccessCount>2</totalSuccessCount>
-                            <lastSuccessObjectName>600110 EMP002003 Employment MS AD Account</lastSuccessObjectName>
-                            <lastSuccessObjectDisplayName>AD login is:APeralta</lastSuccessObjectDisplayName>
-                            <lastSuccessObjectOid>80149271-96c9-4892-a600-c8a6e168006f</lastSuccessObjectOid>
-                            <lastSuccessTimestamp>2025-05-02T04:05:02.072Z</lastSuccessTimestamp>
-                            <totalFailureCount>0</totalFailureCount>
-                        </resultingObjectActionsEntry>
-                        <resultingObjectActionsEntry>
-                            <objectType>c:ShadowType</objectType>
-                            <operation>modify</operation>
-                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
-                            <totalSuccessCount>1</totalSuccessCount>
-                            <lastSuccessObjectName>CN=APeralta,OU=New_Employees,OU=OOO_ODIN,DC=168testserverhome,DC=com</lastSuccessObjectName>
-                            <lastSuccessObjectDisplayName>CN=APeralta,OU=New_Employees,OU=OOO_ODIN,DC=168testserverhome,DC=com (ACCOUNT - intent  MS AD account - user)</lastSuccessObjectDisplayName>
-                            <lastSuccessObjectOid>9bbeffbb-565e-4984-ba2b-62733844258e</lastSuccessObjectOid>
-                            <lastSuccessTimestamp>2025-05-02T04:05:02.095Z</lastSuccessTimestamp>
-                            <totalFailureCount>0</totalFailureCount>
-                        </resultingObjectActionsEntry>
-                        <resultingObjectActionsEntry>
-                            <objectType>c:RoleType</objectType>
-                            <operation>modify</operation>
-                            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#recompute</channel>
-                            <totalSuccessCount>1</totalSuccessCount>
-                            <lastSuccessObjectName>POS100886</lastSuccessObjectName>
-                            <lastSuccessObjectDisplayName>POS100886@ООО "ОДИН"[FUN.OBJ DND]</lastSuccessObjectDisplayName>
-                            <lastSuccessObjectOid>f65a7209-f0d6-4d5d-8e8f-9598be2b0614</lastSuccessObjectOid>
-                            <lastSuccessTimestamp>2025-05-02T04:05:01.552Z</lastSuccessTimestamp>
-                            <totalFailureCount>0</totalFailureCount>
-                        </resultingObjectActionsEntry>
-                    </actionsExecuted>
+                    <actionsExecuted/>
                 </statistics>
                 <bucketing>
-                    <bucket id="1372">
+                    <bucket id="5729">
                         <sequentialNumber>1</sequentialNumber>
                         <state>complete</state>
                         <content xsi:type="c:NullWorkBucketContentType"/>

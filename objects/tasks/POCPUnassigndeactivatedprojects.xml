@@ -1,14 +1,14 @@
-<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="15f58b15-1aa1-436c-a60e-60fb1e70fd77" version="27961"  xsi:type="c:TaskType">
+<apti:object xmlns:apti="http://midpoint.evolveum.com/xml/ns/public/common/api-types-3" xmlns="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3" xmlns:icfs="http://midpoint.evolveum.com/xml/ns/public/connector/icf-1/resource-schema-3" xmlns:org="http://midpoint.evolveum.com/xml/ns/public/common/org-3" xmlns:q="http://prism.evolveum.com/xml/ns/public/query-3" xmlns:ri="http://midpoint.evolveum.com/xml/ns/public/resource/instance-3" xmlns:t="http://prism.evolveum.com/xml/ns/public/types-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" oid="270eae52-7625-4da7-afb3-bc5f64e3332a" version="9791"  xsi:type="c:TaskType">
         <_metadata id="2">
             <storage>
-                <createTimestamp>2025-04-21T09:26:46.705Z</createTimestamp>
+                <createTimestamp>2025-05-20T08:14:54.219Z</createTimestamp>
                 <creatorRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
                     <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                 </creatorRef>
                 <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
-                <modifyTimestamp>2025-05-20T09:44:42.159Z</modifyTimestamp>
+                <modifyTimestamp>2025-05-21T07:43:49.517Z</modifyTimestamp>
                 <modifierRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -17,7 +17,7 @@
                 <modifyChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</modifyChannel>
             </storage>
             <process>
-                <requestTimestamp>2025-04-25T11:02:05.261Z</requestTimestamp>
+                <requestTimestamp>2025-05-20T08:14:54.173Z</requestTimestamp>
                 <requestorRef>
                     <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                     <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -25,10 +25,10 @@
                 </requestorRef>
             </process>
         </_metadata>
-        <name>POCE Recompute Position roles if User Position has been mod by Boss user</name>
-        <operationExecution id="427">
+        <name>POCP Unassign deactivated projects</name>
+        <operationExecution id="595">
             <recordType>simple</recordType>
-            <timestamp>2025-05-01T07:57:47.030Z</timestamp>
+            <timestamp>2025-05-21T07:36:47.723Z</timestamp>
             <operation>
                 <objectDelta>
                     <t:changeType>modify</t:changeType>
@@ -38,133 +38,115 @@
                     <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
                     <status>success</status>
                     <importance>normal</importance>
-                    <token>1000000000000005058</token>
+                    <token>1000000000000256991</token>
                 </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod by Boss user</objectName>
+                <objectName>POCP Unassign deactivated projects</objectName>
             </operation>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="1656">
+        <operationExecution id="596">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-21T07:38:07.606Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000257390</token>
+                </executionResult>
+                <objectName>POCP Unassign deactivated projects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="597">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-21T07:41:07.864Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000259417</token>
+                </executionResult>
+                <objectName>POCP Unassign deactivated projects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="606">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-21T07:43:33.235Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000263788</token>
+                </executionResult>
+                <objectName>POCP Unassign deactivated projects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="611">
+            <recordType>simple</recordType>
+            <timestamp>2025-05-21T07:43:49.542Z</timestamp>
+            <operation>
+                <objectDelta>
+                    <t:changeType>modify</t:changeType>
+                    <t:objectType>c:TaskType</t:objectType>
+                </objectDelta>
+                <executionResult>
+                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
+                    <status>success</status>
+                    <importance>normal</importance>
+                    <token>1000000000000264135</token>
+                </executionResult>
+                <objectName>POCP Unassign deactivated projects</objectName>
+            </operation>
+            <status>success</status>
+            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
+            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
+        </operationExecution>
+        <operationExecution id="1072">
             <recordType>complex</recordType>
-            <timestamp>2025-05-13T08:48:05.070Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="ea939731-75b9-4887-9069-59266fd2ec03" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="1661">
-            <recordType>complex</recordType>
-            <timestamp>2025-05-13T08:52:38.994Z</timestamp>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <taskRef oid="5d387239-1e04-4f3b-8a08-0532c77f08fb" relation="org:default" type="c:TaskType"/>
-            <activityPath/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="3186">
-            <recordType>simple</recordType>
-            <timestamp>2025-05-20T08:34:35.309Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000180280</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod by Boss user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="3191">
-            <recordType>simple</recordType>
-            <timestamp>2025-05-20T08:39:27.832Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000184969</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod by Boss user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="3244">
-            <recordType>simple</recordType>
-            <timestamp>2025-05-20T09:43:53.949Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000223228</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod by Boss user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="3249">
-            <recordType>simple</recordType>
-            <timestamp>2025-05-20T09:44:42.184Z</timestamp>
-            <operation>
-                <objectDelta>
-                    <t:changeType>modify</t:changeType>
-                    <t:objectType>c:TaskType</t:objectType>
-                </objectDelta>
-                <executionResult>
-                    <operation>com.evolveum.midpoint.model.impl.lens.ChangeExecutor.executeDelta</operation>
-                    <status>success</status>
-                    <importance>normal</importance>
-                    <token>1000000000000224313</token>
-                </executionResult>
-                <objectName>POCE Recompute Position roles if User Position has been mod by Boss user</objectName>
-            </operation>
-            <status>success</status>
-            <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
-            <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-        </operationExecution>
-        <operationExecution id="3934">
-            <recordType>complex</recordType>
-            <timestamp>2025-05-22T15:28:57.896Z</timestamp>
+            <timestamp>2025-05-22T15:28:58.658Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="b762dd06-578b-45a0-9f85-f4e624491d7b" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="4007">
+        <operationExecution id="1145">
             <recordType>complex</recordType>
-            <timestamp>2025-05-23T03:58:42.456Z</timestamp>
+            <timestamp>2025-05-23T03:58:43.270Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="8f876e05-64ea-4cf6-aa97-376b6472f826" relation="org:default" type="c:TaskType"/>
             <activityPath/>
             <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
         </operationExecution>
-        <operationExecution id="4248">
+        <operationExecution id="1386">
             <recordType>complex</recordType>
-            <timestamp>2025-05-23T09:05:14.299Z</timestamp>
+            <timestamp>2025-05-23T09:05:15.450Z</timestamp>
             <status>success</status>
             <initiatorRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
             <taskRef oid="1333d492-e976-4f11-85c4-1dc17d598c08" relation="org:default" type="c:TaskType"/>
@@ -174,7 +156,7 @@
         <assignment id="1">
             <_metadata id="3">
                 <storage>
-                    <createTimestamp>2025-04-21T09:26:46.705Z</createTimestamp>
+                    <createTimestamp>2025-05-20T08:14:54.219Z</createTimestamp>
                     <creatorRef>
                         <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                         <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -183,7 +165,7 @@
                     <createChannel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</createChannel>
                 </storage>
                 <process>
-                    <requestTimestamp>2025-04-25T11:02:05.261Z</requestTimestamp>
+                    <requestTimestamp>2025-05-20T08:14:54.173Z</requestTimestamp>
                     <requestorRef>
                         <t:oid>00000000-0000-0000-0000-000000000002</t:oid>
                         <t:relation xmlns="http://prism.evolveum.com/xml/ns/public/types-3">org:default</t:relation>
@@ -198,7 +180,7 @@
                             <t:type xmlns="http://prism.evolveum.com/xml/ns/public/types-3">c:UserType</t:type>
                         </actorRef>
                         <channel>http://midpoint.evolveum.com/xml/ns/public/common/channels-3#user</channel>
-                        <timestamp>2025-04-21T09:26:46.653Z</timestamp>
+                        <timestamp>2025-05-20T08:14:54.172Z</timestamp>
                     </acquisition>
                 </provenance>
             </_metadata>
@@ -213,11 +195,11 @@
         <roleMembershipRef oid="00000000-0000-0000-0000-000000000509" relation="org:default" type="c:ArchetypeType">
             <_metadata id="5">
                 <storage>
-                    <createTimestamp>2025-04-21T09:26:46.705Z</createTimestamp>
+                    <createTimestamp>2025-05-20T08:14:54.209Z</createTimestamp>
                 </storage>
                 <provenance>
                     <assignmentPath>
-                        <sourceRef oid="15f58b15-1aa1-436c-a60e-60fb1e70fd77" relation="org:default" type="c:TaskType"/>
+                        <sourceRef oid="270eae52-7625-4da7-afb3-bc5f64e3332a" relation="org:default" type="c:TaskType"/>
                         <segment id="6">
                             <segmentOrder>1</segmentOrder>
                             <assignmentId>1</assignmentId>
@@ -228,14 +210,16 @@
                 </provenance>
             </_metadata>
         </roleMembershipRef>
-        <taskIdentifier>1745578925374-53013-1</taskIdentifier>
+        <taskIdentifier>1747728894219-53013-1</taskIdentifier>
         <ownerRef oid="00000000-0000-0000-0000-000000000002" relation="org:default" type="c:UserType"/>
         <executionState>runnable</executionState>
         <schedulingState>ready</schedulingState>
+        <stateBeforeSuspend>running</stateBeforeSuspend>
+        <schedulingStateBeforeSuspend>ready</schedulingStateBeforeSuspend>
         <result incomplete="true"/>
         <resultStatus>success</resultStatus>
-        <lastRunStartTimestamp>2025-05-25T03:15:29.816Z</lastRunStartTimestamp>
-        <lastRunFinishTimestamp>2025-05-25T03:15:32.018Z</lastRunFinishTimestamp>
+        <lastRunStartTimestamp>2025-05-25T03:15:29.826Z</lastRunStartTimestamp>
+        <lastRunFinishTimestamp>2025-05-25T03:15:32.056Z</lastRunFinishTimestamp>
         <progress>0</progress>
         <operationStats>
             <environmentalPerformanceInformation>
@@ -248,9 +232,9 @@
                     <name>SqaleRepositoryService.getObject</name>
                     <invocationCount>7</invocationCount>
                     <executionCount>7</executionCount>
-                    <totalTime>78</totalTime>
-                    <minTime>5</minTime>
-                    <maxTime>17</maxTime>
+                    <totalTime>94</totalTime>
+                    <minTime>6</minTime>
+                    <maxTime>18</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -259,9 +243,20 @@
                     <name>SqaleRepositoryService.countObjects</name>
                     <invocationCount>1</invocationCount>
                     <executionCount>1</executionCount>
-                    <totalTime>9</totalTime>
-                    <minTime>9</minTime>
-                    <maxTime>9</maxTime>
+                    <totalTime>37</totalTime>
+                    <minTime>37</minTime>
+                    <maxTime>37</maxTime>
+                    <totalWastedTime>0</totalWastedTime>
+                    <minWastedTime>0</minWastedTime>
+                    <maxWastedTime>0</maxWastedTime>
+                </operation>
+                <operation>
+                    <name>SqaleRepositoryService.searchObjects</name>
+                    <invocationCount>1</invocationCount>
+                    <executionCount>1</executionCount>
+                    <totalTime>6</totalTime>
+                    <minTime>6</minTime>
+                    <maxTime>6</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -270,9 +265,9 @@
                     <name>SqaleRepositoryService.modifyObject</name>
                     <invocationCount>12</invocationCount>
                     <executionCount>12</executionCount>
-                    <totalTime>348</totalTime>
-                    <minTime>11</minTime>
-                    <maxTime>114</maxTime>
+                    <totalTime>256</totalTime>
+                    <minTime>10</minTime>
+                    <maxTime>33</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -292,9 +287,9 @@
                     <name>SqaleRepositoryService.searchObjectsIterativePage</name>
                     <invocationCount>1</invocationCount>
                     <executionCount>1</executionCount>
-                    <totalTime>6</totalTime>
-                    <minTime>6</minTime>
-                    <maxTime>6</maxTime>
+                    <totalTime>8</totalTime>
+                    <minTime>8</minTime>
+                    <maxTime>8</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -303,9 +298,9 @@
                     <name>SqaleRepositoryService.modifyObjectDynamically</name>
                     <invocationCount>4</invocationCount>
                     <executionCount>4</executionCount>
-                    <totalTime>74</totalTime>
-                    <minTime>11</minTime>
-                    <maxTime>37</maxTime>
+                    <totalTime>92</totalTime>
+                    <minTime>19</minTime>
+                    <maxTime>32</maxTime>
                     <totalWastedTime>0</totalWastedTime>
                     <minWastedTime>0</minWastedTime>
                     <maxWastedTime>0</maxWastedTime>
@@ -321,28 +316,12 @@
                     <notAvailableCount>0</notAvailableCount>
                 </cache>
                 <cache>
-                    <name>com.evolveum.midpoint.repo.cache.global.GlobalVersionCache</name>
-                    <hitCount>1</hitCount>
-                    <weakHitCount>0</weakHitCount>
-                    <missCount>0</missCount>
-                    <passCount>0</passCount>
-                    <notAvailableCount>0</notAvailableCount>
-                </cache>
-                <cache>
                     <name>com.evolveum.midpoint.repo.cache.local.LocalQueryCache</name>
                     <hitCount>0</hitCount>
                     <weakHitCount>0</weakHitCount>
                     <missCount>0</missCount>
                     <passCount>0</passCount>
-                    <notAvailableCount>1</notAvailableCount>
-                </cache>
-                <cache>
-                    <name>com.evolveum.midpoint.repo.cache.local.LocalVersionCache</name>
-                    <hitCount>0</hitCount>
-                    <weakHitCount>0</weakHitCount>
-                    <missCount>0</missCount>
-                    <passCount>0</passCount>
-                    <notAvailableCount>1</notAvailableCount>
+                    <notAvailableCount>2</notAvailableCount>
                 </cache>
                 <cache>
                     <name>com.evolveum.midpoint.repo.cache.local.LocalObjectCache</name>
@@ -357,7 +336,7 @@
                     <hitCount>0</hitCount>
                     <weakHitCount>0</weakHitCount>
                     <missCount>0</missCount>
-                    <passCount>1</passCount>
+                    <passCount>2</passCount>
                     <notAvailableCount>0</notAvailableCount>
                 </cache>
             </cachesPerformanceInformation>
@@ -365,113 +344,127 @@
                 <operation>
                     <name>com.evolveum.midpoint.task.api.Task.refresh</name>
                     <invocationCount>4</invocationCount>
-                    <totalTime>43197</totalTime>
-                    <minTime>4995</minTime>
-                    <maxTime>17597</maxTime>
+                    <totalTime>49291</totalTime>
+                    <minTime>6014</minTime>
+                    <maxTime>16540</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.getObject</name>
                     <invocationCount>7</invocationCount>
-                    <totalTime>77659</totalTime>
-                    <minTime>4732</minTime>
-                    <maxTime>17338</maxTime>
+                    <totalTime>92787</totalTime>
+                    <minTime>5039</minTime>
+                    <maxTime>17238</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.notifications.api.NotificationManager.processEvent</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>2725</totalTime>
-                    <minTime>2725</minTime>
-                    <maxTime>2725</maxTime>
+                    <totalTime>3113</totalTime>
+                    <minTime>3113</minTime>
+                    <maxTime>3113</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.countObjects</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>9454</totalTime>
-                    <minTime>9454</minTime>
-                    <maxTime>9454</maxTime>
+                    <totalTime>37478</totalTime>
+                    <minTime>37478</minTime>
+                    <maxTime>37478</maxTime>
                 </operation>
                 <operation>
-                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.getVersion</name>
+                    <name>SqaleRepositoryService.searchObjects</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>77</totalTime>
-                    <minTime>77</minTime>
-                    <maxTime>77</maxTime>
+                    <totalTime>6002</totalTime>
+                    <minTime>6002</minTime>
+                    <maxTime>6002</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.modifyObject</name>
                     <invocationCount>12</invocationCount>
-                    <totalTime>346788</totalTime>
-                    <minTime>11140</minTime>
-                    <maxTime>113710</maxTime>
+                    <totalTime>257313</totalTime>
+                    <minTime>10089</minTime>
+                    <maxTime>33519</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.repo.common.activity.run.LocalActivityRun.runLocally</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>1537362</totalTime>
-                    <minTime>1537362</minTime>
-                    <maxTime>1537362</maxTime>
+                    <totalTime>1550628</totalTime>
+                    <minTime>1550628</minTime>
+                    <maxTime>1550628</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.searchObjectsIterative</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>6400</totalTime>
-                    <minTime>6400</minTime>
-                    <maxTime>6400</maxTime>
+                    <totalTime>7686</totalTime>
+                    <minTime>7686</minTime>
+                    <maxTime>7686</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.model.common.expression.script.ScriptExpression.evaluate</name>
                     <invocationCount>2</invocationCount>
-                    <totalTime>1136148</totalTime>
-                    <minTime>286</minTime>
-                    <maxTime>1135862</maxTime>
+                    <totalTime>1135573</totalTime>
+                    <minTime>272</minTime>
+                    <maxTime>1135301</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.repo.cache.RepositoryCache.countObjects</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>13338</totalTime>
-                    <minTime>13338</minTime>
-                    <maxTime>13338</maxTime>
+                    <totalTime>37545</totalTime>
+                    <minTime>37545</minTime>
+                    <maxTime>37545</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.model.common.expression.evaluator.transformation.AbstractValueTransformationExpressionEvaluator.evaluate</name>
                     <invocationCount>2</invocationCount>
-                    <totalTime>1149881</totalTime>
-                    <minTime>343</minTime>
-                    <maxTime>1149538</maxTime>
+                    <totalTime>1147288</totalTime>
+                    <minTime>328</minTime>
+                    <maxTime>1146960</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.repo.cache.RepositoryCache.getObject</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>2684</totalTime>
-                    <minTime>2684</minTime>
-                    <maxTime>2684</maxTime>
+                    <totalTime>3080</totalTime>
+                    <minTime>3080</minTime>
+                    <maxTime>3080</maxTime>
                 </operation>
                 <operation>
                     <name>SqaleRepositoryService.modifyObjectDynamically</name>
                     <invocationCount>4</invocationCount>
-                    <totalTime>73874</totalTime>
-                    <minTime>11072</minTime>
-                    <maxTime>36869</maxTime>
+                    <totalTime>92324</totalTime>
+                    <minTime>18878</minTime>
+                    <maxTime>32133</maxTime>
+                </operation>
+                <operation>
+                    <name>com.evolveum.midpoint.repo.cache.RepositoryCache.searchObjects</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>6054</totalTime>
+                    <minTime>6054</minTime>
+                    <maxTime>6054</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.repo.cache.RepositoryCache.searchObjectsIterative</name>
                     <invocationCount>1</invocationCount>
-                    <totalTime>6641</totalTime>
-                    <minTime>6641</minTime>
-                    <maxTime>6641</maxTime>
+                    <totalTime>9178</totalTime>
+                    <minTime>9178</minTime>
+                    <maxTime>9178</maxTime>
+                </operation>
+                <operation>
+                    <name>com.evolveum.midpoint.model.common.expression.functions.FunctionLibraryManager.fetchFunctionLibraries</name>
+                    <invocationCount>1</invocationCount>
+                    <totalTime>6075</totalTime>
+                    <minTime>6075</minTime>
+                    <maxTime>6075</maxTime>
                 </operation>
                 <operation>
                     <name>com.evolveum.midpoint.model.common.expression.evaluator.transformation.SingleShotEvaluation.evaluateExpression</name>
                     <invocationCount>2</invocationCount>
-                    <totalTime>1136203</totalTime>
-                    <minTime>320</minTime>
-                    <maxTime>1135883</maxTime>
+                    <totalTime>1135629</totalTime>
+                    <minTime>297</minTime>
+                    <maxTime>1135332</maxTime>
                 </operation>
             </operationsPerformanceInformation>
-            <cachingConfiguration>Caching configuration for thread midPointScheduler_Worker-5 on 2025-05-25T03:15:32.000Z:
+            <cachingConfiguration>Caching configuration for thread midPointScheduler_Worker-6 on 2025-05-25T03:15:32.036Z:
 
 Profiles: []</cachingConfiguration>
-            <timestamp>2025-05-25T03:15:32.000Z</timestamp>
+            <timestamp>2025-05-25T03:15:32.037Z</timestamp>
         </operationStats>
         <binding>loose</binding>
         <schedule>
@@ -482,13 +475,13 @@ Profiles: []</cachingConfiguration>
             <work>
                 <iterativeScripting>
                     <objects>
-                        <type>c:UserType</type>
-                        <archetypeRef oid="0d1b1269-0011-49e6-b9f1-e62e7827dfed" relation="org:default" type="c:ArchetypeType"/>
+                        <type>c:RoleType</type>
+                        <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
                         <query>
                             <q:filter>
                                 <q:and>
                                     <q:text>
-archetypeRef matches (oid = '0d1b1269-0011-49e6-b9f1-e62e7827dfed') and assignment/@metadata/storage/creatorRef/@/personalNumber != personalNumber and  assignment/@metadata/storage/creatorRef/@/personalNumber !not exists and assignment/@metadata/storage/createTimestamp greater ```
+extension/role_active = "false" and metadata/modifyTimestamp greater ```
 dateminus5m = basic.addDuration(basic.currentDateTime(), "-PT5M")
 return dateminus5m 
 ```
@@ -509,12 +502,26 @@ return dateminus5m
                                     import com.evolveum.midpoint.prism.delta.builder.*
                                     import com.evolveum.midpoint.model.api.*
 
-role_name =  input.name
-query_role= midpoint.queryFor(RoleType.class, "archetypeRef matches (oid = '47374624-553c-4661-b116-d07952900451') and name equal '$role_name'") 
-result_role = midpoint.searchObjects(query_role)
-midpoint.recompute(RoleType.class, basic.stringify(result_role.oid))
-
-
+input_name = basic.stringify(input.name)
+log.info "AAAAAAAAA" + input_name
+query_user = midpoint.queryFor(UserType.class, "assignment/targetRef/@/name =  '$input_name' and archetypeRef matches (oid = '0d1b1269-0011-49e6-b9f1-e62e7827dfed')")
+user_to_un =  midpoint.searchObjects(query_user)
+for (i in user_to_un)
+{ 
+user_oid = basic.stringify(i.oid)
+user = midpoint.getObject(UserType.class, user_oid)
+def assignmentsToDelete = []
+for (a in user.assignment) {
+if (a.targetRef?.oid == basic.stringify(input.oid)) {
+def removeAssignment = new AssignmentType()
+removeAssignment.id = a.id
+assignmentsToDelete.add removeAssignment.asPrismContainerValue()
+}
+}
+delta = prismContext.deltaFor(UserType.class).item(UserType.F_ASSIGNMENT).delete(assignmentsToDelete).asObjectDelta(user_oid)
+midpoint.modifyObject(delta, ModelExecuteOptions.createRaw())
+midpoint.recompute(UserType, basic.stringify(user.oid))
+}
 
                                 </code>
                                 </s:value>
@@ -528,25 +535,25 @@ midpoint.recompute(RoleType.class, basic.stringify(result_role.oid))
             <activity>
                 <realizationState>complete</realizationState>
                 <resultStatus>success</resultStatus>
-                <realizationStartTimestamp>2025-05-25T03:15:30.238Z</realizationStartTimestamp>
-                <realizationEndTimestamp>2025-05-25T03:15:31.927Z</realizationEndTimestamp>
-                <runStartTimestamp>2025-05-25T03:15:30.238Z</runStartTimestamp>
-                <runEndTimestamp>2025-05-25T03:15:31.927Z</runEndTimestamp>
+                <realizationStartTimestamp>2025-05-25T03:15:30.265Z</realizationStartTimestamp>
+                <realizationEndTimestamp>2025-05-25T03:15:31.968Z</realizationEndTimestamp>
+                <runStartTimestamp>2025-05-25T03:15:30.265Z</runStartTimestamp>
+                <runEndTimestamp>2025-05-25T03:15:31.968Z</runEndTimestamp>
                 <progress>
                     <expectedTotal>0</expectedTotal>
                     <expectedInCurrentBucket>0</expectedInCurrentBucket>
                 </progress>
                 <statistics>
                     <itemProcessing>
-                        <run id="4708">
-                            <startTimestamp>2025-05-25T03:15:30.238Z</startTimestamp>
-                            <endTimestamp>2025-05-25T03:15:31.927Z</endTimestamp>
+                        <run id="1850">
+                            <startTimestamp>2025-05-25T03:15:30.265Z</startTimestamp>
+                            <endTimestamp>2025-05-25T03:15:31.968Z</endTimestamp>
                         </run>
                     </itemProcessing>
                     <actionsExecuted/>
                 </statistics>
                 <bucketing>
-                    <bucket id="4706">
+                    <bucket id="1848">
                         <sequentialNumber>1</sequentialNumber>
                         <state>complete</state>
                         <content xsi:type="c:NullWorkBucketContentType"/>
@@ -563,8 +570,8 @@ midpoint.recompute(RoleType.class, basic.stringify(result_role.oid))
                     <realizationState>complete</realizationState>
                     <resultStatus>success</resultStatus>
                     <task>
-                        <taskRef oid="15f58b15-1aa1-436c-a60e-60fb1e70fd77" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
-                            <targetName>POCE Recompute Position roles if User Position has been mod by Boss user</targetName>
+                        <taskRef oid="270eae52-7625-4da7-afb3-bc5f64e3332a" relation="org:default" type="c:TaskType" xsi:type="c:ObjectReferenceType">
+                            <targetName>POCP Unassign deactivated projects</targetName>
                         </taskRef>
                         <node>DefaultNode</node>
                         <executionState>notRunning</executionState>
@@ -576,11 +583,11 @@ midpoint.recompute(RoleType.class, basic.stringify(result_role.oid))
             </tree>
         </activityState>
         <affectedObjects>
-            <activity id="7">
+            <activity id="8">
                 <activityType>c:iterativeScripting</activityType>
                 <objects>
-                    <type>c:UserType</type>
-                    <archetypeRef oid="0d1b1269-0011-49e6-b9f1-e62e7827dfed" relation="org:default" type="c:ArchetypeType"/>
+                    <type>c:RoleType</type>
+                    <archetypeRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType"/>
                 </objects>
                 <executionMode>full</executionMode>
                 <predefinedConfigurationToUse>production</predefinedConfigurationToUse>
