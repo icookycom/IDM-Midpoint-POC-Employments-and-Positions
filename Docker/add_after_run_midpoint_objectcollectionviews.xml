@@ -1,6 +1,6 @@
-<objectCollectionView>
+<objectCollectionView id="301">
                 <identifier>Forward_role_view</identifier>
-                <visibility>visible</visibility>
+                <visibility>hidden</visibility>
                 <type>c:RoleType</type>
                 <collection>
                     <collectionRef oid="b527aa8f-9097-45d7-94c9-8c2d79e53832" relation="org:default" type="c:ArchetypeType">
@@ -8,7 +8,7 @@
                     </collectionRef>
                 </collection>
             </objectCollectionView>
-            <objectCollectionView>
+            <objectCollectionView id="309">
                 <identifier>my-idm-objects</identifier>
                 <display>
                     <label>My IDM Users</label>
@@ -20,21 +20,21 @@
                 </display>
                 <visibility>hidden</visibility>
                 <displayOrder>10</displayOrder>
-                <column>
+                <column id="317">
                     <name>Name</name>
                     <path>c:name</path>
                 </column>
-                <column>
+                <column id="319">
                     <name>Full Name</name>
                     <path>c:fullName</path>
                     <previousColumn>Co.</previousColumn>
                 </column>
-                <column>
+                <column id="335">
                     <name>Employment Type</name>
                     <path xmlns:gen795="http://example.com/xml/ns/mySchema">c:extension/gen795:person_employment_type</path>
                     <previousColumn>Name</previousColumn>
                 </column>
-                <column>
+                <column id="337">
                     <name>Co.</name>
                     <path>c:costCenter</path>
                     <previousColumn>Employment Type</previousColumn>
@@ -46,9 +46,9 @@
                     </collectionRef>
                 </collection>
             </objectCollectionView>
-            <objectCollectionView>
+            <objectCollectionView id="339">
                 <identifier>Role_catalog_view</identifier>
-                <visibility>visible</visibility>
+                <visibility>hidden</visibility>
                 <type>c:OrgType</type>
                 <collection>
                     <collectionRef oid="cd509999-d455-4852-b2a0-a3da588d9475" relation="org:default" type="c:ArchetypeType">
@@ -56,9 +56,9 @@
                     </collectionRef>
                 </collection>
             </objectCollectionView>
-            <objectCollectionView>
+            <objectCollectionView id="100272">
                 <identifier>Department_catalog_view</identifier>
-                <visibility>visible</visibility>
+                <visibility>hidden</visibility>
                 <type>c:OrgType</type>
                 <collection>
                     <collectionRef oid="7cab0b16-142a-4d37-8b60-9668e95b4b94" relation="org:default" type="c:ArchetypeType">
@@ -66,7 +66,7 @@
                     </collectionRef>
                 </collection>
             </objectCollectionView>
-            <objectCollectionView>
+            <objectCollectionView id="100274">
                 <identifier>my-idm-subordinates</identifier>
                 <display>
                     <label>My IDM Subordinates</label>
@@ -77,21 +77,21 @@
                 </display>
                 <visibility>hidden</visibility>
                 <displayOrder>100</displayOrder>
-                <column>
+                <column id="100275">
                     <name>Name</name>
                     <path>c:name</path>
                 </column>
-                <column>
+                <column id="100276">
                     <name>Full Name</name>
                     <path>c:fullName</path>
                     <previousColumn>Dep.ID</previousColumn>
                 </column>
-                <column>
+                <column id="100277">
                     <name>Employment Type</name>
                     <path xmlns:gen795="http://example.com/xml/ns/mySchema">c:extension/gen795:person_employment_type</path>
                     <previousColumn>Name</previousColumn>
                 </column>
-                <column>
+                <column id="100278">
                     <name>Co.</name>
                     <path>c:costCenter</path>
                     <display>
@@ -99,7 +99,7 @@
                     </display>
                     <previousColumn>Employment Type</previousColumn>
                 </column>
-                <column>
+                <column id="100289">
                     <name>Dep.ID</name>
                     <path>c:organizationalUnit</path>
                     <display>
@@ -110,10 +110,12 @@
                         <expression>
                             <script>
                                 <code>import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+
 orgId = basic.stringify(input)
 query_org = midpoint.queryFor(OrgType.class, "identifier endsWith '$orgId' and archetypeRef matches (oid = '7cab0b16-142a-4d37-8b60-9668e95b4b94') and activation/effectiveStatus!='disabled'") 
 org_respond = midpoint.searchObjects(query_org)
 orgIt = midpoint.getObject(OrgType.class, basic.stringify(org_respond.oid))
+
 result =  basic.stringify(input) + ":" + basic.stringify(orgIt.displayName)
 return result</code>
                             </script>
@@ -124,6 +126,173 @@ return result</code>
                 <collection>
                     <collectionRef oid="6a23173b-fef8-43a0-9230-11edbaf0ac82" relation="org:default" type="c:ObjectCollectionType">
                         <!-- pose-all-users-org-default-view -->
+                    </collectionRef>
+                </collection>
+            </objectCollectionView>
+            <objectCollectionView id="100320">
+                <identifier>my-projects-view</identifier>
+                <display>
+                    <label>My Projects</label>
+                    <pluralLabel>My Projects</pluralLabel>
+                    <icon>
+                        <cssClass>fa fa-briefcase-clock</cssClass>
+                    </icon>
+                </display>
+                <visibility>hidden</visibility>
+                <column id="100331">
+                    <name>ID</name>
+                    <path>c:name</path>
+                    <display>
+                        <label>ID</label>
+                    </display>
+                </column>
+                <column id="100333">
+                    <name>Project Name</name>
+                    <path>c:identifier</path>
+                    <display>
+                        <label>Project Name</label>
+                    </display>
+                    <previousColumn>Company</previousColumn>
+                </column>
+                <column id="100335">
+                    <name>Company</name>
+                    <path>c:extension/user_employment_parent</path>
+                    <display>
+                        <label>Company</label>
+                    </display>
+                    <previousColumn>Status</previousColumn>
+                    <export>
+                        <expression>
+                            <script>
+                                <code>import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+
+orgId = basic.stringify(input)
+query_org = midpoint.queryFor(OrgType.class, "identifier endsWith '$orgId' and archetypeRef matches (oid = '7cab0b16-142a-4d37-8b60-9668e95b4b94') and activation/effectiveStatus!='disabled'") 
+org_respond = midpoint.searchObjects(query_org)
+orgIt = midpoint.getObject(OrgType.class, basic.stringify(org_respond.oid))
+
+result =  basic.stringify(input) + ":" + basic.stringify(orgIt.displayName)
+return result</code>
+                            </script>
+                        </expression>
+                    </export>
+                </column>
+                <column id="100337">
+                    <name>Members</name>
+                    <path>name</path>
+                    <display>
+                        <label>Members</label>
+                    </display>
+                    <previousColumn>Description</previousColumn>
+                    <export>
+                        <expression>
+                            <script>
+                                <code>import com.evolveum.midpoint.xml.ns._public.common.common_3.*
+name = basic.stringify(input)
+query = midpoint.queryFor(UserType.class, "assignment/targetRef/@/name =  '$name' and archetypeRef matches (oid = '0d1b1269-0011-49e6-b9f1-e62e7827dfed')")
+objects = midpoint.searchObjects(query)
+return objects.size()</code>
+                            </script>
+                        </expression>
+                    </export>
+                </column>
+                <column id="100342">
+                    <name>Description</name>
+                    <path>c:description</path>
+                    <display>
+                        <label>Description</label>
+                    </display>
+                    <previousColumn>Project Name</previousColumn>
+                </column>
+                <column id="100344">
+                    <name>Roles</name>
+                    <path>name</path>
+                    <display>
+                        <label>Roles</label>
+                    </display>
+                    <previousColumn>Members</previousColumn>
+                    <export>
+                        <expression>
+                            <script>
+                                <code>
+import com.evolveum.midpoint.xml.ns._public.common.common_3.*                                  
+
+result = 0                                   
+user_name = basic.stringify(input)
+query_user = midpoint.queryFor(UserType.class, "name = '$user_name' and archetypeRef matches (oid = 'c2523d38-76ed-43bc-9e73-5158ed225042')") 
+user = midpoint.searchObjects(query_user)
+
+user_object = midpoint.getObject(UserType.class, basic.stringify(user.oid))
+
+for (i in user_object.roleMembershipRef)
+{
+if (i.type?.localPart == "RoleType")
+{
+role_object = midpoint.getObject(RoleType.class, basic.stringify(i.oid))
+for (ii in role_object.assignment)
+
+{
+
+if (ii.targetRef?.oid == "b527aa8f-9097-45d7-94c9-8c2d79e53832")
+{
+
+result++
+}
+}
+}
+}
+return result
+
+                                   
+                                </code>
+                            </script>
+                        </expression>
+                    </export>
+                </column>
+                <column id="1100335">
+                    <name>Status</name>
+                    <path xmlns:gen458="http://example.com/xml/ns/mySchema">c:extension/gen458:role_active</path>
+                    <display>
+                        <label>Status</label>
+                    </display>
+                    <previousColumn>ID</previousColumn>
+                    <export>
+                        <expression>
+                            <script>
+                                <code>if (input)
+{return "OK"}
+else
+{return "DEACTIVATED"}</code>
+                            </script>
+                        </expression>
+                    </export>
+                </column>
+                <type>c:RoleType</type>
+                <collection>
+                    <collectionRef oid="49952180-49a0-4884-a8d1-5e1a50f26fa1" relation="org:default" type="c:ArchetypeType">
+                        <!-- POCP EMP001001 Project Role ArcheType -->
+                    </collectionRef>
+                    <baseCollectionRef>
+                        <collectionRef oid="b2119133-e6a0-4a93-bb1f-8d48ee95b123" relation="org:default" type="c:ObjectCollectionType">
+                            <!-- my-projects-view -->
+                        </collectionRef>
+                    </baseCollectionRef>
+                </collection>
+            </objectCollectionView>
+                        <objectCollectionView id="1100340">
+                <identifier>my-company-roles</identifier>
+                <display>
+                    <singularLabel>Company Role</singularLabel>
+                    <pluralLabel>Company Roles</pluralLabel>
+                    <icon>
+                        <imageUrl>fa fa-city</imageUrl>
+                    </icon>
+                </display>
+                <visibility>hidden</visibility>
+                <type>c:RoleType</type>
+                <collection>
+                    <collectionRef oid="f44dc355-31d3-499b-9854-e0ae277a60dc" relation="org:default" type="c:ArchetypeType">
+                        <!-- POCE Company Role ArcheType -->
                     </collectionRef>
                 </collection>
             </objectCollectionView>

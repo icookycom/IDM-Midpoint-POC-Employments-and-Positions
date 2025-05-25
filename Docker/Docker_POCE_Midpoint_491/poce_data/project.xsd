@@ -1,0 +1,45 @@
+<xsd:schema elementFormDefault="qualified"
+            targetNamespace="http://example.com/xml/ns/mySchema"
+  xmlns:tns="http://example.com/xml/ns/mySchema"
+  xmlns:a="http://prism.evolveum.com/xml/ns/public/annotation-3"
+  xmlns:c="http://midpoint.evolveum.com/xml/ns/public/common/common-3"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="RoleExtensionType">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <a:extension ref="c:RoleType"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+<xsd:element name="role_active" type="xsd:boolean" minOccurs="0" maxOccurs="1">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+            <a:displayName>Active</a:displayName>
+            <a:displayOrder>1</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="OrgExtensionType">
+    <xsd:annotation>
+      <xsd:appinfo>
+        <a:extension ref="c:OrgType"/>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="org_boss" type="xsd:string" minOccurs="0" maxOccurs="unbounded">
+        <xsd:annotation>
+          <xsd:appinfo>
+            <a:indexed>true</a:indexed>
+        <a:displayName>Org Bosses</a:displayName>
+            <a:displayOrder>138</a:displayOrder>
+            <a:help>ToDo</a:help>
+          </xsd:appinfo>
+        </xsd:annotation>
+</xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

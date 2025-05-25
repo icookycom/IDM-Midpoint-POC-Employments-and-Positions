@@ -1,5 +1,3 @@
-version: "3.3"
-
 services:
   midpoint_data:
     image: postgres:16-alpine
@@ -23,7 +21,7 @@ services:
       grep -q \"ERROR\" /tmp/ninja.log && (
       bin/ninja.sh run-sql --create --mode REPOSITORY  ;
       bin/ninja.sh run-sql --create --mode AUDIT	;
-      bin/ninja.sh import -O -i /opt/midpoint/var/poce_export_v2.zip -z -l 4 -r
+      bin/ninja.sh import -O -i /opt/midpoint/var/poce_export_v3.zip -z -l 4 -r
       ) ||
       echo -e '\\n Repository init is not needed...' ;
       "
@@ -39,7 +37,7 @@ services:
      - net
     volumes:
      - midpoint_home:/opt/midpoint/var
-     - ./poce_data/poce_export_v2.zip:/opt/midpoint/var/poce_export_v2.zip
+     - ./poce_data/poce_export_v3.zip:/opt/midpoint/var/poce_export_v3.zip
      
      
 
@@ -68,6 +66,7 @@ services:
      - ./poce_data/employment.xsd:/opt/midpoint/var/schema/employment.xsd
      - ./poce_data/employment_part2.xsd:/opt/midpoint/var/schema/employment_part2.xsd
      - ./poce_data/POC_EMPLOYMENT_DATA.csv:/opt/midpoint/var/info/POC_EMPLOYMENT_DATA.csv
+     - ./poce_data/project.xsd:/opt/midpoint/var/schema/project.xsd
 
 
 
