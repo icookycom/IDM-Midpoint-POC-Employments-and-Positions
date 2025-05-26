@@ -16,6 +16,7 @@ What will work:<br>
 - AD rights requested for a position are transferred to the employment if the position does not have its own AD account<br>
 - The main User can request rights to his employment and positions<br>
 - The boss can request rights to the positions of his subordinates<br>
+- The boss can create Projects in IDM Midpoint add/delete it roles and members<br>
 <br>
 
 <b>Storytelling</b><br>
