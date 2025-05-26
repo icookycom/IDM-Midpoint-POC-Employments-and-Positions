@@ -7,7 +7,7 @@ Employments and Positions are created by resource, like Roles for Linked Object 
 Projects are created by User A in his GUI
 <img src="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/manuals/POC%20Projects%20IDM%20Midpoint%20000.png" border="0"></img><br>
 Full schema
-<img src="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/manuals/POC%20Midpoint%20IDM%20Employee%20Employment%20Position%20001.jpg" border="0"></img><br>
+<img src="https://github.com/icookycom/IDM-Midpoint-POC-Employments-and-Positions/blob/main/manuals/POC%20Projects%20IDM%20Midpoint%20025.jpg" border="0"></img><br>
 <br>
 What will work:<br>
 - Adding multiple jobs and positions for an main User from a single HR source<br>
@@ -19,9 +19,10 @@ What will work:<br>
 <br>
 
 <b>Storytelling</b><br>
-<a href="https://habr.com/ru/articles/897396/">1. Obtaining data from the personnel resource, building information links and structure.</a><br>
-<a href="https://habr.com/ru/articles/904450/">2. Assigning roles, creating an AD account, implementing the concepts of Forward Roles and a nickname as a role.</a><br>
-<a href="https://habr.com/ru/articles/906408/">3. Requesting roles by main User to his employments and positions, a supervisor requesting roles for positions of his subordinates.</a><br>
+<a href="https://habr.com/ru/articles/897396/">1. Obtaining data from the personnel resource, building information links and structure</a><br>
+<a href="https://habr.com/ru/articles/904450/">2. Assigning roles, creating an AD account, implementing the concepts of Forward Roles and a nickname as a role</a><br>
+<a href="https://habr.com/ru/articles/906408/">3. Requesting roles by main User to his employments and positions, a supervisor requesting roles for positions of his subordinates</a><br>
+<a href="https://habr.com/ru/articles/906408/">4. Implementation of Project creation, management of their rights and participants in IDM Midpoint</a><br>
 <br>
 <b>Files from a configured and working Midpoint 4.9.1</b><br>
 Folder contents:<br>
