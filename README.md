@@ -23,7 +23,7 @@ What will work:<br>
 <a href="https://habr.com/ru/articles/897396/">1. Obtaining data from the personnel resource, building information links and structure</a><br>
 <a href="https://habr.com/ru/articles/904450/">2. Assigning roles, creating an AD account, implementing the concepts of Forward Roles and a nickname as a role</a><br>
 <a href="https://habr.com/ru/articles/906408/">3. Requesting roles by main User to his employments and positions, a supervisor requesting roles for positions of his subordinates</a><br>
-<a href="https://habr.com/ru/articles/906408/">4. Implementation of Project creation, management of their rights and participants in IDM Midpoint</a><br>
+<a href="https://habr.com/ru/articles/912720/">4. Implementation of Project creation, management of their rights and participants in IDM Midpoint</a><br>
 <br>
 <b>Files from a configured and working Midpoint 4.9.1</b><br>
 Folder contents:<br>
